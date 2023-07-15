@@ -6,9 +6,9 @@ This 10-day beginner PHP course is designed to introduce you to the fundamentals
 
 **Course Plan:**
 - **Day 1:** Introduction to PHP: Setting up the development environment, basic syntax, and variables.
-	 •	Understanding the role of PHP in web development.
-	•	Installing and configuring a local development environment (e.g., XAMPP, WAMP, or MAMP).
-	•	Exploring the PHP syntax: statements, comments, data types, and operators.
+	 - Understanding the role of PHP in web development.
+	 - Installing and configuring a local development environment (e.g., XAMPP, WAMP, or MAMP).
+	 - Exploring the PHP syntax: statements, comments, data types, and operators.
 	•	Declaring and using variables in PHP.
 	•	Hands-on exercises to practice writing PHP code and understanding variable usage.
 - **Day 2:** Control Structures: Conditional statements and loops.
