@@ -50,6 +50,27 @@ In this beginner-level course on Azure Active Directory (AAD) enterprise applica
 💻 Optimal Duration:
 Considering the course content and the beginner level of the target audience, an optimal duration for this course would be approximately 4-6 weeks. This timeframe allows learners to grasp the foundational concepts, practice hands-on tasks, and build confidence in administering enterprise applications within Azure Active Directory.
 
+Here are some documentation links that provide more detailed information on Azure Active Directory (AAD) enterprise app administration:
+
+1. Microsoft Docs - Azure Active Directory documentation:
+   - Official documentation for Azure Active Directory, covering various topics related to administration, configuration, and management: [Azure Active Directory documentation](https://docs.microsoft.com/en-us/azure/active-directory/)
+
+2. Microsoft Learn - Azure Active Directory Learning Paths:
+   - Interactive learning paths provided by Microsoft to help you understand and master Azure Active Directory concepts and administration: [Azure Active Directory Learning Paths](https://docs.microsoft.com/en-us/learn/browse/?products=azure-active-directory)
+
+3. Microsoft Docs - Azure AD Enterprise Application Management:
+   - Comprehensive documentation on managing enterprise applications in Azure Active Directory, including topics such as application registration, permissions, authentication, and more: [Azure AD Enterprise Application Management](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/overview)
+
+4. Microsoft Docs - Azure AD App Roles:
+   - Documentation on using Azure AD App Roles for role-based access control (RBAC) in your enterprise applications: [Azure AD App Roles](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps)
+
+5. Microsoft Docs - Single Sign-On with Azure Active Directory:
+   - Detailed information on implementing Single Sign-On (SSO) with Azure Active Directory using different protocols, including SAML, OpenID Connect, and more: [Single Sign-On with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-single-sign-on)
+
+These resources should provide you with a solid foundation for understanding and administering enterprise applications in Azure Active Directory. They cover a wide range of topics and provide step-by-step instructions, best practices, and reference material to help you effectively manage and secure your applications.
+
+Remember to explore the Microsoft Docs and Microsoft Learn platforms for additional articles, tutorials, and examples specific to your needs.
+
 ---
 
 💻 Course Description:
