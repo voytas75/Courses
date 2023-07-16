@@ -49,6 +49,25 @@ In this beginner-level course on Azure Active Directory (AAD) enterprise applica
 4. Implementing Single Sign-On (SSO):
    - Configuring SSO for applications using Azure AD
    - Exploring different SSO protocols (SAML, OpenID Connect)
+      Here's some insight into the two popular Single Sign-On (SSO) protocols: SAML (Security Assertion Markup Language) and OpenID Connect.
+
+      1. SAML (Security Assertion Markup Language):
+SAML is an XML-based standard for exchanging authentication and authorization data between an identity provider (IdP) and a service provider (SP). It allows for secure SSO across different domains or systems. Here are some key points about SAML:
+
+         - Identity Provider (IdP): The IdP is responsible for authenticating users and generating SAML assertions, which contain information about the user's identity and their granted permissions.
+         - Service Provider (SP): The SP is the application or service that relies on the IdP for user authentication. It consumes the SAML assertions provided by the IdP to grant access to the user.
+         - SAML Assertion: This is an XML document containing information about the authenticated user, including their identity, attributes, and permissions. The SP validates the SAML assertion to authenticate the user and authorize access.
+
+      2. OpenID Connect:
+OpenID Connect (OIDC) is a modern authentication protocol built on top of OAuth 2.0. It provides a secure and standardized way to authenticate users and obtain their identity information. Here are some key points about OpenID Connect:
+
+         - Authentication Flow: OIDC follows the authentication code flow, where the user is redirected to an identity provider for authentication. Once authenticated, the identity provider returns an ID token containing user identity information to the client application.
+         - ID Token: The ID token is a JSON Web Token (JWT) that contains user identity information, including their unique identifier (subject), name, email, and other optional claims. The client application can use this ID token to verify the user's identity.
+         - OAuth 2.0 Integration: OIDC leverages OAuth 2.0 for securing the authentication process. It uses OAuth 2.0 authorization flows, such as the authorization code flow or implicit flow, to obtain tokens required for authentication and authorization.
+
+      Both SAML and OpenID Connect serve the purpose of enabling SSO and authentication across different systems or applications. The choice between the protocols often depends on factors such as compatibility with existing systems, integration requirements, and the specific use case or standards followed by the applications involved.
+
+      It's important to note that Azure Active Directory (AAD) supports both SAML and OpenID Connect protocols, allowing you to choose the most suitable protocol based on your application's needs and ecosystem.
 
 5. Monitoring and Reporting:
    - Monitoring application usage and user activity
