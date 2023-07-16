@@ -22,6 +22,21 @@ In this beginner-level course on Azure Active Directory (AAD) enterprise applica
       Understanding the role of AAD in application management is crucial for effectively administering and securing enterprise applications within Azure. By leveraging its features and capabilities, administrators can streamline user access, enhance security, and maintain control over the application ecosystem.
 
    - Overview of enterprise application concepts in AAD
+      Here's an overview of enterprise application concepts in Azure Active Directory (AAD):
+
+      1. Application Registration: In AAD, administrators can register both Microsoft and third-party applications. Application registration involves providing basic information about the application, such as its name, URL, and redirect URLs. This registration process establishes a trust relationship between the application and AAD, enabling authentication and authorization interactions.
+
+      2. Service Principal: When an application is registered in AAD, a corresponding service principal is created. A service principal represents the application's identity within AAD and allows it to authenticate and request access to resources on behalf of users or other applications. The service principal has its own set of credentials, permissions, and security settings.
+
+      3. Permissions and Consent: AAD uses the concept of permissions to control the level of access an application has to resources and user data. When requesting access to user data or APIs, applications need to declare the required permissions. End-users are prompted to grant consent for these permissions during the authentication process, ensuring that users have control over the data they share with applications.
+
+      4. App Roles: App roles define the different roles or functions within an application. They help determine the level of access and permissions granted to users or groups. Administrators can assign users or groups to specific app roles, allowing fine-grained control over application access.
+
+      5. Application Integration: AAD enables seamless integration between applications registered within its ecosystem. This integration can include single sign-on (SSO), where users authenticate once with their AAD credentials and gain access to multiple applications without the need for repeated logins. Additionally, AAD supports APIs and protocols like OAuth 2.0 and OpenID Connect, allowing secure communication and data exchange between applications.
+
+      6. Enterprise Application Gallery: AAD provides an Enterprise Application Gallery that offers pre-integrated applications and templates for popular SaaS applications, such as Microsoft 365, Salesforce, and more. These gallery applications simplify the setup and configuration process, providing out-of-the-box integration options.
+
+      Understanding these enterprise application concepts in AAD is essential for effectively managing and securing applications within the Azure environment. By leveraging these features, administrators can control access, enforce security policies, and enable seamless integration for their organization's application landscape.
 
 2. Application Registration and Configuration:
    - Registering applications in Azure AD
