@@ -1,5 +1,42 @@
 
 💻 Course Description:
+In this beginner-level course on Azure Active Directory (AAD) enterprise application administration, you will learn the fundamentals of managing and securing enterprise applications within Azure Active Directory. We'll cover essential topics such as application registration, managing access and permissions, configuring single sign-on, and monitoring application usage. By the end of this course, you'll have the knowledge and skills to effectively administer enterprise applications in Azure Active Directory.
+
+💻 Course Plan:
+1. Introduction to Azure Active Directory (AAD) and Enterprise Applications:
+   - Understanding the role of AAD in application management
+   - Overview of enterprise application concepts in AAD
+
+2. Application Registration and Configuration:
+   - Registering applications in Azure AD
+   - Configuring application properties and settings
+
+3. Managing Access and Permissions:
+   - Granting and revoking access to applications
+   - Configuring application roles and permissions
+
+4. Implementing Single Sign-On (SSO):
+   - Configuring SSO for applications using Azure AD
+   - Exploring different SSO protocols (SAML, OpenID Connect)
+
+5. Monitoring and Reporting:
+   - Monitoring application usage and user activity
+   - Generating reports for application access and usage
+
+6. Security and Compliance:
+   - Implementing security best practices for enterprise applications
+   - Enforcing conditional access policies
+
+7. Troubleshooting and Support:
+   - Common issues and troubleshooting techniques
+   - Leveraging Azure AD support resources
+
+💻 Optimal Duration:
+Considering the course content and the beginner level of the target audience, an optimal duration for this course would be approximately 4-6 weeks. This timeframe allows learners to grasp the foundational concepts, practice hands-on tasks, and build confidence in administering enterprise applications within Azure Active Directory.
+
+---
+
+💻 Course Description:
 In this beginner-level course on OneDrive O365 administration, you will learn the essentials of managing and organizing files in the cloud-based storage solution. We'll cover the basics of setting up and configuring OneDrive, including user management, permissions, and security settings. You'll also gain hands-on experience in efficiently collaborating and sharing files with others. By the end of this course, you'll be equipped with the knowledge and skills to effectively administer OneDrive O365 in a professional setting.
 
 💻 Course Plan:
