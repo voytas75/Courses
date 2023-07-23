@@ -1,5 +1,7 @@
 # Courses
 
+![Courses](https://github.com/voytas75/Courses/blob/master/images/brain_development.png?raw=true)
+
 1. [Python Programming for Beginners](courses/Python_Programming_for_Beginners.md)
 2. [Python Pandas for Beginners](/courses/Python_Pandas_for_Beginners.md)
 3. [Python for Crypto ETH Price Analysis](/courses/Python_for_Crypto_ETH_Price_Analysis.md)
