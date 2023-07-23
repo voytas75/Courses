@@ -1,5 +1,7 @@
 # React.js
 
+![React.js](https://github.com/voytas75/Courses/blob/master/images/React.js_logo_3D.png?raw=true)
+
 ## Course Description
 
 In this comprehensive course, you will learn React.js from scratch and gain the skills needed to build dynamic web applications. Starting with the basics, we will cover topics such as component rendering, state management, event handling, and more. By the end of this course, you will be able to create interactive and responsive user interfaces using React.js.
