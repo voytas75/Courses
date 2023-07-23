@@ -1,7 +1,7 @@
 # Courses
 
-1. [Python Programming for Beginners](Python_Programming_for_Beginners.md)
-2. [Python Pandas for Beginners](Python_Pandas_for_Beginners.md)
+1. [Python Programming for Beginners](/courses/Python_Programming_for_Beginners.md)
+2. [Python Pandas for Beginners](/coursesPython_Pandas_for_Beginners.md)
 3. [Python for Crypto ETH Price Analysis](Python_for_Crypto_ETH_Price_Analysis.md)
 4. [Juniper Notebook](https://voytas75.github.io/JupyterNotebookLearn/)
 5. [PowerShell for Beginners](PowerShell_for_Beginners_A_Comprehensive_3-Day_Guide_to_Automating_Tasks_and_Scripting.md) - 3-days course
