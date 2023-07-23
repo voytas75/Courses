@@ -14,7 +14,7 @@
 12. [Introduction to Cryptocurrency](courses/Introduction_to_Cryptocurrency.md)
 13. [Introduction to Node.js for Beginners](courses/Introduction_to_Node.js_for_Beginners.md)
 14. [JavaScript for Beginners](courses/JavaScript_for_Beginners.md)
-15. [Introduction to Creating Reports in SSRS]courses/(Introduction_to_Creating_Reports_in_SSRS.md)
+15. [Introduction to Creating Reports in SSRS](courses/Introduction_to_Creating_Reports_in_SSRS.md)
 16. [Building Optimal Prompts for AI](courses/Building_Optimal_Prompts_for_AI.md)
 17. [Securing Windows 10](courses/Securing_Windows_10.md)
 18. [Security for Beginners](courses/Security.md)
