@@ -24,12 +24,12 @@ In this course, beginners will learn the basics of Regular Expressions (regex) a
    - Applying regex in real-world scenarios for text processing.
 
 ## **Detailed Course Plan:**
-1. **Module 1: Getting Started with Regex**
+### **Module 1: Getting Started with Regex**
    - Introduction to regex and its significance in PowerShell.
    - Understanding the basic syntax and metacharacters.
    - Using the `-match` operator for basic pattern matching.
 
-### **Lesson 1: What is Regex?**
+#### **Lesson 1: What is Regex?**
 - Explanation of regex and its applications.
    📝 Explanation of Regex:
 
@@ -37,37 +37,37 @@ In this course, beginners will learn the basics of Regular Expressions (regex) a
    - It is a versatile tool used to match, search, and manipulate text based on specific patterns.
    - Regex allows you to define rules for matching strings, enabling you to search for patterns within data effectively.
 
-         💡 Applications of Regex:
-            Regex finds extensive use in many domains, including:
+   💡 Applications of Regex:
+    Regex finds extensive use in many domains, including:
 
-            🔍 Text Searching and Validation:
+   🔍 Text Searching and Validation:
 
-               	•	In programming, regex is employed for text searching and validation tasks.
-               	•	It helps identify specific words, phrases, or patterns within large sets of data.
+   - In programming, regex is employed for text searching and validation tasks.
+   - It helps identify specific words, phrases, or patterns within large sets of data.
 
-            📄 Text Processing and Parsing:
+   📄 Text Processing and Parsing:
 
-               	•	Regex enables the extraction of relevant information from text, such as extracting email addresses, phone numbers, or URLs from a document.
+   - Regex enables the extraction of relevant information from text, such as extracting email addresses, phone numbers, or URLs from a document.
 
-            🛠️ Data Manipulation:
+   🛠️ Data Manipulation:
 
-               	•	In scripting languages like PowerShell, regex is used for data manipulation, filtering, and transformation tasks.
-               	•	It can be employed to modify data formats or remove unwanted characters from text.
+   - In scripting languages like PowerShell, regex is used for data manipulation, filtering, and transformation tasks.
+   - It can be employed to modify data formats or remove unwanted characters from text.
 
-            📜 Log Analysis:
+   📜 Log Analysis:
 
-               	•	Regex is extensively used in log analysis to parse and extract useful information from log files.
-               	•	It aids in identifying patterns related to errors, warnings, or specific events.
+   - Regex is extensively used in log analysis to parse and extract useful information from log files.
+   - It aids in identifying patterns related to errors, warnings, or specific events.
 
-            🌐 Web Scraping:
+   🌐 Web Scraping:
 
-               	•	Web developers often use regex for web scraping tasks, extracting data from HTML or XML documents.
+   - Web developers often use regex for web scraping tasks, extracting data from HTML or XML documents.
 
-            📊 Data Validation and Form Processing:
+   📊 Data Validation and Form Processing:
 
-               	•	In web development, regex helps validate user input in forms, ensuring that it meets specific criteria.
+   - In web development, regex helps validate user input in forms, ensuring that it meets specific criteria.
 
-         ✨ Understanding regex opens up a world of possibilities for efficient text processing and manipulation. As we progress through this course, you’ll gain the skills to create powerful regex patterns and utilize them effectively in PowerShell scripts.
+✨ Understanding regex opens up a world of possibilities for efficient text processing and manipulation. As we progress through this course, you’ll gain the skills to create powerful regex patterns and utilize them effectively in PowerShell scripts.
      - Overview of common use cases in PowerShell.
 
    - **Lesson 2: Basic Syntax**
