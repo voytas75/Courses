@@ -33,9 +33,9 @@ In this course, beginners will learn the basics of Regular Expressions (regex) a
      - Explanation of regex and its applications.
          📝 Explanation of Regex:
 
-            	•	Regex, short for Regular Expression, is a powerful sequence of characters that forms a search pattern.
-            	•	It is a versatile tool used to match, search, and manipulate text based on specific patterns.
-            	•	Regex allows you to define rules for matching strings, enabling you to search for patterns within data effectively.
+            - Regex, short for Regular Expression, is a powerful sequence of characters that forms a search pattern.
+            - It is a versatile tool used to match, search, and manipulate text based on specific patterns.
+            - Regex allows you to define rules for matching strings, enabling you to search for patterns within data effectively.
 
          💡 Applications of Regex:
             Regex finds extensive use in many domains, including:
