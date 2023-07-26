@@ -393,7 +393,7 @@ These hands-on exercises will help you practice text filtering using regex patte
 
 ### Module 2: Character Classes and Quantifiers
 
-#### Working with character classes (e.g., `\d`, `\w`, `\s`, etc.)
+- Working with character classes (e.g., `\d`, `\w`, `\s`, etc.)
 
 In this lesson, we'll explore character classes in regex, which allow you to match specific sets of characters. Character classes are enclosed in square brackets `[ ]` and provide a concise way to represent groups of characters.
 
@@ -465,7 +465,7 @@ Character classes provide a powerful way to match specific groups of characters,
 
 In the next lesson, we'll explore quantifiers in regex, which allow you to define the number of occurrences of characters or groups. 🌟
 
-   - Utilizing quantifiers (e.g., `*`, `+`, `?`, `{n}`, `{n,}`, `{n,m}`) for repetition.
+- Utilizing quantifiers (e.g., `*`, `+`, `?`, `{n}`, `{n,}`, `{n,m}`) for repetition.
 
 In this lesson, we'll explore quantifiers in regex, which allow you to define the number of occurrences of characters or groups. Quantifiers provide a concise way to repeat patterns, making regex patterns more flexible and powerful.
 
@@ -902,6 +902,7 @@ $matchedAtLeastThree = $text -match 's{3,}'
 # Output the matched characters repeated at least three times
 $matchedAtLeastThree
 ```
+
 Output:
 
 ```
@@ -935,7 +936,7 @@ Output:
 
 Quantifiers play a vital role in creating flexible regex patterns to match varying repetitions of characters or groups. By understanding and utilizing these quantifiers effectively, you can craft precise regex patterns for various text processing tasks.🌟
 
-#### Practice exercises to reinforce learning.
+##### Practice exercises to reinforce learning.
 
 Here are some practice exercises to reinforce your learning of character classes and quantifiers in regex:
 
