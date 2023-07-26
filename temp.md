@@ -241,6 +241,91 @@ In the next lesson, we’ll explore how to use the -match operator in PowerShell
 
 ##### Practical examples of using the `-match` operator.
 
+In this lesson, we’ll explore how to use the -match operator in PowerShell with practical examples to apply regex patterns for text filtering.
+
+🔍 Scenario 1: Basic Pattern Matching
+Suppose we have a list of names, and we want to filter out names that start with the letter “A.”
+
+Example:
+
+```
+# Sample list of names
+$names = "Alice", "Bob", "Anna", "Alex", "David"
+
+# Filter names starting with "A" using -match
+$filteredNames = $names -match '^A'
+
+# Output the filtered names
+$filteredNames
+```
+
+🔍 Scenario 2: Extracting Email Addresses
+Assume we have a text containing email addresses, and we want to extract all valid email addresses from it.
+
+Example:
+
+```
+# Sample text containing email addresses
+$text = "Contact us at info@example.com or support@domain.com for assistance."
+
+# Extract email addresses using -match
+$emails = $text -match '\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b'
+
+# Output the extracted email addresses
+$emails
+```
+
+🔍 Scenario 3: Extracting URLs
+Suppose we have a webpage’s HTML content, and we want to extract all URLs from it.
+
+Example:
+
+```
+# Sample HTML content
+$html = @"
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Page</title>
+</head>
+<body>
+    <a href="https://example.com">Visit Example</a>
+    <a href="https://domain.com">Visit Domain</a>
+    <a href="https://test.com">Visit Test</a>
+</body>
+</html>
+"@
+
+# Extract URLs using -match
+$urls = $html -match 'https?://[^\s<>"]+'
+
+# Output the extracted URLs
+$urls
+```
+
+🔍 Scenario 4: Replacing Patterns
+We have a string containing phone numbers in different formats, and we want to standardize them.
+
+Example:
+
+```
+# Sample text containing phone numbers
+$phones = "Call us at 123-456-7890 or 9876543210 for assistance."
+
+# Replace phone numbers with a standardized format using -replace
+$standardizedPhones = $phones -replace '\b\d{3}[-.\s]?\d{3}[-.\s]?\d{4}\b', 'XXX-XXX-XXXX'
+
+# Output the text with standardized phone numbers
+$standardizedPhones
+```
+
+💡 Important Note:
+Ensure you thoroughly test your regex patterns to avoid unintended matches and ensure they match the desired patterns accurately.
+
+The -match operator allows you to efficiently filter and process data using regex patterns within PowerShell. By combining regex with PowerShell’s capabilities, you can perform powerful text filtering, data extraction, and data manipulation tasks.
+
+In the next lesson, we’ll explore more advanced regex concepts, including character classes, grouping, and backreferences. If you have any questions or need further assistance with using the -match operator, feel free to ask! 🌟
+
 ##### Hands-on exercises for text filtering.
 
 2. **Module 2: Character Classes and Quantifiers**
