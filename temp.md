@@ -123,7 +123,7 @@ Metacharacters are characters with special meanings in regex and provide more ad
 
 . (Dot):
 - The dot metacharacter matches any single character, except for a newline character.
-	•	For example, the pattern a.b will match “aab”, “acb”, “adb”, etc., but not “a\nb”.
+- For example, the pattern a.b will match “aab”, “acb”, “adb”, etc., but not “a\nb”.
 
 * (Asterisk):
 - The asterisk metacharacter matches the preceding character zero or more times.
