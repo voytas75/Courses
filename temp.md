@@ -108,9 +108,65 @@ While regex is a powerful tool, it's essential to strike a balance between compl
 
 Throughout this course, you'll delve deeper into each of these use cases, honing your regex skills to become proficient in leveraging this invaluable tool within PowerShell. 🚀
 
-   - **Lesson 2: Basic Syntax**
-     - Learning about metacharacters and their functions.
-     - Creating simple regex patterns for pattern matching.
+#### Lesson 2: Basic Syntax
+
+##### Learning about metacharacters and their functions.
+
+In this lesson, we’ll dive into the fundamental building blocks of regex: metacharacters. Metacharacters are special characters that have specific functions in defining regex patterns.
+
+🔤 Literal Characters:
+
+	•	Most characters in a regex pattern are treated as literal characters.
+	•	For example, the pattern hello will match the exact sequence “hello” in a text.
+
+Metacharacters:
+Metacharacters are characters with special meanings in regex and provide more advanced pattern matching capabilities.
+
+. (Dot):
+
+	•	The dot metacharacter matches any single character, except for a newline character.
+	•	For example, the pattern a.b will match “aab”, “acb”, “adb”, etc., but not “a\nb”.
+
+* (Asterisk):
+
+	•	The asterisk metacharacter matches the preceding character zero or more times.
+	•	For example, the pattern ab*c will match “ac”, “abc”, “abbc”, “abbbc”, etc.
+
++ (Plus):
+
+	•	The plus metacharacter matches the preceding character one or more times.
+	•	For example, the pattern ab+c will match “abc”, “abbc”, “abbbc”, etc., but not “ac”.
+
+? (Question Mark):
+
+	•	The question mark metacharacter matches the preceding character zero or one time.
+	•	For example, the pattern colou?r will match both “color” and “colour”.
+
+| (Pipe):
+
+	•	The pipe metacharacter acts as an OR operator and matches either the pattern before or after it.
+	•	For example, the pattern apple|orange will match “apple” or “orange”.
+
+[] (Character Class):
+
+	•	The character class metacharacters allow matching a specific set of characters.
+	•	For example, the pattern [aeiou] will match any single vowel character.
+
+[^] (Negation in Character Class):
+
+	•	When ^ is used as the first character within a character class, it negates the set, matching any character not in the class.
+	•	For example, the pattern [^aeiou] will match any non-vowel character.
+
+() (Grouping):
+
+	•	Parentheses are used to create groups and capture sub-patterns within a regex expression.
+	•	For example, the pattern (ab)+ will match “ab”, “abab”, “ababab”, etc.
+
+These are some of the essential metacharacters in regex, and they provide a solid foundation for constructing more complex patterns to match specific text patterns effectively.
+
+In the next lesson, we will explore how to use the -match operator in PowerShell to apply these regex patterns and perform text filtering. If you have any questions or need further clarification on metacharacters, feel free to ask! 🌟
+
+##### Creating simple regex patterns for pattern matching.
 
    - **Lesson 3: Using `-match`**
      - Practical examples of using the `-match` operator.
