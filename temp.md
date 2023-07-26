@@ -145,11 +145,11 @@ Metacharacters are characters with special meanings in regex and provide more ad
 - The character class metacharacters allow matching a specific set of characters.
 - For example, the pattern [aeiou] will match any single vowel character.
 
-[^] (Negation in Character Class):
+`[^]` (Negation in Character Class):
 - When ^ is used as the first character within a character class, it negates the set, matching any character not in the class.
 - For example, the pattern [^aeiou] will match any non-vowel character.
 
-() (Grouping):
+`()` (Grouping):
 - Parentheses are used to create groups and capture sub-patterns within a regex expression.
 - For example, the pattern (ab)+ will match “ab”, “abab”, “ababab”, etc.
 
