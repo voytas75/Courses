@@ -1,11 +1,11 @@
 # JavaScript for Beginners
 
-Module 1: Introduction to JavaScript
+## Module 1: Introduction to JavaScript
 
 - Lesson 1: Introduction to JavaScript
 - Lesson 2: Setting up Your Development Environment
 
-Module 2: JavaScript Basics
+## Module 2: JavaScript Basics
 
 - Lesson 3: Basic Syntax and Structure
 - Lesson 4: Variables and Data Types
@@ -13,37 +13,37 @@ Module 2: JavaScript Basics
 - Lesson 6: Control Flow and Conditionals
 - Lesson 7: Loops and Iteration
 
-Module 3: JavaScript Arrays
+## Module 3: JavaScript Arrays
 
 - Lesson 8: Introduction to Arrays
 - Lesson 9: Array Manipulation and Iteration
 
-Module 4: JavaScript Functions
+## Module 4: JavaScript Functions
 
 - Lesson 10: Introduction to Functions
 - Lesson 11: Parameters and Return Values
 - Lesson 12: Scope and Variable Visibility
 
-Module 5: JavaScript Objects and OOP
+## Module 5: JavaScript Objects and OOP
 
 - Lesson 13: Introduction to Objects
 - Lesson 14: Object Methods and Prototypes
 - Lesson 15: Inheritance and the Prototype Chain
 
-Module 6: JavaScript and the DOM
+## Module 6: JavaScript and the DOM
 
 - Lesson 16: Introduction to the DOM
 - Lesson 17: Manipulating HTML Elements
 - Lesson 18: Event Handling and Interaction
 - Lesson 19: Dynamic CSS Manipulation
 
-Module 7: Error Handling and Debugging
+## Module 7: Error Handling and Debugging
 
 - Lesson 20: Common JavaScript Errors
 - Lesson 21: Error Handling with try-catch
 - Lesson 22: Debugging Techniques and Tools
 
-Module 8: JavaScript Best Practices
+## Module 8: JavaScript Best Practices
 
 - Lesson 23: Writing Clean and Maintainable Code
 - Lesson 24: Code Organization and Modularization
