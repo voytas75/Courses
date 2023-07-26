@@ -121,27 +121,27 @@ In this lesson, we’ll dive into the fundamental building blocks of regex: meta
 Metacharacters:
 Metacharacters are characters with special meanings in regex and provide more advanced pattern matching capabilities.
 
-. (Dot):
+`.` (Dot):
 - The dot metacharacter matches any single character, except for a newline character.
 - For example, the pattern a.b will match “aab”, “acb”, “adb”, etc., but not “a\nb”.
 
-* (Asterisk):
+`*` (Asterisk):
 - The asterisk metacharacter matches the preceding character zero or more times.
 - For example, the pattern ab*c will match “ac”, “abc”, “abbc”, “abbbc”, etc.
 
-+ (Plus):
+`+` (Plus):
 - The plus metacharacter matches the preceding character one or more times.
 - For example, the pattern ab+c will match “abc”, “abbc”, “abbbc”, etc., but not “ac”.
 
-? (Question Mark):
+`?` (Question Mark):
 - The question mark metacharacter matches the preceding character zero or one time.
 - For example, the pattern colou?r will match both “color” and “colour”.
 
-| (Pipe):
+`|` (Pipe):
 - The pipe metacharacter acts as an OR operator and matches either the pattern before or after it.
 - For example, the pattern apple|orange will match “apple” or “orange”.
 
-[] (Character Class):
+`[]` (Character Class):
 - The character class metacharacters allow matching a specific set of characters.
 - For example, the pattern [aeiou] will match any single vowel character.
 
