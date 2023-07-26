@@ -168,9 +168,80 @@ In the next lesson, we will explore how to use the -match operator in PowerShell
 
 ##### Creating simple regex patterns for pattern matching.
 
-   - **Lesson 3: Using `-match`**
-     - Practical examples of using the `-match` operator.
-     - Hands-on exercises for text filtering.
+In this lesson, we’ll learn how to create simple regex patterns to perform pattern matching in PowerShell. We’ll construct regex patterns step by step to match specific text patterns.
+
+🔍 Scenario 1: Matching Exact Text
+To match exact text, simply use the literal characters.
+
+Example:
+Regex Pattern: hello
+Text to Match: “hello”
+
+🔍 Scenario 2: Using the Dot Metacharacter
+The dot . matches any single character, except for a newline.
+
+Example:
+Regex Pattern: a.b
+Text to Match: “aab”, “acb”, “adb”, etc.
+
+🔍 Scenario 3: Using the Asterisk Metacharacter
+The asterisk * matches the preceding character zero or more times.
+
+Example:
+Regex Pattern: ab*c
+Text to Match: “ac”, “abc”, “abbc”, “abbbc”, etc.
+
+🔍 Scenario 4: Using the Plus Metacharacter
+The plus + matches the preceding character one or more times.
+
+Example:
+Regex Pattern: ab+c
+Text to Match: “abc”, “abbc”, “abbbc”, etc.
+
+🔍 Scenario 5: Using the Question Mark Metacharacter
+The question mark ? matches the preceding character zero or one time.
+
+Example:
+Regex Pattern: colou?r
+Text to Match: “color”, “colour”
+
+🔍 Scenario 6: Using the Pipe Metacharacter
+The pipe | acts as an OR operator and matches either the pattern before or after it.
+
+Example:
+Regex Pattern: apple|orange
+Text to Match: “apple” or “orange”
+
+🔍 Scenario 7: Using Character Classes
+Character classes allow matching a specific set of characters.
+
+Example:
+Regex Pattern: [aeiou]
+Text to Match: Any single vowel character
+
+🔍 Scenario 8: Using Negation in Character Class
+The ^ within a character class negates the set, matching any character not in the class.
+
+Example:
+Regex Pattern: [^aeiou]
+Text to Match: Any non-vowel character
+
+🔍 Scenario 9: Using Grouping
+Parentheses () are used to create groups and capture sub-patterns within a regex expression.
+
+Example:
+Regex Pattern: (ab)+
+Text to Match: “ab”, “abab”, “ababab”, etc.
+
+By combining these simple regex patterns, you can create powerful expressions to match specific text patterns in your PowerShell scripts. As you practice and gain confidence, you’ll be able to create more complex regex patterns for diverse use cases.
+
+In the next lesson, we’ll explore how to use the -match operator in PowerShell to apply these regex patterns for text filtering. If you have any questions or need further assistance with creating regex patterns, feel free to ask! 🌟
+
+#### Lesson 3: Using `-match`
+
+##### Practical examples of using the `-match` operator.
+
+##### Hands-on exercises for text filtering.
 
 2. **Module 2: Character Classes and Quantifiers**
    - Working with character classes (e.g., `\d`, `\w`, `\s`, etc.).
