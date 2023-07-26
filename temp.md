@@ -328,6 +328,78 @@ In the next lesson, we’ll explore more advanced regex concepts, including char
 
 ##### Hands-on exercises for text filtering.
 
+Let's dive into some hands-on exercises for text filtering using the `-match` operator with regex patterns in PowerShell.
+
+🔍 **Exercise 1: Filtering Names**
+Given a list of names, filter out the names that contain the letter "o" anywhere in the name.
+
+**Example:**
+
+```powershell
+# Sample list of names
+$names = "John", "Alice", "Robert", "Tom", "Olivia", "Samantha"
+
+# Filter names containing "o" using -match
+$filteredNames = $names -match 'o'
+
+# Output the filtered names
+$filteredNames
+```
+
+🔍 **Exercise 2: Extracting Dates**
+Extract all the dates in the format "dd/mm/yyyy" from the given text.
+
+**Example:**
+
+```powershell
+# Sample text containing dates
+$text = "This text contains some dates like 12/07/2023, 25/09/2023, and 31/12/2023."
+
+# Extract dates using -match
+$dates = $text -match '\b\d{2}/\d{2}/\d{4}\b'
+
+# Output the extracted dates
+$dates
+```
+
+🔍 **Exercise 3: Extracting Hashtags**
+Extract all the hashtags from the given tweet.
+
+**Example:**
+
+```powershell
+# Sample tweet containing hashtags
+$tweet = "Excited to announce our new product launch #TechGuru #Innovation"
+
+# Extract hashtags using -match
+$hashtags = $tweet -match '#\w+'
+
+# Output the extracted hashtags
+$hashtags
+```
+
+🔍 **Exercise 4: Filtering Domain Names**
+Filter out the email addresses from the given list that belong to the domain "example.com".
+
+**Example:**
+
+```powershell
+# Sample list of email addresses
+$emails = "john@example.com", "alice@domain.com", "robert@example.com", "samantha@domain.com"
+
+# Filter emails from the domain "example.com" using -match
+$filteredEmails = $emails -match '@example\.com'
+
+# Output the filtered email addresses
+$filteredEmails
+```
+
+💡 **Tips:**
+- In each exercise, we used the `-match` operator with an appropriate regex pattern to perform text filtering or extraction.
+- Ensure you understand the regex pattern used in each example to match the desired text pattern accurately.
+
+These hands-on exercises will help you practice text filtering using regex patterns and the `-match` operator in PowerShell. As you become more comfortable with regex, you'll be able to apply it to various real-world scenarios to efficiently process and manipulate text data.
+
 2. **Module 2: Character Classes and Quantifiers**
    - Working with character classes (e.g., `\d`, `\w`, `\s`, etc.).
    - Utilizing quantifiers (e.g., `*`, `+`, `?`, `{n}`, `{n,}`, `{n,m}`) for repetition.
