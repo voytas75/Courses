@@ -1,11 +1,12 @@
-Great choice! Learning regex in PowerShell can be very beneficial. Let's craft a course plan for beginners on this topic:
 
-# **Course Title: Introduction to Regex in PowerShell**
+# Course Title: Introduction to Regex in PowerShell
+
 In this course, beginners will learn the basics of Regular Expressions (regex) and how to effectively use them in PowerShell scripts for pattern matching and text manipulation.
 
 **Course Duration:** 4 weeks (1 hour per session, 1 session per week)
 
-## **General Course Plan:**
+## General Course Plan
+
 1. **Module 1: Getting Started with Regex**
    - Introduction to regex and its significance in PowerShell.
    - Understanding the basic syntax and metacharacters.
@@ -23,13 +24,16 @@ In this course, beginners will learn the basics of Regular Expressions (regex) a
    - Exploring additional regex methods in PowerShell (e.g., `Select-String`, `Get-Content -Pattern`, etc.).
    - Applying regex in real-world scenarios for text processing.
 
-## **Detailed Course Plan:**
-### **Module 1: Getting Started with Regex**
+## Detailed Course Plan
+
+### Module 1: Getting Started with Regex
+
    - Introduction to regex and its significance in PowerShell.
    - Understanding the basic syntax and metacharacters.
    - Using the `-match` operator for basic pattern matching.
 
 #### **Lesson 1: What is Regex?**
+
 - Explanation of regex and its applications.
    📝 Explanation of Regex:
 
@@ -68,7 +72,8 @@ In this course, beginners will learn the basics of Regular Expressions (regex) a
    - In web development, regex helps validate user input in forms, ensuring that it meets specific criteria.
 
 ✨ Understanding regex opens up a world of possibilities for efficient text processing and manipulation. As we progress through this course, you’ll gain the skills to create powerful regex patterns and utilize them effectively in PowerShell scripts.
-     - Overview of common use cases in PowerShell.
+
+- Overview of common use cases in PowerShell.
 
    - **Lesson 2: Basic Syntax**
      - Learning about metacharacters and their functions.
