@@ -115,56 +115,47 @@ Throughout this course, you'll delve deeper into each of these use cases, honing
 In this lesson, we’ll dive into the fundamental building blocks of regex: metacharacters. Metacharacters are special characters that have specific functions in defining regex patterns.
 
 🔤 Literal Characters:
-
-	•	Most characters in a regex pattern are treated as literal characters.
-	•	For example, the pattern hello will match the exact sequence “hello” in a text.
+- Most characters in a regex pattern are treated as literal characters.
+- For example, the pattern hello will match the exact sequence “hello” in a text.
 
 Metacharacters:
 Metacharacters are characters with special meanings in regex and provide more advanced pattern matching capabilities.
 
 . (Dot):
-
-	•	The dot metacharacter matches any single character, except for a newline character.
+- The dot metacharacter matches any single character, except for a newline character.
 	•	For example, the pattern a.b will match “aab”, “acb”, “adb”, etc., but not “a\nb”.
 
 * (Asterisk):
-
-	•	The asterisk metacharacter matches the preceding character zero or more times.
-	•	For example, the pattern ab*c will match “ac”, “abc”, “abbc”, “abbbc”, etc.
+- The asterisk metacharacter matches the preceding character zero or more times.
+- For example, the pattern ab*c will match “ac”, “abc”, “abbc”, “abbbc”, etc.
 
 + (Plus):
-
-	•	The plus metacharacter matches the preceding character one or more times.
-	•	For example, the pattern ab+c will match “abc”, “abbc”, “abbbc”, etc., but not “ac”.
+- The plus metacharacter matches the preceding character one or more times.
+- For example, the pattern ab+c will match “abc”, “abbc”, “abbbc”, etc., but not “ac”.
 
 ? (Question Mark):
-
-	•	The question mark metacharacter matches the preceding character zero or one time.
-	•	For example, the pattern colou?r will match both “color” and “colour”.
+- The question mark metacharacter matches the preceding character zero or one time.
+- For example, the pattern colou?r will match both “color” and “colour”.
 
 | (Pipe):
-
-	•	The pipe metacharacter acts as an OR operator and matches either the pattern before or after it.
-	•	For example, the pattern apple|orange will match “apple” or “orange”.
+- The pipe metacharacter acts as an OR operator and matches either the pattern before or after it.
+- For example, the pattern apple|orange will match “apple” or “orange”.
 
 [] (Character Class):
-
-	•	The character class metacharacters allow matching a specific set of characters.
-	•	For example, the pattern [aeiou] will match any single vowel character.
+- The character class metacharacters allow matching a specific set of characters.
+- For example, the pattern [aeiou] will match any single vowel character.
 
 [^] (Negation in Character Class):
-
-	•	When ^ is used as the first character within a character class, it negates the set, matching any character not in the class.
-	•	For example, the pattern [^aeiou] will match any non-vowel character.
+- When ^ is used as the first character within a character class, it negates the set, matching any character not in the class.
+- For example, the pattern [^aeiou] will match any non-vowel character.
 
 () (Grouping):
-
-	•	Parentheses are used to create groups and capture sub-patterns within a regex expression.
-	•	For example, the pattern (ab)+ will match “ab”, “abab”, “ababab”, etc.
+- Parentheses are used to create groups and capture sub-patterns within a regex expression.
+- For example, the pattern (ab)+ will match “ab”, “abab”, “ababab”, etc.
 
 These are some of the essential metacharacters in regex, and they provide a solid foundation for constructing more complex patterns to match specific text patterns effectively.
 
-In the next lesson, we will explore how to use the -match operator in PowerShell to apply these regex patterns and perform text filtering. If you have any questions or need further clarification on metacharacters, feel free to ask! 🌟
+In the next lesson, we will explore how to use the -match operator in PowerShell to apply these regex patterns and perform text filtering. 🌟
 
 ##### Creating simple regex patterns for pattern matching.
 
@@ -235,7 +226,7 @@ Text to Match: “ab”, “abab”, “ababab”, etc.
 
 By combining these simple regex patterns, you can create powerful expressions to match specific text patterns in your PowerShell scripts. As you practice and gain confidence, you’ll be able to create more complex regex patterns for diverse use cases.
 
-In the next lesson, we’ll explore how to use the -match operator in PowerShell to apply these regex patterns for text filtering. If you have any questions or need further assistance with creating regex patterns, feel free to ask! 🌟
+In the next lesson, we’ll explore how to use the -match operator in PowerShell to apply these regex patterns for text filtering. 🌟
 
 #### Lesson 3: Using `-match`
 
@@ -248,7 +239,7 @@ Suppose we have a list of names, and we want to filter out names that start with
 
 Example:
 
-```
+```powershell
 # Sample list of names
 $names = "Alice", "Bob", "Anna", "Alex", "David"
 
@@ -264,7 +255,7 @@ Assume we have a text containing email addresses, and we want to extract all val
 
 Example:
 
-```
+```powershell
 # Sample text containing email addresses
 $text = "Contact us at info@example.com or support@domain.com for assistance."
 
@@ -280,7 +271,7 @@ Suppose we have a webpage’s HTML content, and we want to extract all URLs from
 
 Example:
 
-```
+```powershell
 # Sample HTML content
 $html = @"
 <!DOCTYPE html>
@@ -308,7 +299,7 @@ We have a string containing phone numbers in different formats, and we want to s
 
 Example:
 
-```
+```powershell
 # Sample text containing phone numbers
 $phones = "Call us at 123-456-7890 or 9876543210 for assistance."
 
@@ -324,7 +315,7 @@ Ensure you thoroughly test your regex patterns to avoid unintended matches and e
 
 The -match operator allows you to efficiently filter and process data using regex patterns within PowerShell. By combining regex with PowerShell’s capabilities, you can perform powerful text filtering, data extraction, and data manipulation tasks.
 
-In the next lesson, we’ll explore more advanced regex concepts, including character classes, grouping, and backreferences. If you have any questions or need further assistance with using the -match operator, feel free to ask! 🌟
+In the next lesson, we’ll explore more advanced regex concepts, including character classes, grouping, and backreferences. 🌟
 
 ##### Hands-on exercises for text filtering.
 
@@ -472,12 +463,9 @@ $matchedNonAlphabetic
 
 Character classes provide a powerful way to match specific groups of characters, making text processing and filtering more efficient. You can combine character classes with other regex concepts like quantifiers and grouping to create complex patterns for your specific needs.
 
-In the next lesson, we'll explore quantifiers in regex, which allow you to define the number of occurrences of characters or groups. If you have any questions or need further assistance with character classes, feel free to ask! 🌟
+In the next lesson, we'll explore quantifiers in regex, which allow you to define the number of occurrences of characters or groups. 🌟
 
    - Utilizing quantifiers (e.g., `*`, `+`, `?`, `{n}`, `{n,}`, `{n,m}`) for repetition.
-**Module 2: Character Classes and Quantifiers**
-
-**Lesson 2: Utilizing Quantifiers for Repetition**
 
 In this lesson, we'll explore quantifiers in regex, which allow you to define the number of occurrences of characters or groups. Quantifiers provide a concise way to repeat patterns, making regex patterns more flexible and powerful.
 
@@ -485,6 +473,7 @@ In this lesson, we'll explore quantifiers in regex, which allow you to define th
 The asterisk `*` matches the preceding character or group zero or more times.
 
 **Example:**
+
 ```powershell
 # Sample text containing repeated characters
 $text = "Heyyyy, how are you?"
@@ -497,6 +486,7 @@ $matchedAsterisk
 ```
 
 Output:
+
 ```
 H
 eyyyy
@@ -506,6 +496,7 @@ eyyyy
 The plus `+` matches the preceding character or group one or more times.
 
 **Example:**
+
 ```powershell
 # Sample text containing repeated characters
 $text = "Hello, this is a greatttt day!"
@@ -518,6 +509,7 @@ $matchedPlus
 ```
 
 Output:
+
 ```
 tttt
 ```
@@ -526,6 +518,7 @@ tttt
 The question mark `?` matches the preceding character or group zero or one time.
 
 **Example:**
+
 ```powershell
 # Sample text containing optional characters
 $text = "Colors: color or colour?"
@@ -538,6 +531,7 @@ $matchedQuestionMark
 ```
 
 Output:
+
 ```
 color
 colour
@@ -547,6 +541,7 @@ colour
 The `{n}` quantifier matches the preceding character or group exactly `n` times.
 
 **Example:**
+
 ```powershell
 # Sample text containing repeated characters
 $text = "Wow, sooo many o's in this word!"
@@ -559,6 +554,7 @@ $matchedExactRepetition
 ```
 
 Output:
+
 ```
 ooo
 ```
@@ -567,6 +563,7 @@ ooo
 The `{n,}` quantifier matches the preceding character or group at least `n` times.
 
 **Example:**
+
 ```powershell
 # Sample text containing repeated characters
 $text = "Yessss, we did ittttt!"
@@ -579,6 +576,7 @@ $matchedAtLeastThree
 ```
 
 Output:
+
 ```
 ssss
 ```
@@ -587,6 +585,7 @@ ssss
 The `{n,m}` quantifier matches the preceding character or group between `n` and `m` times (inclusive).
 
 **Example:**
+
 ```powershell
 # Sample text containing repeated characters
 $text = "Let's meet at 12:30, 15:45, and 18:00."
@@ -599,6 +598,7 @@ $matchedTimeFormats
 ```
 
 Output:
+
 ```
 12:30
 15:45
@@ -607,12 +607,13 @@ Output:
 
 Using quantifiers allows you to specify the number of occurrences of characters or groups in a regex pattern. It gives you precise control over repetition, making regex patterns more flexible and efficient.
 
-In the next lesson, we'll explore grouping in regex, which allows you to apply quantifiers to multiple characters or groups as a unit. If you have any questions or need further assistance with quantifiers, feel free to ask! 🌟
+In the next lesson, we'll explore grouping in regex, which allows you to apply quantifiers to multiple characters or groups as a unit. 🌟
 
-   - **Lesson 1: Character Classes**
-     - Understanding common character classes and their meanings.
+#### Lesson 1: Character Classes
 
-Certainly! Understanding common character classes is essential in regex as they provide a convenient way to match specific sets of characters. Here are some of the most commonly used character classes and their meanings:
+##### Understanding common character classes and their meanings.
+
+Understanding common character classes is essential in regex as they provide a convenient way to match specific sets of characters. Here are some of the most commonly used character classes and their meanings:
 
 🔤 **`\d`:**
 - `\d` matches any digit character (0-9).
@@ -664,16 +665,17 @@ Certainly! Understanding common character classes is essential in regex as they 
 
 These character classes provide a powerful and flexible way to define patterns for matching specific groups of characters or excluding certain characters from matches. They are often combined with other regex concepts like quantifiers and grouping to create complex patterns for various text processing tasks.
 
-Understanding these common character classes will significantly enhance your ability to work with regex patterns effectively. If you have any specific questions or need further clarification on character classes, feel free to ask! 🌟
+Understanding these common character classes will significantly enhance your ability to work with regex patterns effectively. 🌟
 
-     - Applying character classes to filter data.
+##### Applying character classes to filter data.
 
-Absolutely! Let's apply character classes to filter data using the `-match` operator in PowerShell with practical examples.
+Let's apply character classes to filter data using the `-match` operator in PowerShell with practical examples.
 
 🔍 **Example 1: Filtering Digits**
 Filter out only the lines containing digits from the given text.
 
 **Input Text:**
+
 ```
 This is a sample text.
 Line 2 contains numbers.
@@ -681,6 +683,7 @@ No digits here.
 ```
 
 **PowerShell Code:**
+
 ```powershell
 # Input text
 $text = @"
@@ -697,6 +700,7 @@ $filteredLines
 ```
 
 **Output:**
+
 ```
 Line 2 contains numbers.
 ```
@@ -705,6 +709,7 @@ Line 2 contains numbers.
 Extract all the URLs from the given HTML content.
 
 **Input Text:**
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -720,6 +725,7 @@ Extract all the URLs from the given HTML content.
 ```
 
 **PowerShell Code:**
+
 ```powershell
 # Input HTML content
 $html = @"
@@ -744,6 +750,7 @@ $urls
 ```
 
 **Output:**
+
 ```
 https://example.com
 https://domain.com
@@ -754,6 +761,7 @@ https://test.com
 Filter out phone numbers in the format "XXX-XXX-XXXX" from the given text.
 
 **Input Text:**
+
 ```
 Contact us at 123-456-7890 or 9876543210 for assistance.
 No phone numbers here.
@@ -761,6 +769,7 @@ Another number: 555-1234.
 ```
 
 **PowerShell Code:**
+
 ```powershell
 # Input text
 $text = @"
@@ -777,6 +786,7 @@ $filteredNumbers
 ```
 
 **Output:**
+
 ```
 Contact us at 123-456-7890 or 9876543210 for assistance.
 Another number: 555-1234.
@@ -784,10 +794,11 @@ Another number: 555-1234.
 
 In each example, we utilized character classes within the `-match` operator's regex pattern to filter specific data from the input text. Character classes, combined with other regex concepts, allow you to precisely extract or filter data based on specific patterns, making your text processing tasks more efficient and accurate.
 
-Feel free to experiment with different patterns and character classes to suit your specific filtering needs! If you have any questions or need further assistance, let me know. 🌟
+Feel free to experiment with different patterns and character classes to suit your specific filtering needs! 🌟
 
-   - **Lesson 2: Quantifiers in Action**
-     - Exploring different quantifiers and their effects on matching.
+#### Lesson 2: Quantifiers in Action
+
+##### Exploring different quantifiers and their effects on matching.
 
 In this lesson, we'll explore different quantifiers in regex and observe their effects on matching patterns. Quantifiers allow us to define the number of occurrences of characters or groups, giving us the flexibility to match varying repetitions.
 
@@ -795,6 +806,7 @@ In this lesson, we'll explore different quantifiers in regex and observe their e
 The asterisk `*` matches the preceding character or group zero or more times.
 
 **Example:**
+
 ```powershell
 # Sample text containing repeated characters
 $text = "Heyyyy, how are you?"
@@ -806,6 +818,7 @@ $matchedAsterisk = $text -match 'y*'
 $matchedAsterisk
 ```
 Output:
+
 ```
 yyy
 ```
@@ -814,6 +827,7 @@ yyy
 The plus `+` matches the preceding character or group one or more times.
 
 **Example:**
+
 ```powershell
 # Sample text containing repeated characters
 $text = "Hello, this is a greatttt day!"
@@ -825,6 +839,7 @@ $matchedPlus = $text -match 't+'
 $matchedPlus
 ```
 Output:
+
 ```
 tttt
 ```
@@ -833,6 +848,7 @@ tttt
 The question mark `?` matches the preceding character or group zero or one time.
 
 **Example:**
+
 ```powershell
 # Sample text containing optional characters
 $text = "Colors: color or colour?"
@@ -844,6 +860,7 @@ $matchedQuestionMark = $text -match 'colou?r'
 $matchedQuestionMark
 ```
 Output:
+
 ```
 color
 colour
@@ -853,6 +870,7 @@ colour
 The `{n}` quantifier matches the preceding character or group exactly `n` times.
 
 **Example:**
+
 ```powershell
 # Sample text containing repeated characters
 $text = "Wow, sooo many o's in this word!"
@@ -864,6 +882,7 @@ $matchedExactRepetition = $text -match 'o{3}'
 $matchedExactRepetition
 ```
 Output:
+
 ```
 ooo
 ```
@@ -872,6 +891,7 @@ ooo
 The `{n,}` quantifier matches the preceding character or group at least `n` times.
 
 **Example:**
+
 ```powershell
 # Sample text containing repeated characters
 $text = "Yessss, we did ittttt!"
@@ -883,6 +903,7 @@ $matchedAtLeastThree = $text -match 's{3,}'
 $matchedAtLeastThree
 ```
 Output:
+
 ```
 ssss
 sssss
@@ -892,6 +913,7 @@ sssss
 The `{n,m}` quantifier matches the preceding character or group between `n` and `m` times (inclusive).
 
 **Example:**
+
 ```powershell
 # Sample text containing repeated characters
 $text = "Let's meet at 12:30, 15:45, and 18:00."
@@ -902,25 +924,26 @@ $matchedTimeFormats = $text -match '\d{1,2}:\d{2}'
 # Output the matched time formats in "hh:mm" pattern
 $matchedTimeFormats
 ```
+
 Output:
+
 ```
 12:30
 15:45
 18:00
 ```
 
-Quantifiers play a vital role in creating flexible regex patterns to match varying repetitions of characters or groups. By understanding and utilizing these quantifiers effectively, you can craft precise regex patterns for various text processing tasks.
+Quantifiers play a vital role in creating flexible regex patterns to match varying repetitions of characters or groups. By understanding and utilizing these quantifiers effectively, you can craft precise regex patterns for various text processing tasks.🌟
 
-If you have any questions or need further assistance with different quantifiers, feel free to ask! 🌟
+#### Practice exercises to reinforce learning.
 
-     - Practice exercises to reinforce learning.
-
-Absolutely! Here are some practice exercises to reinforce your learning of character classes and quantifiers in regex:
+Here are some practice exercises to reinforce your learning of character classes and quantifiers in regex:
 
 🔍 **Exercise 1: Matching Phone Numbers**
 Given a list of phone numbers in various formats, extract only the phone numbers in the format "XXX-XXX-XXXX".
 
 **Sample Input:**
+
 ```
 123-456-7890
 (555) 123-4567
@@ -932,6 +955,7 @@ Given a list of phone numbers in various formats, extract only the phone numbers
 Given a list of email addresses, extract only the domains (part after '@').
 
 **Sample Input:**
+
 ```
 john.doe@example.com
 alice@domain.co.uk
@@ -943,6 +967,7 @@ samantha@gmail.com
 Given a text, find and output all words with consecutive repeated characters (e.g., "bookkeeper", "balloon", "hello").
 
 **Sample Input:**
+
 ```
 bookkeeper is a profession. The balloon is flying high. Hello, how are you?
 ```
@@ -951,6 +976,7 @@ bookkeeper is a profession. The balloon is flying high. Hello, how are you?
 Given a text containing dates in the format "dd-mm-yyyy", extract all dates.
 
 **Sample Input:**
+
 ```
 Today is 25-07-2023. Tomorrow will be 26-07-2023. Don't forget the event on 30-07-2023.
 ```
@@ -959,16 +985,18 @@ Today is 25-07-2023. Tomorrow will be 26-07-2023. Don't forget the event on 30-0
 Extract all hashtags from the given tweet, excluding the '#' symbol.
 
 **Sample Input:**
+
 ```
 Excited to announce our new product launch #TechGuru #Innovation
 ```
 
-Feel free to try out these exercises and apply the concepts of character classes and quantifiers in regex to solve them. You can use PowerShell with the `-match` operator to perform the regex matching. If you encounter any challenges or need help with the solutions, don't hesitate to ask!
+Feel free to try out these exercises and apply the concepts of character classes and quantifiers in regex to solve them. You can use PowerShell with the `-match` operator to perform the regex matching. 
 
 Regex practice will enhance your understanding and proficiency in text processing using character classes and quantifiers. Happy practicing! 🌟
 
-3. **Module 3: Grouping and Capturing**
-   - Grouping patterns with parentheses and capturing matches.
+### Module 3: Grouping and Capturing
+
+- Grouping patterns with parentheses and capturing matches.
 
 In this module, we'll explore how to group patterns using parentheses in regex and capture the matched content. Grouping allows us to apply quantifiers and other regex operators to multiple characters or groups as a unit.
 
@@ -976,6 +1004,7 @@ In this module, we'll explore how to group patterns using parentheses in regex a
 Parentheses `( )` are used to create groups in regex. Everything enclosed within the parentheses is treated as a single unit. This allows us to apply quantifiers or other operators to the entire group.
 
 💡 **Example 1: Matching Repeated Characters**
+
 ```powershell
 # Sample text containing repeated characters
 $text = "Wow, sooo many o's in this word!"
@@ -987,11 +1016,13 @@ $matchedGroup = $text -match 'o{3}'
 $matchedGroup
 ```
 Output:
+
 ```
 ooo
 ```
 
 💡 **Example 2: Extracting Phone Numbers**
+
 ```powershell
 # Sample text containing phone numbers
 $text = "Call us at 123-456-7890 or 9876543210 for assistance."
@@ -1002,12 +1033,15 @@ $phoneNumbers = $text -match '(\d{3}-\d{3}-\d{4})'
 # Output the extracted phone numbers
 $phoneNumbers
 ```
+
 Output:
+
 ```
 123-456-7890
 ```
 
 💡 **Example 3: Extracting Dates**
+
 ```powershell
 # Sample text containing dates in the format "dd-mm-yyyy"
 $text = "Today is 25-07-2023. Tomorrow will be 26-07-2023. Don't forget the event on 30-07-2023."
@@ -1018,7 +1052,9 @@ $dates = $text -match '(\d{2}-\d{2}-\d{4})'
 # Output the extracted dates
 $dates
 ```
+
 Output:
+
 ```
 25-07-2023
 26-07-2023
@@ -1029,6 +1065,7 @@ Output:
 When we use groups `( )`, we can capture the matched content within the parentheses for further use. The captured content can be accessed using the `$Matches` automatic variable in PowerShell.
 
 💡 **Example: Capturing Phone Numbers**
+
 ```powershell
 # Sample text containing phone numbers
 $text = "Call us at 123-456-7890 or 9876543210 for assistance."
@@ -1040,24 +1077,23 @@ $matchedPhoneNumber = $Matches[1]
 # Output the captured phone number
 $matchedPhoneNumber
 ```
+
 Output:
+
 ```
 123-456-7890
 ```
 
 In this example, we used parentheses to group the regex pattern for the phone number. We then captured the matched phone number using `$Matches[1]`.
 
-Grouping with parentheses and capturing matches are powerful concepts in regex. They allow us to create complex patterns and extract specific parts of the matched content for further processing.
+Grouping with parentheses and capturing matches are powerful concepts in regex. They allow us to create complex patterns and extract specific parts of the matched content for further processing.🌟
 
-If you have any questions or need further assistance with grouping and capturing in regex, feel free to ask! 🌟
-
-   - Using backreferences to refer to captured groups.
-
-**Using Backreferences to Refer to Captured Groups**
+- Using backreferences to refer to captured groups.
 
 In regex, backreferences allow us to refer back to the content captured by groups `( )`. We use backreferences to match the same content that was previously captured by a group. Backreferences are denoted by the backslash `\` followed by the group number.
 
 💡 **Example 1: Matching Repeated Words**
+
 ```powershell
 # Sample text containing repeated words
 $text = "Let's meet meet at the park."
@@ -1068,7 +1104,9 @@ $matchedRepeatedWords = $text -match '\b(\w+)\s+\1\b'
 # Output the matched repeated words
 $matchedRepeatedWords
 ```
+
 Output:
+
 ```
 meet meet
 ```
@@ -1082,6 +1120,7 @@ The pattern breakdown:
 - `\1` is the backreference to the first captured group, which matches the same content as the first group.
 
 💡 **Example 2: Extracting HTML Tags**
+
 ```powershell
 # Sample HTML content
 $html = @"
@@ -1095,7 +1134,9 @@ $tags = $html -match '<(\w+)>(.*?)<\/\1>'
 # Output the extracted HTML tags
 $tags
 ```
+
 Output:
+
 ```
 <p>Hello, <b>world!</b></p>
 <i>italic</i>
@@ -1109,8 +1150,9 @@ In this example, the regex pattern `<(\w+)>(.*?)<\/\1>` captures and matches HTM
 
 Backreferences are a powerful feature in regex that enables us to create more complex patterns by reusing previously captured content. They are particularly useful when working with repetitive patterns, such as repeated words or matching paired elements like HTML tags.
 
-   - **Lesson 1: Grouping Patterns**
-     - Creating and using groups for advanced pattern matching.
+#### Lesson 1: Grouping Patterns
+
+##### Creating and using groups for advanced pattern matching.
 
 In this lesson, we'll dive deeper into creating and using groups in regex for advanced pattern matching. Groups allow us to treat multiple characters or sub-patterns as a single unit, which enables us to apply quantifiers and other operators to that unit.
 
@@ -1202,13 +1244,12 @@ meet meet
 
 Groups and backreferences provide powerful tools for crafting complex regex patterns and efficiently extracting specific content from text data. By mastering these techniques, you'll be able to perform advanced pattern matching for various text processing tasks.
 
-     - Working with multiple groups in a single expression.
-
-**Working with Multiple Groups in a Single Expression**
+##### Working with multiple groups in a single expression.
 
 In regex, you can work with multiple groups within a single expression to capture and manipulate different parts of the matched content. Each group is denoted by parentheses `( )` and is assigned a group number starting from 1. You can access the content captured by each group using backreferences `\1`, `\2`, and so on.
 
 💡 **Example 1: Extracting Date Components**
+
 ```powershell
 # Sample text containing dates in the format "dd-mm-yyyy"
 $text = "Today is 25-07-2023. Tomorrow will be 26-07-2023."
@@ -1222,7 +1263,9 @@ $year = $Matches[3]
 # Output the extracted components
 "Day: $day, Month: $month, Year: $year"
 ```
+
 Output:
+
 ```
 Day: 25, Month: 07, Year: 2023
 ```
@@ -1230,6 +1273,7 @@ Day: 25, Month: 07, Year: 2023
 In this example, we used three groups `(\d{2})`, `(\d{2})`, and `(\d{4})` to capture the day, month, and year components of the date. We then accessed the captured values using `$Matches[1]`, `$Matches[2]`, and `$Matches[3]` respectively.
 
 💡 **Example 2: Formatting Phone Numbers**
+
 ```powershell
 # Sample text containing phone numbers in different formats
 $text = "Call us at 123-456-7890 or (987)654-3210 for assistance."
@@ -1240,7 +1284,9 @@ $formattedText = $text -replace '(\d{3})-(\d{3})-(\d{4})', '($1)$2-$3'
 # Output the formatted text
 $formattedText
 ```
+
 Output:
+
 ```
 Call us at (123)456-7890 or (987)654-3210 for assistance.
 ```
@@ -1249,8 +1295,9 @@ In this example, we used three groups `(\d{3})`, `(\d{3})`, and `(\d{4})` to cap
 
 Working with multiple groups allows you to perform more complex manipulations on the matched content and extract specific parts of the data for further processing.
 
-   - **Lesson 2: Capturing Matches**
-     - Understanding how to capture specific portions of a match.
+#### Lesson 2: Capturing Matches
+
+##### Understanding how to capture specific portions of a match.
 
 In this lesson, we'll focus on understanding how to capture specific portions of a match using groups in regex. By creating groups with parentheses `()`, we can isolate and extract particular parts of the matched content for further processing.
 
@@ -1258,6 +1305,7 @@ In this lesson, we'll focus on understanding how to capture specific portions of
 Groups in regex are created using parentheses `( )`. These groups allow us to capture specific portions of a match and save them for later use or extraction.
 
 💡 **Example 1: Extracting URLs and their Protocols**
+
 ```powershell
 # Sample text containing URLs
 $text = "Visit our website at https://www.example.com and check our blog at http://blog.example.com"
@@ -1268,7 +1316,9 @@ $urls = $text -match '(https?://\S+)'
 # Output the captured URLs
 $urls
 ```
+
 Output:
+
 ```
 https://www.example.com
 http://blog.example.com
@@ -1277,6 +1327,7 @@ http://blog.example.com
 In this example, we used a group `(https?://\S+)` to capture URLs and their protocols. The `https?` matches both "http" and "https", and `\S+` matches any non-whitespace characters after the protocol.
 
 💡 **Example 2: Extracting Names and Email Addresses**
+
 ```powershell
 # Sample text containing names and email addresses
 $text = "Contact John Doe at john.doe@example.com or Jane Smith at jane.smith@example.com"
@@ -1290,7 +1341,9 @@ $emailAddresses = $Matches[2]
 $names
 $emailAddresses
 ```
+
 Output:
+
 ```
 John Doe
 john.doe@example.com
@@ -1302,14 +1355,15 @@ In this example, we used two groups `(\w+\s\w+)` and `(\S+@\S+)` to capture name
 
 By using groups, you can selectively capture and save specific portions of the matched content, making it easier to handle and manipulate data during text processing tasks.
 
-     - Hands-on examples for practical understanding.
+##### Hands-on examples for practical understanding.
 
-Absolutely! Let's dive into some hands-on examples to gain practical understanding of using groups in regex for capturing matches:
+Let's dive into some hands-on examples to gain practical understanding of using groups in regex for capturing matches:
 
 🔍 **Example 1: Extracting File Extensions**
 Given a list of file names, extract only the file extensions.
 
 **Sample Input:**
+
 ```
 resume.docx
 presentation.ppt
@@ -1319,6 +1373,7 @@ image.png
 ```
 
 **PowerShell Code:**
+
 ```powershell
 # Input file names
 $fileNames = @"
@@ -1337,6 +1392,7 @@ $fileExtensions
 ```
 
 **Output:**
+
 ```
 .docx
 .ppt
@@ -1349,6 +1405,7 @@ $fileExtensions
 Given a log containing timestamps, extract the time (hh:mm:ss) from each log entry.
 
 **Sample Input:**
+
 ```
 [2023-07-25 09:30:15] Task started.
 [2023-07-25 10:15:02] Task completed successfully.
@@ -1356,6 +1413,7 @@ Given a log containing timestamps, extract the time (hh:mm:ss) from each log ent
 ```
 
 **PowerShell Code:**
+
 ```powershell
 # Input log entries
 $logEntries = @"
@@ -1372,6 +1430,7 @@ $times
 ```
 
 **Output:**
+
 ```
 09:30:15
 10:15:02
@@ -1384,9 +1443,9 @@ Practicing these examples will help you gain a practical understanding of how to
 
 Feel free to try more examples and explore different scenarios to solidify your understanding of working with groups in regex! 🌟
 
-4. **Module 4: PowerShell's Regex Methods**
-   - Exploring additional regex methods in PowerShell (e.g., `Select-String`, `Get-Content -Pattern`, etc.).
-   - Applying regex in real-world scenarios for text processing.
+### Module 4: PowerShell's Regex Methods**
+- Exploring additional regex methods in PowerShell (e.g., `Select-String`, `Get-Content -Pattern`, etc.).
+- Applying regex in real-world scenarios for text processing.
 
    - **Lesson 1: Select-String Cmdlet**
      - Using the `Select-String` cmdlet for searching files and text.
