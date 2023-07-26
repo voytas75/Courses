@@ -400,8 +400,80 @@ $filteredEmails
 
 These hands-on exercises will help you practice text filtering using regex patterns and the `-match` operator in PowerShell. As you become more comfortable with regex, you'll be able to apply it to various real-world scenarios to efficiently process and manipulate text data.
 
-2. **Module 2: Character Classes and Quantifiers**
-   - Working with character classes (e.g., `\d`, `\w`, `\s`, etc.).
+### Module 2: Character Classes and Quantifiers
+
+#### Working with character classes (e.g., `\d`, `\w`, `\s`, etc.)
+
+In this lesson, we'll explore character classes in regex, which allow you to match specific sets of characters. Character classes are enclosed in square brackets `[ ]` and provide a concise way to represent groups of characters.
+
+🔤 **Matching Digits - `\d`:**
+The `\d` character class matches any digit (0-9).
+
+**Example:**
+
+```powershell
+# Sample text containing digits
+$text = "There are 3 apples and 5 oranges."
+
+# Match digits using \d
+$matchedDigits = $text -match '\d'
+
+# Output the matched digits
+$matchedDigits
+```
+
+🔤 **Matching Word Characters - `\w`:**
+The `\w` character class matches any word character (alphanumeric characters and underscores).
+
+**Example:**
+
+```powershell
+# Sample text containing word characters
+$text = "Hello, this is a_sample_text123."
+
+# Match word characters using \w
+$matchedWordCharacters = $text -match '\w+'
+
+# Output the matched word characters
+$matchedWordCharacters
+```
+
+🔤 **Matching Whitespace - `\s`:**
+The `\s` character class matches any whitespace character (spaces, tabs, line breaks).
+
+**Example:**
+
+```powershell
+# Sample text containing whitespace
+$text = "Hello,    how are you?"
+
+# Match whitespace characters using \s
+$matchedWhitespace = $text -match '\s+'
+
+# Output the matched whitespace characters
+$matchedWhitespace
+```
+
+🔤 **Negating Character Classes - `[^ ]`:**
+When `^` is used as the first character within a character class, it negates the set, matching any character not in the class.
+
+**Example:**
+
+```powershell
+# Sample text containing characters not in the set
+$text = "The quick brown fox jumps over the lazy dog."
+
+# Match characters not in the set using [^ ]
+$matchedNonAlphabetic = $text -match '[^A-Za-z ]+'
+
+# Output the matched characters not in the set
+$matchedNonAlphabetic
+```
+
+Character classes provide a powerful way to match specific groups of characters, making text processing and filtering more efficient. You can combine character classes with other regex concepts like quantifiers and grouping to create complex patterns for your specific needs.
+
+In the next lesson, we'll explore quantifiers in regex, which allow you to define the number of occurrences of characters or groups. If you have any questions or need further assistance with character classes, feel free to ask! 🌟
+
    - Utilizing quantifiers (e.g., `*`, `+`, `?`, `{n}`, `{n,}`, `{n,m}`) for repetition.
 
    - **Lesson 1: Character Classes**
