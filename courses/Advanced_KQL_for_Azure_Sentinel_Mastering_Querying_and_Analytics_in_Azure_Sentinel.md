@@ -2,15 +2,11 @@
 
 ## Mastering Querying and Analytics in Azure Sentinel
 
-### Revised Prompt Details
-
 **Duration:** The course will span 5 days, providing an in-depth exploration of advanced KQL (Kusto Query Language) techniques for querying and analytics in Azure Sentinel.
 
 **Target Audience:** This course is designed for intermediate users who already have a basic understanding of KQL and want to expand their skills for advanced data analysis and threat hunting in Azure Sentinel.
 
 **Practical Application:** Learn advanced KQL concepts and apply them to complex security investigations, threat detection, and proactive monitoring in Azure Sentinel.
-
-## Course Outline
 
 ### Day 1
 
