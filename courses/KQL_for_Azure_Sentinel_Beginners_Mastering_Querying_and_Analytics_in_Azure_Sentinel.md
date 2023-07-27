@@ -4,15 +4,11 @@
 
 ![KQL for Azure Sentinel Beginners](https://github.com/voytas75/Courses/blob/master/images/utilize-kql-for-azure-sentinel-social.png?raw=true)
 
-## Revised Prompt Details
-
 **Duration:** The course will span 3 days, providing a comprehensive introduction to KQL (Kusto Query Language) for querying and analytics in Azure Sentinel.
 
 **Target Audience:** This course is designed for beginners who want to learn how to effectively use KQL in Azure Sentinel for security monitoring and threat detection.
 
 **Practical Application:** Learn how to write powerful queries, analyze security logs, and extract insights from data in Azure Sentinel.
-
-## Course Outline
 
 ### Day 1
 
