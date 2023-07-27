@@ -6,7 +6,7 @@ This `5-day memory improvement` course is designed to provide you with effective
 
 ## **Course Plan**
 
-- **Day 1:** Introduction to Memory Improvement
+### **Day 1:** Introduction to Memory Improvement
   - Understanding the fundamentals of memory and its importance.
     Understanding the fundamentals of memory and its importance is crucial for developing effective memory improvement strategies. Here are some insights to help you grasp the key concepts:
 
@@ -39,25 +39,25 @@ This `5-day memory improvement` course is designed to provide you with effective
   - Exploring the factors that affect memory performance.
   - Assessing your current memory strengths and weaknesses.
 
-- **Day 2:** Memory Techniques for Encoding and Retention
+### **Day 2:** Memory Techniques for Encoding and Retention
   - Effective strategies for encoding and retaining information.
   - Mnemonic devices and memory aids for improved recall.
   - Visualization and association techniques for memory enhancement.
   - Practicing memory exercises and drills for better encoding.
 
-- **Day 3:** Memory Techniques for Retrieval and Recall
+### **Day 3:** Memory Techniques for Retrieval and Recall
   - Retrieval cues and strategies for accessing stored information.
   - Enhancing memory recall through association and context.
   - Overcoming common memory retrieval challenges.
   - Engaging in memory retrieval exercises and retrieval practice.
 
-- **Day 4:** Lifestyle Factors for Memory Enhancement
+### **Day 4:** Lifestyle Factors for Memory Enhancement
   - Understanding the impact of lifestyle on memory performance.
   - Optimizing sleep, nutrition, and physical exercise for memory improvement.
   - Stress management techniques for better cognitive function.
   - Incorporating memory-boosting activities into your daily routine.
 
-- **Day 5:** Applying Memory Techniques in Everyday Life
+### **Day 5:** Applying Memory Techniques in Everyday Life
   - Transferring memory skills to practical situations.
   - Remembering names, numbers, and important information.
   - Using memory techniques for learning new subjects or skills.
