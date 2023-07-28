@@ -72,6 +72,8 @@ In this course, beginners will learn the basics of Regular Expressions (regex) a
 - [Applying regex with the Get-Content cmdlet for filtering data](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#applying-regex-with-the-get-content-cmdlet-for-filtering-data)
 - [Real-world examples and hands-on tasks](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#real-world-examples-and-hands-on-tasks)
 
+### [Sources for deeper learning](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#sources-for-deeper-learning)
+
 ## Detailed Course Plan
 
 ### Module 1: Getting Started with Regex
@@ -1822,6 +1824,8 @@ $phoneNumbers
 
 These real-world examples and hands-on task demonstrate how to apply regex with the `Get-Content` cmdlet for various text processing and filtering scenarios. You can adapt these examples to suit your specific use cases and explore more complex patterns and tasks using PowerShell and regex.
 
+Feel free to experiment with different text files and patterns to solidify your understanding and proficiency in using regex with the `Get-Content` cmdlet! 🌟
+
 ---
 
 ## Sources for deeper learning
@@ -1841,7 +1845,5 @@ Here are some reputable and valid sources for deeper learning of regex that you 
 6. **Regular Expressions Cookbook (Book)** - Written by Jan Goyvaerts and Steven Levithan, this book provides practical examples and solutions for various real-world regex challenges. ISBN: 978-1449319434
 
 These sources are trusted and widely used by developers and learners to deepen their understanding of regular expressions. They offer both theoretical explanations and practical examples to help users master regex effectively. Happy learning! 🌟
-
-Feel free to experiment with different text files and patterns to solidify your understanding and proficiency in using regex with the `Get-Content` cmdlet! 🌟
 
 This course will provide you with a solid foundation in using regex within PowerShell. Enjoy your learning journey! 🚀
