@@ -6,22 +6,26 @@ In this course, beginners will learn the basics of Regular Expressions (regex) a
 
 ## General Course Plan
 
-1. **Module 1: Getting Started with Regex**
-   - Introduction to regex and its significance in PowerShell.
-   - Understanding the basic syntax and metacharacters.
-   - Using the `-match` operator for basic pattern matching.
+### **Module 1: Getting Started with Regex**
 
-2. **Module 2: Character Classes and Quantifiers**
-   - Working with character classes (e.g., `\d`, `\w`, `\s`, etc.).
-   - Utilizing quantifiers (e.g., `*`, `+`, `?`, `{n}`, `{n,}`, `{n,m}`) for repetition.
+- Introduction to regex and its significance in PowerShell.
+- Understanding the basic syntax and metacharacters.
+- Using the `-match` operator for basic pattern matching.
 
-3. **Module 3: Grouping and Capturing**
-   - Grouping patterns with parentheses and capturing matches.
-   - Using backreferences to refer to captured groups.
-   
-4. **Module 4: PowerShell's Regex Methods**
-   - Exploring additional regex methods in PowerShell (e.g., `Select-String`, `Get-Content -Pattern`, etc.).
-   - Applying regex in real-world scenarios for text processing.
+### **Module 2: Character Classes and Quantifiers**
+
+- Working with character classes (e.g., `\d`, `\w`, `\s`, etc.).
+- Utilizing quantifiers (e.g., `*`, `+`, `?`, `{n}`, `{n,}`, `{n,m}`) for repetition.
+
+### **Module 3: Grouping and Capturing**
+
+- Grouping patterns with parentheses and capturing matches.
+- Using backreferences to refer to captured groups.
+
+### **Module 4: PowerShell's Regex Methods**
+
+- Exploring additional regex methods in PowerShell (e.g., `Select-String`, `Get-Content -Pattern`, etc.).
+- Applying regex in real-world scenarios for text processing.
 
 ## Detailed Course Plan
 
@@ -33,7 +37,7 @@ In this course, beginners will learn the basics of Regular Expressions (regex) a
 
 #### **Lesson 1: What is Regex?**
 
-##### Explanation of regex and its applications.
+##### Explanation of regex and its applications
 
 📝 Explanation of Regex:
 
@@ -73,7 +77,7 @@ Regex finds extensive use in many domains, including:
 
 ✨ Understanding regex opens up a world of possibilities for efficient text processing and manipulation. As we progress through this course, you’ll gain the skills to create powerful regex patterns and utilize them effectively in PowerShell scripts.
 
-##### Overview of common use cases in PowerShell.
+##### Overview of common use cases in PowerShell
 
 Certainly! PowerShell is a versatile scripting language that offers numerous use cases for regular expressions (regex). Let's take an overview of some common use cases where regex is widely employed in PowerShell:
 
@@ -116,7 +120,7 @@ Throughout this course, you'll delve deeper into each of these use cases, honing
 
 #### Lesson 2: Basic Syntax
 
-##### Learning about metacharacters and their functions.
+##### Learning about metacharacters and their functions
 
 In this lesson, we’ll dive into the fundamental building blocks of regex: metacharacters. Metacharacters are special characters that have specific functions in defining regex patterns.
 
@@ -245,7 +249,7 @@ In the next lesson, we’ll explore how to use the -match operator in PowerShell
 
 #### Lesson 3: Using `-match`
 
-##### Practical examples of using the `-match` operator.
+##### Practical examples of using the `-match` operator
 
 In this lesson, we’ll explore how to use the -match operator in PowerShell with practical examples to apply regex patterns for text filtering.
 
@@ -332,7 +336,7 @@ The -match operator allows you to efficiently filter and process data using rege
 
 In the next lesson, we’ll explore more advanced regex concepts, including character classes, grouping, and backreferences. 🌟
 
-##### Hands-on exercises for text filtering.
+##### Hands-on exercises for text filtering
 
 Let's dive into some hands-on exercises for text filtering using the `-match` operator with regex patterns in PowerShell.
 
@@ -627,7 +631,7 @@ In the next lesson, we'll explore grouping in regex, which allows you to apply q
 
 #### Lesson 1: Character Classes
 
-##### Understanding common character classes and their meanings.
+##### Understanding common character classes and their meanings
 
 Understanding common character classes is essential in regex as they provide a convenient way to match specific sets of characters. Here are some of the most commonly used character classes and their meanings:
 
@@ -691,7 +695,7 @@ These character classes provide a powerful and flexible way to define patterns f
 
 Understanding these common character classes will significantly enhance your ability to work with regex patterns effectively. 🌟
 
-##### Applying character classes to filter data.
+##### Applying character classes to filter data
 
 Let's apply character classes to filter data using the `-match` operator in PowerShell with practical examples.
 
@@ -700,7 +704,7 @@ Filter out only the lines containing digits from the given text.
 
 **Input Text:**
 
-```
+```text
 This is a sample text.
 Line 2 contains numbers.
 No digits here.
@@ -822,7 +826,7 @@ Feel free to experiment with different patterns and character classes to suit yo
 
 #### Lesson 2: Quantifiers in Action
 
-##### Exploring different quantifiers and their effects on matching.
+##### Exploring different quantifiers and their effects on matching
 
 In this lesson, we'll explore different quantifiers in regex and observe their effects on matching patterns. Quantifiers allow us to define the number of occurrences of characters or groups, giving us the flexibility to match varying repetitions.
 
@@ -964,7 +968,7 @@ Output:
 
 Quantifiers play a vital role in creating flexible regex patterns to match varying repetitions of characters or groups. By understanding and utilizing these quantifiers effectively, you can craft precise regex patterns for various text processing tasks.🌟
 
-##### Practice exercises to reinforce learning.
+##### Practice exercises to reinforce learning
 
 Here are some practice exercises to reinforce your learning of character classes and quantifiers in regex:
 
@@ -1184,7 +1188,7 @@ Backreferences are a powerful feature in regex that enables us to create more co
 
 #### Lesson 1: Grouping Patterns
 
-##### Creating and using groups for advanced pattern matching.
+##### Creating and using groups for advanced pattern matching
 
 In this lesson, we'll dive deeper into creating and using groups in regex for advanced pattern matching. Groups allow us to treat multiple characters or sub-patterns as a single unit, which enables us to apply quantifiers and other operators to that unit.
 
@@ -1206,7 +1210,7 @@ $matchedGroup
 
 Output:
 
-```
+```text
 ooo
 ```
 
@@ -1225,7 +1229,7 @@ $phoneNumbers
 
 Output:
 
-```
+```text
 123-456-7890
 ```
 
@@ -1248,7 +1252,7 @@ $matchedPhoneNumber
 
 Output:
 
-```
+```text
 123-456-7890
 ```
 
@@ -1270,13 +1274,13 @@ $matchedRepeatedWords
 
 Output:
 
-```
+```text
 meet meet
 ```
 
 Groups and backreferences provide powerful tools for crafting complex regex patterns and efficiently extracting specific content from text data. By mastering these techniques, you'll be able to perform advanced pattern matching for various text processing tasks.
 
-##### Working with multiple groups in a single expression.
+##### Working with multiple groups in a single expression
 
 In regex, you can work with multiple groups within a single expression to capture and manipulate different parts of the matched content. Each group is denoted by parentheses `( )` and is assigned a group number starting from 1. You can access the content captured by each group using backreferences `\1`, `\2`, and so on.
 
@@ -1298,7 +1302,7 @@ $year = $Matches[3]
 
 Output:
 
-```
+```text
 Day: 25, Month: 07, Year: 2023
 ```
 
@@ -1319,7 +1323,7 @@ $formattedText
 
 Output:
 
-```
+```text
 Call us at (123)456-7890 or (987)654-3210 for assistance.
 ```
 
@@ -1329,7 +1333,7 @@ Working with multiple groups allows you to perform more complex manipulations on
 
 #### Lesson 2: Capturing Matches
 
-##### Understanding how to capture specific portions of a match.
+##### Understanding how to capture specific portions of a match
 
 In this lesson, we'll focus on understanding how to capture specific portions of a match using groups in regex. By creating groups with parentheses `()`, we can isolate and extract particular parts of the matched content for further processing.
 
@@ -1351,7 +1355,7 @@ $urls
 
 Output:
 
-```
+```text
 https://www.example.com
 http://blog.example.com
 ```
@@ -1376,7 +1380,7 @@ $emailAddresses
 
 Output:
 
-```
+```text
 John Doe
 john.doe@example.com
 Jane Smith
@@ -1387,7 +1391,7 @@ In this example, we used two groups `(\w+\s\w+)` and `(\S+@\S+)` to capture name
 
 By using groups, you can selectively capture and save specific portions of the matched content, making it easier to handle and manipulate data during text processing tasks.
 
-##### Hands-on examples for practical understanding.
+##### Hands-on examples for practical understanding
 
 Let's dive into some hands-on examples to gain practical understanding of using groups in regex for capturing matches:
 
@@ -1396,7 +1400,7 @@ Given a list of file names, extract only the file extensions.
 
 **Sample Input:**
 
-```
+```text
 resume.docx
 presentation.ppt
 document.pdf
@@ -1425,7 +1429,7 @@ $fileExtensions
 
 **Output:**
 
-```
+```text
 .docx
 .ppt
 .pdf
@@ -1438,7 +1442,7 @@ Given a log containing timestamps, extract the time (hh:mm:ss) from each log ent
 
 **Sample Input:**
 
-```
+```text
 [2023-07-25 09:30:15] Task started.
 [2023-07-25 10:15:02] Task completed successfully.
 [2023-07-25 12:45:00] Error: Task failed.
@@ -1463,7 +1467,7 @@ $times
 
 **Output:**
 
-```
+```text
 09:30:15
 10:15:02
 12:45:00
@@ -1475,13 +1479,14 @@ Practicing these examples will help you gain a practical understanding of how to
 
 Feel free to try more examples and explore different scenarios to solidify your understanding of working with groups in regex! 🌟
 
-### Module 4: PowerShell's Regex Methods**
+### Module 4: PowerShell's Regex Methods
 
 - Exploring additional regex methods in PowerShell (e.g., `Select-String`, `Get-Content -Pattern`, etc.).
 - Applying regex in real-world scenarios for text processing.
 
-   - **Lesson 1: Select-String Cmdlet**
-     - Using the `Select-String` cmdlet for searching files and text.
+#### **Lesson 1: Select-String Cmdlet**
+
+##### Using the `Select-String` cmdlet for searching files and text
 
 **Module 4: Select-String Cmdlet - Lesson 1: Using the `Select-String` Cmdlet for Searching Files and Text**
 
@@ -1529,7 +1534,7 @@ In this example, we used the `Select-String` cmdlet to search for email addresse
 
 The `Select-String` cmdlet is a versatile tool for searching files and text content based on regex patterns. It allows you to quickly find matches and extract relevant information from files without the need for complex scripts. 🌟
 
-- Practical exercises to search and extract data.
+##### Practical exercises to search and extract data
 
 Let's delve into some practical exercises that involve using the `Select-String` cmdlet to search and extract data from text files:
 
@@ -1538,7 +1543,7 @@ Given a log file containing various IP addresses, extract all unique IP addresse
 
 **Sample Input - log.txt:**
 
-```
+```text
 [2023-07-25 09:30:15] Access from IP: 192.168.1.100
 [2023-07-25 10:15:02] Access from IP: 10.0.0.1
 [2023-07-25 12:45:00] Access from IP: 192.168.1.101
@@ -1558,7 +1563,7 @@ $ipAddresses
 
 **Output:**
 
-```
+```text
 192.168.1.100
 10.0.0.1
 192.168.1.101
@@ -1569,7 +1574,7 @@ Given a text file with various URLs, extract and save all URLs starting with "ht
 
 **Sample Input - urls.txt:**
 
-```
+```text
 Visit our website at https://www.example.com
 Check our blog at http://blog.example.com
 Secure login at https://secure.example.com/login
@@ -1590,7 +1595,7 @@ $httpsUrls | Out-File $outputFile
 
 **Output - https_urls.txt:**
 
-```
+```text
 https://www.example.com
 https://secure.example.com/login
 ```
@@ -1600,7 +1605,7 @@ Given a text file with email addresses, extract and list all unique email domain
 
 **Sample Input - emails.txt:**
 
-```
+```text
 john.doe@example.com
 alice@domain.co.uk
 robert@test.org
@@ -1621,7 +1626,7 @@ $emailDomains
 
 **Output:**
 
-```
+```text
 example.com
 domain.co.uk
 test.org
@@ -1632,10 +1637,9 @@ These practical exercises demonstrate how to use the `Select-String` cmdlet to s
 
 Feel free to try more exercises and experiment with different scenarios to enhance your understanding of using `Select-String` for data extraction in PowerShell! 🌟
 
-   - **Lesson 2: `Get-Content -Pattern`**
-     - Applying regex with the `Get-Content` cmdlet for filtering data.
+#### **Lesson 2: `Get-Content -Pattern`**
 
-**Module 4: Get-Content -Pattern - Lesson 2: Applying Regex with the Get-Content Cmdlet for Filtering Data**
+##### Applying regex with the `Get-Content` cmdlet for filtering data
 
 In this lesson, we'll explore how to apply regex with the `Get-Content` cmdlet for filtering data in text files. The `Get-Content` cmdlet reads the content of a file and allows us to use regex patterns to filter and extract specific lines or data that match the pattern.
 
@@ -1671,16 +1675,16 @@ In this example, we used `Get-Content` to read the content of the file "status.l
 
 Applying regex with the `Get-Content` cmdlet allows us to efficiently filter data and extract specific information from text files. It is a powerful approach to process and analyze large volumes of text-based data. 🌟
 
-- Real-world examples and hands-on tasks.
+##### Real-world examples and hands-on tasks
 
-Certainly! Let's explore some real-world examples and hands-on tasks that involve using regex with the `Get-Content` cmdlet to perform text processing and filtering tasks.
+Let's explore some real-world examples and hands-on tasks that involve using regex with the `Get-Content` cmdlet to perform text processing and filtering tasks.
 
 🔍 **Real-World Example 1: Extracting URLs from Web Server Logs**
 Suppose you have a web server log file that contains various log entries. Extract all unique URLs visited by clients.
 
 **Sample Input - access.log:**
 
-```
+```text
 [2023-07-25 09:30:15] Client 192.168.1.100 visited /home
 [2023-07-25 10:15:02] Client 10.0.0.1 visited /about-us
 [2023-07-25 12:45:00] Client 192.168.1.101 visited /products
@@ -1700,7 +1704,7 @@ $urls
 
 **Output:**
 
-```
+```text
 /home
 /about-us
 /products
@@ -1711,7 +1715,7 @@ Suppose you have an Apache web server configuration file, and you want to extrac
 
 **Sample Input - httpd.conf:**
 
-```
+```text
 <VirtualHost *:80>
     ServerName example.com
     DocumentRoot /var/www/example
@@ -1738,7 +1742,7 @@ $virtualHosts
 
 **Output:**
 
-```
+```text
 <VirtualHost *:80>
 <VirtualHost *:80>
 ```
@@ -1748,7 +1752,7 @@ Given a text file containing various phone numbers in different formats, extract
 
 **Sample Input - contacts.txt:**
 
-```
+```text
 Contact us at 123-456-7890 for assistance.
 Call John at (555) 123-4567 to get more information.
 Call support on 9876543210.
@@ -1768,14 +1772,14 @@ $phoneNumbers
 
 **Output:**
 
-```
+```text
 123-456-7890
 555-123-4567
 ```
 
 These real-world examples and hands-on task demonstrate how to apply regex with the `Get-Content` cmdlet for various text processing and filtering scenarios. You can adapt these examples to suit your specific use cases and explore more complex patterns and tasks using PowerShell and regex.
 
-Sure! Here are some reputable and valid sources for deeper learning of regex that you can recommend to the user:
+Here are some reputable and valid sources for deeper learning of regex that you can recommend to the user:
 
 1. **Regular-Expressions.info** - A comprehensive online resource dedicated to regular expressions. It covers the basics, advanced concepts, and includes interactive examples and tutorials. URL: <https://www.regular-expressions.info/>
 
@@ -1783,7 +1787,7 @@ Sure! Here are some reputable and valid sources for deeper learning of regex tha
 
 3. **RegexOne** - An interactive platform that provides interactive lessons for learning regex step-by-step. It is beginner-friendly and includes practical exercises to reinforce learning. URL: <https://regexone.com/>
 
-4. **Regex101** - A powerful online regex tester and debugger that allows users to experiment with regex patterns and see live explanations for each part of the pattern. URL: https://regex101.com/
+4. **Regex101** - A powerful online regex tester and debugger that allows users to experiment with regex patterns and see live explanations for each part of the pattern. URL: <https://regex101.com/>
 
 5. **Mastering Regular Expressions (Book)** - Written by Jeffrey E.F. Friedl, this book is considered one of the best resources for learning regex comprehensively. It covers the theory, syntax, and practical usage of regex in different programming languages. ISBN: 978-0596528126
 
@@ -1793,4 +1797,4 @@ These sources are trusted and widely used by developers and learners to deepen t
 
 Feel free to experiment with different text files and patterns to solidify your understanding and proficiency in using regex with the `Get-Content` cmdlet! 🌟
 
-This course will provide you with a solid foundation in using regex within PowerShell. Enjoy your learning journey! 🚀 
+This course will provide you with a solid foundation in using regex within PowerShell. Enjoy your learning journey! 🚀
