@@ -72,7 +72,7 @@ In this course, beginners will learn the basics of Regular Expressions (regex) a
 - [Applying regex with the Get-Content cmdlet for filtering data](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#applying-regex-with-the-get-content-cmdlet-for-filtering-data)
 - [Real-world examples and hands-on tasks](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#real-world-examples-and-hands-on-tasks)
 
-### [Sources for deeper learning](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#sources-for-deeper-learning)
+### [Sources for deeper learning](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#sources-for-deeper-learning-1)
 
 ## Detailed Course Plan
 
@@ -1741,7 +1741,10 @@ Suppose you have a web server log file that contains various log entries. Extrac
 ```powershell
 # Extract unique URLs from the web server log file
 $logFile = "C:\Logs\access.log"
-$urls = Get-Content -Path $logFile | Select-String -Pattern 'visited (\S+)' | ForEach-Object { $_.Matches.Groups[1].Value } | Select-Object -Unique
+$urls = Get-Content -Path $logFile | `
+    Select-String -Pattern 'visited (\S+)' | `
+    ForEach-Object { $_.Matches.Groups[1].Value } | `
+    Select-Object -Unique
 
 # Output the unique URLs
 $urls
@@ -1809,7 +1812,9 @@ Call support on 9876543210.
 # Extract phone numbers in the format "XXX-XXX-XXXX" from the text file
 $inputFile = "C:\Data\contacts.txt"
 
-$phoneNumbers = Get-Content -Path $inputFile | Select-String -Pattern '\d{3}-\d{3}-\d{4}' | ForEach-Object { $_.Matches.Value }
+$phoneNumbers = Get-Content -Path $inputFile | `
+    Select-String -Pattern '\d{3}-\d{3}-\d{4}' | `
+    ForEach-Object { $_.Matches.Value }
 
 # Output the extracted phone numbers
 $phoneNumbers
