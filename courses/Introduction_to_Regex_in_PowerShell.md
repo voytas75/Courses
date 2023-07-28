@@ -1506,8 +1506,6 @@ Feel free to try more examples and explore different scenarios to solidify your 
 
 ##### Using the `Select-String` cmdlet for searching files and text
 
-**Module 4: Select-String Cmdlet - Lesson 1: Using the `Select-String` Cmdlet for Searching Files and Text**
-
 In this lesson, we'll explore the `Select-String` cmdlet, which is a powerful PowerShell cmdlet used for searching files and text content using regex patterns. It allows you to efficiently search for patterns in files and retrieve matching lines or the matched content.
 
 🔍 **`Select-String` Cmdlet Overview:**
