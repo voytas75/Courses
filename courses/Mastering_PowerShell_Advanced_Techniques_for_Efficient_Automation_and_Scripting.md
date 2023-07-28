@@ -2,8 +2,6 @@
 
 ## Advanced Techniques for Efficient Automation and Scripting
 
-## Revised Prompt Details
-
 **Duration:** The course will span five days, allowing for an in-depth exploration of advanced PowerShell techniques.
 **Target Audience:** This course is tailored for IT professionals seeking to enhance their PowerShell skills and streamline administrative tasks.
 **Real-World Applications:** Learn how to apply PowerShell to automate common administrative tasks, improve workflow efficiency, and increase productivity in the workplace.
