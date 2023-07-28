@@ -151,7 +151,7 @@ Metacharacters are characters with special meanings in regex and provide more ad
 `|` (Pipe):
 
 - The pipe metacharacter acts as an OR operator and matches either the pattern before or after it.
-- For example, the pattern apple|orange will match “apple” or “orange”.
+- For example, the pattern `apple|orange` will match “apple” or “orange”.
 
 `[]` (Character Class):
 
