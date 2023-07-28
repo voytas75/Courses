@@ -131,22 +131,22 @@ Metacharacters are characters with special meanings in regex and provide more ad
 `.` (Dot):
 
 - The dot metacharacter matches any single character, except for a newline character.
-- For example, the pattern a.b will match “aab”, “acb”, “adb”, etc., but not “a\nb”.
+- For example, the pattern `a.b` will match “aab”, “acb”, “adb”, etc., but not “a\nb”.
 
 `*` (Asterisk):
 
 - The asterisk metacharacter matches the preceding character zero or more times.
-- For example, the pattern ab*c will match “ac”, “abc”, “abbc”, “abbbc”, etc.
+- For example, the pattern `ab*c` will match “ac”, “abc”, “abbc”, “abbbc”, etc.
 
 `+` (Plus):
 
 - The plus metacharacter matches the preceding character one or more times.
-- For example, the pattern ab+c will match “abc”, “abbc”, “abbbc”, etc., but not “ac”.
+- For example, the pattern `ab+c` will match “abc”, “abbc”, “abbbc”, etc., but not “ac”.
 
 `?` (Question Mark):
 
 - The question mark metacharacter matches the preceding character zero or one time.
-- For example, the pattern colou?r will match both “color” and “colour”.
+- For example, the pattern `colou?r` will match both “color” and “colour”.
 
 `|` (Pipe):
 
@@ -156,23 +156,23 @@ Metacharacters are characters with special meanings in regex and provide more ad
 `[]` (Character Class):
 
 - The character class metacharacters allow matching a specific set of characters.
-- For example, the pattern [aeiou] will match any single vowel character.
+- For example, the pattern `[aeiou]` will match any single vowel character.
 
 `[^]` (Negation in Character Class):
 
 - When ^ is used as the first character within a character class, it negates the set, matching any character not in the class.
-- For example, the pattern [^aeiou] will match any non-vowel character.
+- For example, the pattern `[^aeiou]` will match any non-vowel character.
 
 `()` (Grouping):
 
 - Parentheses are used to create groups and capture sub-patterns within a regex expression.
-- For example, the pattern (ab)+ will match “ab”, “abab”, “ababab”, etc.
+- For example, the pattern `(ab)+` will match “ab”, “abab”, “ababab”, etc.
 
 These are some of the essential metacharacters in regex, and they provide a solid foundation for constructing more complex patterns to match specific text patterns effectively.
 
-In the next lesson, we will explore how to use the -match operator in PowerShell to apply these regex patterns and perform text filtering. 🌟
+In the next lesson, we will explore how to use the `-match` operator in PowerShell to apply these regex patterns and perform text filtering. 🌟
 
-##### Creating simple regex patterns for pattern matching.
+##### Creating simple regex patterns for pattern matching
 
 In this lesson, we’ll learn how to create simple regex patterns to perform pattern matching in PowerShell. We’ll construct regex patterns step by step to match specific text patterns.
 
@@ -180,63 +180,63 @@ In this lesson, we’ll learn how to create simple regex patterns to perform pat
 To match exact text, simply use the literal characters.
 
 Example:
-Regex Pattern: hello
+Regex Pattern: `hello`
 Text to Match: “hello”
 
 🔍 Scenario 2: Using the Dot Metacharacter
 The dot . matches any single character, except for a newline.
 
 Example:
-Regex Pattern: a.b
+Regex Pattern: `a.b`
 Text to Match: “aab”, “acb”, “adb”, etc.
 
 🔍 Scenario 3: Using the Asterisk Metacharacter
 The asterisk * matches the preceding character zero or more times.
 
 Example:
-Regex Pattern: ab*c
+Regex Pattern: `ab*c`
 Text to Match: “ac”, “abc”, “abbc”, “abbbc”, etc.
 
 🔍 Scenario 4: Using the Plus Metacharacter
 The plus + matches the preceding character one or more times.
 
 Example:
-Regex Pattern: ab+c
+Regex Pattern: `ab+c`
 Text to Match: “abc”, “abbc”, “abbbc”, etc.
 
 🔍 Scenario 5: Using the Question Mark Metacharacter
 The question mark ? matches the preceding character zero or one time.
 
 Example:
-Regex Pattern: colou?r
+Regex Pattern: `colou?r`
 Text to Match: “color”, “colour”
 
 🔍 Scenario 6: Using the Pipe Metacharacter
 The pipe | acts as an OR operator and matches either the pattern before or after it.
 
 Example:
-Regex Pattern: apple|orange
+Regex Pattern: `apple|orange`
 Text to Match: “apple” or “orange”
 
 🔍 Scenario 7: Using Character Classes
 Character classes allow matching a specific set of characters.
 
 Example:
-Regex Pattern: [aeiou]
+Regex Pattern: `[aeiou]`
 Text to Match: Any single vowel character
 
 🔍 Scenario 8: Using Negation in Character Class
 The ^ within a character class negates the set, matching any character not in the class.
 
 Example:
-Regex Pattern: [^aeiou]
+Regex Pattern: `[^aeiou]`
 Text to Match: Any non-vowel character
 
 🔍 Scenario 9: Using Grouping
 Parentheses () are used to create groups and capture sub-patterns within a regex expression.
 
 Example:
-Regex Pattern: (ab)+
+Regex Pattern: `(ab)+`
 Text to Match: “ab”, “abab”, “ababab”, etc.
 
 By combining these simple regex patterns, you can create powerful expressions to match specific text patterns in your PowerShell scripts. As you practice and gain confidence, you’ll be able to create more complex regex patterns for diverse use cases.
@@ -1557,6 +1557,7 @@ $ipAddresses
 ```
 
 **Output:**
+
 ```
 192.168.1.100
 10.0.0.1
@@ -1567,6 +1568,7 @@ $ipAddresses
 Given a text file with various URLs, extract and save all URLs starting with "https://" to a new file.
 
 **Sample Input - urls.txt:**
+
 ```
 Visit our website at https://www.example.com
 Check our blog at http://blog.example.com
@@ -1574,6 +1576,7 @@ Secure login at https://secure.example.com/login
 ```
 
 **PowerShell Code:**
+
 ```powershell
 # Search and extract URLs starting with "https://" from the file
 $inputFile = "C:\Data\urls.txt"
@@ -1586,6 +1589,7 @@ $httpsUrls | Out-File $outputFile
 ```
 
 **Output - https_urls.txt:**
+
 ```
 https://www.example.com
 https://secure.example.com/login
@@ -1595,6 +1599,7 @@ https://secure.example.com/login
 Given a text file with email addresses, extract and list all unique email domains.
 
 **Sample Input - emails.txt:**
+
 ```
 john.doe@example.com
 alice@domain.co.uk
@@ -1603,6 +1608,7 @@ samantha@gmail.com
 ```
 
 **PowerShell Code:**
+
 ```powershell
 # Search and extract email domains from the file
 $inputFile = "C:\Data\emails.txt"
@@ -1614,6 +1620,7 @@ $emailDomains
 ```
 
 **Output:**
+
 ```
 example.com
 domain.co.uk
