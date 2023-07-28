@@ -6,26 +6,44 @@ In this course, beginners will learn the basics of Regular Expressions (regex) a
 
 ## General Course Plan
 
-### **Module 1: Getting Started with Regex**
+### [**Module 1: Getting Started with Regex**](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#module-1-getting-started-with-regex-1)
 
 - Introduction to regex and its significance in PowerShell.
 - Understanding the basic syntax and metacharacters.
 - Using the `-match` operator for basic pattern matching.
 
-### **Module 2: Character Classes and Quantifiers**
+[Lesson 1: What is Regex?](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-1-what-is-regex)
+
+[Lesson 2: Basic Syntax](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-2-basic-syntax)
+
+[Lesson 3: Using `-match`](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-3-using--match)
+
+### [**Module 2: Character Classes and Quantifiers**](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#module-2-character-classes-and-quantifiers-1)
 
 - Working with character classes (e.g., `\d`, `\w`, `\s`, etc.).
 - Utilizing quantifiers (e.g., `*`, `+`, `?`, `{n}`, `{n,}`, `{n,m}`) for repetition.
 
-### **Module 3: Grouping and Capturing**
+[Lesson 1: Character Classes](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-1-character-classes)
+
+[Lesson 2: Quantifiers in Action](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-2-quantifiers-in-action)
+
+### [**Module 3: Grouping and Capturing**](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#module-3-grouping-and-capturing-1)
 
 - Grouping patterns with parentheses and capturing matches.
 - Using backreferences to refer to captured groups.
 
-### **Module 4: PowerShell's Regex Methods**
+[Lesson 1: Grouping Patterns](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-1-grouping-patterns)
+
+[Lesson 2: Capturing Matches](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-2-capturing-matches)
+
+### [**Module 4: PowerShell's Regex Methods**](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#module-4-powershells-regex-methods-1)
 
 - Exploring additional regex methods in PowerShell (e.g., `Select-String`, `Get-Content -Pattern`, etc.).
 - Applying regex in real-world scenarios for text processing.
+
+[Lesson 1: Select-String Cmdlet](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-1-select-string-cmdlet)
+
+[Lesson 2: Get-Content -Pattern](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-2-get-content--pattern)
 
 ## Detailed Course Plan
 
@@ -35,7 +53,7 @@ In this course, beginners will learn the basics of Regular Expressions (regex) a
 - Understanding the basic syntax and metacharacters.
 - Using the `-match` operator for basic pattern matching.
 
-#### **Lesson 1: What is Regex?**
+#### Lesson 1: What is Regex?
 
 ##### Explanation of regex and its applications
 
@@ -1484,7 +1502,7 @@ Feel free to try more examples and explore different scenarios to solidify your 
 - Exploring additional regex methods in PowerShell (e.g., `Select-String`, `Get-Content -Pattern`, etc.).
 - Applying regex in real-world scenarios for text processing.
 
-#### **Lesson 1: Select-String Cmdlet**
+#### Lesson 1: Select-String Cmdlet
 
 ##### Using the `Select-String` cmdlet for searching files and text
 
@@ -1637,7 +1655,7 @@ These practical exercises demonstrate how to use the `Select-String` cmdlet to s
 
 Feel free to try more exercises and experiment with different scenarios to enhance your understanding of using `Select-String` for data extraction in PowerShell! 🌟
 
-#### **Lesson 2: `Get-Content -Pattern`**
+#### Lesson 2: `Get-Content -Pattern`
 
 ##### Applying regex with the `Get-Content` cmdlet for filtering data
 
@@ -1653,7 +1671,7 @@ The `Get-Content` cmdlet is used to read the content of a file and return it as 
 Get-Content -Path "C:\Logs\log.txt" | Select-String -Pattern "error|warning"
 ```
 
-In this example, we used `Get-Content` to read the content of the file "log.txt". The output is then piped to `Select-String`, where the pattern "error|warning" is applied to filter lines containing either "error" or "warning".
+In this example, we used `Get-Content` to read the content of the file "log.txt". The output is then piped to `Select-String`, where the pattern `error|warning` is applied to filter lines containing either "error" or "warning".
 
 💡 **Example 2: Extracting Lines Matching a Specific Pattern**
 
