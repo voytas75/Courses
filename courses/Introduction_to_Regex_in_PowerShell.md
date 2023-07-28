@@ -79,7 +79,7 @@ Regex finds extensive use in many domains, including:
 
 ##### Overview of common use cases in PowerShell
 
-Certainly! PowerShell is a versatile scripting language that offers numerous use cases for regular expressions (regex). Let's take an overview of some common use cases where regex is widely employed in PowerShell:
+PowerShell is a versatile scripting language that offers numerous use cases for regular expressions (regex). Let's take an overview of some common use cases where regex is widely employed in PowerShell:
 
 🔍 **Text Searching and Filtering:**
 
