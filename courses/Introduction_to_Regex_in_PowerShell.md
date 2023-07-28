@@ -14,9 +14,18 @@ In this course, beginners will learn the basics of Regular Expressions (regex) a
 
 [Lesson 1: What is Regex?](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-1-what-is-regex)
 
+- [Explanation of regex and its applications](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#explanation-of-regex-and-its-applications)
+- [Overview of common use cases in PowerShell](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#overview-of-common-use-cases-in-powershell)
+
 [Lesson 2: Basic Syntax](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-2-basic-syntax)
 
+- [Learning about metacharacters and their functions](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#learning-about-metacharacters-and-their-functions)
+- [Creating simple regex patterns for pattern matching](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#creating-simple-regex-patterns-for-pattern-matching)
+
 [Lesson 3: Using `-match`](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-3-using--match)
+
+- [Practical examples of using the -match operator](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#practical-examples-of-using-the--match-operator)
+- [Hands-on exercises for text filtering](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#hands-on-exercises-for-text-filtering)
 
 ### [**Module 2: Character Classes and Quantifiers**](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#module-2-character-classes-and-quantifiers-1)
 
@@ -25,7 +34,13 @@ In this course, beginners will learn the basics of Regular Expressions (regex) a
 
 [Lesson 1: Character Classes](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-1-character-classes)
 
+- [Understanding common character classes and their meanings](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#understanding-common-character-classes-and-their-meanings)
+- [Applying character classes to filter data](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#applying-character-classes-to-filter-data)
+
 [Lesson 2: Quantifiers in Action](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-2-quantifiers-in-action)
+
+- [Exploring different quantifiers and their effects on matching](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#exploring-different-quantifiers-and-their-effects-on-matching)
+- [Practice exercises to reinforce learning](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#practice-exercises-to-reinforce-learning)
 
 ### [**Module 3: Grouping and Capturing**](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#module-3-grouping-and-capturing-1)
 
@@ -34,7 +49,13 @@ In this course, beginners will learn the basics of Regular Expressions (regex) a
 
 [Lesson 1: Grouping Patterns](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-1-grouping-patterns)
 
+- [Creating and using groups for advanced pattern matching](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#creating-and-using-groups-for-advanced-pattern-matching)
+- [Working with multiple groups in a single expression](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#working-with-multiple-groups-in-a-single-expression)
+
 [Lesson 2: Capturing Matches](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-2-capturing-matches)
+
+- [Understanding how to capture specific portions of a match](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#understanding-how-to-capture-specific-portions-of-a-match)
+- [Hands-on examples for practical understanding](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#hands-on-examples-for-practical-understanding)
 
 ### [**Module 4: PowerShell's Regex Methods**](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#module-4-powershells-regex-methods-1)
 
@@ -43,7 +64,13 @@ In this course, beginners will learn the basics of Regular Expressions (regex) a
 
 [Lesson 1: Select-String Cmdlet](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-1-select-string-cmdlet)
 
+- [Using the Select-String cmdlet for searching files and text](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#using-the-select-string-cmdlet-for-searching-files-and-text)
+- [Practical exercises to search and extract data](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#practical-exercises-to-search-and-extract-data)
+
 [Lesson 2: Get-Content -Pattern](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#lesson-2-get-content--pattern)
+
+- [Applying regex with the Get-Content cmdlet for filtering data](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#applying-regex-with-the-get-content-cmdlet-for-filtering-data)
+- [Real-world examples and hands-on tasks](https://voytas75.github.io/Courses/courses/Introduction_to_Regex_in_PowerShell.html#real-world-examples-and-hands-on-tasks)
 
 ## Detailed Course Plan
 
@@ -1794,6 +1821,10 @@ $phoneNumbers
 ```
 
 These real-world examples and hands-on task demonstrate how to apply regex with the `Get-Content` cmdlet for various text processing and filtering scenarios. You can adapt these examples to suit your specific use cases and explore more complex patterns and tasks using PowerShell and regex.
+
+---
+
+## Sources for deeper learning
 
 Here are some reputable and valid sources for deeper learning of regex that you can recommend to the user:
 
