@@ -193,7 +193,56 @@ When you run this PowerShell script, it will provide you with the OS version, ma
 
 ### Lesson 9: Advanced Automation Techniques 🚀
 
-- Scripting and automating tasks using "Environment" class features: Combine the capabilities of the "Environment" class with PowerShell scripting to automate complex system administration tasks.
+#### Scripting and automating tasks using "Environment" class features: Combine the capabilities of the "Environment" class with PowerShell scripting to automate complex system administration tasks.
+
+Sure! Let's combine the capabilities of the "Environment" class with PowerShell scripting to automate a complex system administration task. In this example, we'll create a script that checks the available free disk space on the system and notifies the administrator if it falls below a certain threshold.
+
+```powershell
+# Load the .NET assembly containing the "Environment" class
+Add-Type -AssemblyName System
+
+# Set the threshold for minimum free disk space (in GB)
+$thresholdGB = 10
+
+# Function to convert bytes to GB
+function ConvertTo-GB {
+    param([double]$bytes)
+    $bytes / 1GB
+}
+
+# Function to check and notify if free disk space is below the threshold
+function Check-FreeDiskSpace {
+    $freeSpaceBytes = [System.Environment]::GetEnvironmentVariable('SystemDrive')
+    $freeSpaceGB = ConvertTo-GB -bytes $freeSpaceBytes
+
+    if ($freeSpaceGB -lt $thresholdGB) {
+        $message = "WARNING: Free disk space on $($env:SystemDrive) is low. Free space: $freeSpaceGB GB"
+        Send-MailMessage -To "admin@example.com" -From "script@example.com" -Subject "Low Disk Space Alert" -Body $message -SmtpServer "smtp.example.com"
+        Write-Output "Low disk space alert sent to administrator."
+    } else {
+        Write-Output "Free disk space is above the threshold."
+    }
+}
+
+# Call the function to check and notify for low disk space
+Check-FreeDiskSpace
+```
+
+Explanation:
+1. We load the "System" assembly containing the "Environment" class using the `Add-Type` cmdlet.
+
+2. We set the `$thresholdGB` variable to the desired minimum free disk space threshold in gigabytes. In this example, we set it to 10 GB.
+
+3. We define a function `ConvertTo-GB` that takes a byte value and converts it to gigabytes. This function will be used to convert the free disk space in bytes to gigabytes for better readability.
+
+4. We define the main function `Check-FreeDiskSpace`, which checks the free disk space on the system drive (usually C:\) using the `GetEnvironmentVariable` method of the "Environment" class. If the free disk space is below the specified threshold, the function sends an email notification to the administrator using the `Send-MailMessage` cmdlet.
+
+5. The email is sent to "admin@example.com" from "script@example.com" with a subject indicating a low disk space alert. The email body contains the message with the system drive and the available free space in gigabytes.
+
+6. We call the `Check-FreeDiskSpace` function at the end of the script to trigger the disk space check and notification process.
+
+When you run this script, it will check the available free disk space on the system drive and notify the administrator if it falls below the specified threshold. This kind of automation can be invaluable for proactive system administration and helps prevent potential issues due to low disk space. Remember to adjust the email settings and addresses to match your environment.
+
 - Error handling and exception management: Learn how to implement error handling and exception management in your PowerShell scripts to ensure smooth execution even in unforeseen situations.
 
 ### Lesson 10: Real-World Projects and Best Practices 🏆
