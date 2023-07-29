@@ -49,7 +49,32 @@ To access .NET classes, you typically use the "Add-Type" cmdlet in PowerShell to
 
 Using .NET in PowerShell opens up a world of possibilities, as it allows you to tap into the extensive capabilities of the .NET Framework, which is already widely used in the software development world. This integration empowers you to build more sophisticated and feature-rich PowerShell scripts, making your automation tasks more efficient and effective. Whether it's working with databases, manipulating files, or interacting with web services, the combination of PowerShell and the .NET Framework enhances your scripting capabilities significantly.
 
-- Introduction to the "Environment" class and its capabilities: Dive into the "Environment" class, which provides access to various system-related information and operations, such as accessing environment variables, user information, and more.
+#### Introduction to the "Environment" class and its capabilities: Dive into the "Environment" class, which provides access to various system-related information and operations, such as accessing environment variables, user information, and more.
+
+The "Environment" class is part of the .NET Framework, and it provides a wide range of capabilities for accessing and interacting with system-related information in a platform-independent manner. This class is part of the "System" namespace and is commonly used in various programming languages that target the .NET platform, including PowerShell.
+
+The "Environment" class offers several static methods and properties that allow you to retrieve valuable information about the system environment and perform various operations related to it. Here are some of its key capabilities:
+
+1. Retrieving Environment Variables:
+The "Environment" class provides methods like "GetEnvironmentVariable" and "GetEnvironmentVariables" that enable you to access environment variables on the system. These variables store information such as system paths, user-specific settings, and various configuration values.
+
+2. Setting Environment Variables:
+You can also use the "Environment" class to set or modify environment variables using the "SetEnvironmentVariable" method. This functionality is useful when you need to customize the behavior of applications or scripts based on specific environment settings.
+
+3. Retrieving System Information:
+The "Environment" class offers properties like "MachineName," "OSVersion," and "ProcessorCount" to obtain essential system information. For example, you can retrieve the name of the computer, the version of the operating system, and the number of processors available on the system.
+
+4. User Information:
+With the "UserName" and "UserDomainName" properties, you can obtain the name of the currently logged-in user and the domain they belong to, allowing you to tailor actions or configurations based on user context.
+
+5. File System Paths:
+The "SpecialFolder" enumeration provides access to various special folders on the system, such as the user's desktop, documents, or temporary directory. These properties are helpful for locating and working with files in standardized locations.
+
+6. Exit Codes:
+The "ExitCode" property enables you to set or retrieve the exit code of the current process, which can be useful when scripting and automating tasks that involve error handling or process coordination.
+
+By leveraging the capabilities of the "Environment" class, you can create more powerful and flexible PowerShell scripts that interact with the system environment, gather information, and perform actions accordingly. Whether you're building system administration scripts, automation tools, or general-purpose utilities, understanding and utilizing the "Environment" class opens up a plethora of possibilities in the world of PowerShell scripting.
+
 - Setting up the development environment: Install and configure the necessary tools to create, test, and run PowerShell scripts efficiently.
 
 ### Lesson 2: Getting Started with the "Environment" Class 📜
