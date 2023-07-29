@@ -2,7 +2,7 @@
 
 > Unlock the potential of PowerShell and .NET with the 'Environment' class! Embrace the power of automation and learn how to harness the capabilities of this versatile class for system management and configuration.
 
-*Course Duration*: Suggested Course Duration: 4 weeks
+**Suggested Course Duration**: 4 weeks
 
 **Course Description**:
 In this course, we will dive deep into the world of PowerShell and the .NET class "Environment." Whether you are a beginner, intermediate, or expert, this course will provide you with comprehensive knowledge and practical skills to leverage the "Environment" class for system automation, configuration, and management tasks. From understanding the fundamentals to mastering advanced techniques, this course has got you covered. Get ready to streamline your workflow and become a PowerShell pro!
