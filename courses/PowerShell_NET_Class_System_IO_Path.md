@@ -6,7 +6,7 @@
 **Course Description:**
 In this comprehensive course on the PowerShell .NET Class "System.IO.Path," you will dive into the powerful world of file and directory manipulation within the Windows environment. Whether you're a beginner, intermediate, or an expert in PowerShell, this course is designed to help you master the various methods and properties provided by the "System.IO.Path" class to handle file paths, filenames, and extensions efficiently.
 
-## 🎯 **Overall Course Plan:**
+## 🎯 **Overall Course Plan**
 
 Throughout the four-week journey, we will cover the following topics:
 
@@ -35,7 +35,7 @@ Throughout the four-week journey, we will cover the following topics:
 - Create powerful scripts to automate file and directory management tasks.
 - Get hands-on experience with real-world scenarios to reinforce your learning.
 
-## 🎯 **Detailed Course Plan:**
+## 🎯 **Detailed Course Plan**
 
 ### 📖 **Week 1 - Understanding File Paths**
 
