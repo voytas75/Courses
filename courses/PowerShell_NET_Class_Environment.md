@@ -35,8 +35,20 @@ Suggestion: It's recommended that learners follow the course in sequential order
 
 ### Lesson 1: Introduction to PowerShell and .NET 💻
 
-- Overview of PowerShell and its features: Understand the history and purpose of PowerShell, and learn about its command-line interface (CLI) and scripting capabilities. Explore the benefits of using PowerShell for system administration and automation.
-- Understanding the .NET Framework and its role in PowerShell: Get familiar with the .NET Framework and its integration with PowerShell, allowing you to leverage powerful .NET classes like "Environment" for enhanced functionality.
+#### Overview of PowerShell and its features: Understand the history and purpose of PowerShell, and learn about its command-line interface (CLI) and scripting capabilities. Explore the benefits of using PowerShell for system administration and automation.
+
+#### Understanding the .NET Framework and its role in PowerShell: Get familiar with the .NET Framework and its integration with PowerShell, allowing you to leverage powerful .NET classes like "Environment" for enhanced functionality.
+
+The .NET Framework is a software development platform developed by Microsoft. It provides a vast library of pre-built code and functionalities that developers can use to create various applications. PowerShell, on the other hand, is a powerful command-line shell and scripting language designed specifically for system administrators and IT professionals.
+
+In PowerShell, the .NET Framework plays a crucial role in extending its capabilities beyond what is available natively. PowerShell has direct integration with the .NET Framework, which allows you to access and utilize powerful .NET classes and methods seamlessly.
+
+To use .NET classes in PowerShell, you can simply create objects from .NET classes and call their methods. For example, the "Environment" class from the .NET Framework allows you to retrieve information about the system's environment variables, such as the operating system version, current user, and system directories. By leveraging this class, you can perform advanced system-related tasks in PowerShell with ease.
+
+To access .NET classes, you typically use the "Add-Type" cmdlet in PowerShell to load the required .NET assemblies. Once loaded, you can instantiate objects of .NET classes and use them just like any other PowerShell object, taking advantage of their functionality and methods.
+
+Using .NET in PowerShell opens up a world of possibilities, as it allows you to tap into the extensive capabilities of the .NET Framework, which is already widely used in the software development world. This integration empowers you to build more sophisticated and feature-rich PowerShell scripts, making your automation tasks more efficient and effective. Whether it's working with databases, manipulating files, or interacting with web services, the combination of PowerShell and the .NET Framework enhances your scripting capabilities significantly.
+
 - Introduction to the "Environment" class and its capabilities: Dive into the "Environment" class, which provides access to various system-related information and operations, such as accessing environment variables, user information, and more.
 - Setting up the development environment: Install and configure the necessary tools to create, test, and run PowerShell scripts efficiently.
 
