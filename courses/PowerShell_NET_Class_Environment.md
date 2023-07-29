@@ -126,7 +126,40 @@ Remember to use proper error handling and validation when working with environme
 
 By understanding the basic syntax and usage of the "Environment" class, you can harness its capabilities in your PowerShell scripts to gather system information, access environment variables, and create more sophisticated automation solutions.
 
-- Retrieving system information like OS version, machine name, and more: Use the "Environment" class to retrieve essential system information such as the operating system version, machine name, and platform details.
+#### Retrieving system information like OS version, machine name, and more: Use the "Environment" class to retrieve essential system information such as the operating system version, machine name, and platform details.
+
+You can use the "Environment" class in PowerShell to retrieve essential system information. Here's how you can do it:
+
+```powershell
+# Load the .NET assembly containing the "Environment" class
+Add-Type -AssemblyName System
+
+# Retrieve OS Version
+$osVersion = [System.Environment]::OSVersion
+$osVersionString = "Operating System Version: $($osVersion.Version)"
+Write-Output $osVersionString
+
+# Retrieve Machine Name
+$machineName = [System.Environment]::MachineName
+$machineNameString = "Machine Name: $machineName"
+Write-Output $machineNameString
+
+# Retrieve Platform Information
+$platform = [System.Environment]::Is64BitOperatingSystem
+$platformString = "Is 64-bit Operating System: $platform"
+Write-Output $platformString
+```
+
+Explanation:
+1. We load the "System" assembly, which contains the "Environment" class, using the `Add-Type` cmdlet.
+
+2. We retrieve the operating system version by accessing the `OSVersion` property of the "Environment" class. The result is stored in the `$osVersion` variable, and then we construct a string containing the version information and output it using `Write-Output`.
+
+3. We retrieve the machine name by accessing the `MachineName` property of the "Environment" class. The result is stored in the `$machineName` variable, and then we construct a string with the machine name and output it.
+
+4. We retrieve platform information by using the `Is64BitOperatingSystem` property of the "Environment" class. This property indicates whether the operating system is 64-bit or not. The result is stored in the `$platform` variable, and then we construct a string based on this information and output it.
+
+When you run this PowerShell script, it will provide you with the OS version, machine name, and platform details of your system. These details can be helpful in various scenarios, such as system administration, scripting, or troubleshooting tasks.
 
 ### Lesson 3: Retrieving System Information 🖥️
 
