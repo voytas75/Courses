@@ -75,11 +75,57 @@ The "ExitCode" property enables you to set or retrieve the exit code of the curr
 
 By leveraging the capabilities of the "Environment" class, you can create more powerful and flexible PowerShell scripts that interact with the system environment, gather information, and perform actions accordingly. Whether you're building system administration scripts, automation tools, or general-purpose utilities, understanding and utilizing the "Environment" class opens up a plethora of possibilities in the world of PowerShell scripting.
 
-- Setting up the development environment: Install and configure the necessary tools to create, test, and run PowerShell scripts efficiently.
+#### Setting up the development environment: Install and configure the necessary tools to create, test, and run PowerShell scripts efficiently.
 
 ### Lesson 2: Getting Started with the "Environment" Class 📜
 
-- Basic syntax and usage of the "Environment" class: Learn the basic syntax to instantiate and utilize the "Environment" class in PowerShell scripts. Understand the different members, properties, and methods of the class.
+#### Basic syntax and usage of the "Environment" class: Learn the basic syntax to instantiate and utilize the "Environment" class in PowerShell scripts. Understand the different members, properties, and methods of the class.
+
+In PowerShell, you can access the "Environment" class from the .NET Framework and utilize its properties and methods to work with system-related information. The basic syntax to instantiate and use the "Environment" class in PowerShell is as follows:
+
+1. Load the .NET assembly containing the "Environment" class:
+```powershell
+Add-Type -AssemblyName System
+```
+
+2. Access properties and methods of the "Environment" class:
+```powershell
+# Accessing a property
+[System.Environment]::MachineName
+
+# Calling a method
+[System.Environment]::GetEnvironmentVariable("TEMP")
+```
+
+Here's a breakdown of the basic syntax and usage:
+
+1. **Loading the .NET assembly**:
+In PowerShell, before you can access .NET classes, you need to load the assembly containing the class you want to use. In this case, the "System" assembly is loaded, which contains the "Environment" class. The "Add-Type" cmdlet is used to achieve this.
+
+2. **Accessing properties**:
+To access a property of the "Environment" class, you use the syntax `[System.Environment]::<PropertyName>`. For example, `[System.Environment]::MachineName` retrieves the name of the computer.
+
+3. **Calling methods**:
+To call a method of the "Environment" class, you use the syntax `[System.Environment]::<MethodName>(<parameters>)`. For example, `[System.Environment]::GetEnvironmentVariable("TEMP")` retrieves the value of the "TEMP" environment variable.
+
+Here are some common members (properties and methods) of the "Environment" class:
+
+- **Properties**:
+  - `CommandLine`: Gets the command-line for the current process.
+  - `CurrentDirectory`: Gets or sets the current working directory of the current process.
+  - `MachineName`: Gets the NetBIOS name of this local computer.
+  - `OSVersion`: Gets a `System.OperatingSystem` object that contains the current platform identifier and version number.
+  - `ProcessorCount`: Gets the number of processors on the current machine.
+  - `UserName`: Gets the user name of the current user.
+
+- **Methods**:
+  - `GetEnvironmentVariable(string)`: Retrieves the value of the specified environment variable.
+  - `SetEnvironmentVariable(string, string)`: Creates, modifies, or deletes the value of an environment variable.
+
+Remember to use proper error handling and validation when working with environment variables and system information, as some properties and methods may require elevated privileges or can return null values in certain cases.
+
+By understanding the basic syntax and usage of the "Environment" class, you can harness its capabilities in your PowerShell scripts to gather system information, access environment variables, and create more sophisticated automation solutions.
+
 - Retrieving system information like OS version, machine name, and more: Use the "Environment" class to retrieve essential system information such as the operating system version, machine name, and platform details.
 
 ### Lesson 3: Retrieving System Information 🖥️
