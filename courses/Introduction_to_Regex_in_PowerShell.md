@@ -174,7 +174,7 @@ In this lesson, we’ll dive into the fundamental building blocks of regex: meta
 🔤 Literal Characters:
 
 - Most characters in a regex pattern are treated as literal characters.
-- For example, the pattern hello will match the exact sequence “hello” in a text.
+- For example, the pattern `hello` will match the exact sequence “hello” in a text.
 
 Metacharacters:
 Metacharacters are characters with special meanings in regex and provide more advanced pattern matching capabilities.
