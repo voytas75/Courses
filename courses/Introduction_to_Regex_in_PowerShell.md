@@ -235,7 +235,7 @@ Regex Pattern: `hello`
 Text to Match: “hello”
 
 🔍 Scenario 2: Using the Dot Metacharacter
-The dot . matches any single character, except for a newline.
+The dot `.` matches any single character, except for a newline.
 
 Example:
 Regex Pattern: `a.b`
