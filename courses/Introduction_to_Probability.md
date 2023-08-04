@@ -30,7 +30,7 @@ Welcome to the "Introduction to Probability" course! In this course, we will exp
 
 ### Module 1: Introduction to Probability
 
-📚 **Lesson 1: What is Probability?** 🎲
+#### 📚 **Lesson 1: What is Probability?** 🎲
 
 In this lesson, we will explore the fundamental concept of probability and its significance in various fields. Probability is a branch of mathematics that deals with the likelihood of events occurring. It provides us with a framework for understanding uncertainty and making informed decisions.
 
@@ -106,9 +106,9 @@ During this lesson, we will cover the following topics:
 
    4. **P(A or B)**: The notation P(A or B) represents the probability of either event A or event B occurring. It is also called the union probability. For example, P(Heads or Tails) represents the probability of getting a heads or a tails when flipping a coin.
 
-   5.  **P(A')**: The notation P(A') represents the probability of the complement of event A occurring. The apostrophe "'" denotes the complement, which refers to all the outcomes not included in event A. For example, P(Not Heads) or P(Tails) represents the probability of getting a tails when flipping a coin.
+   5. **P(A')**: The notation P(A') represents the probability of the complement of event A occurring. The apostrophe "'" denotes the complement, which refers to all the outcomes not included in event A. For example, P(Not Heads) or P(Tails) represents the probability of getting a tails when flipping a coin.
 
-   6.  **P(A and B')**: The notation P(A and B') represents the probability of event A occurring and event B not occurring. The apostrophe "'" denotes the complement, indicating the outcomes not included in event B. For example, P(Heads and Not Tails) represents the probability of getting a heads when flipping a coin and not getting a tails.
+   6. **P(A and B')**: The notation P(A and B') represents the probability of event A occurring and event B not occurring. The apostrophe "'" denotes the complement, indicating the outcomes not included in event B. For example, P(Heads and Not Tails) represents the probability of getting a heads when flipping a coin and not getting a tails.
 
     These notations provide a concise and standardized way to express probability concepts. They allow us to communicate and calculate probabilities accurately, making probability theory more accessible and consistent.
 
@@ -130,10 +130,12 @@ During this lesson, we will cover the following topics:
 
 By the end of this lesson, you will have a solid understanding of the basic principles of probability and be able to apply them to real-world scenarios. Probability will no longer be a mystery, but a powerful tool for decision-making and understanding uncertainty. Let's dive in and explore the wonderful world of probability! 🌟
 
-📚 Lesson 2: Basic Probability Terminology
+#### 📚 Lesson 2: Basic Probability Terminology
+
 In this lesson, we will dive deeper into the terminology used in probability. We will cover topics such as probability of an event, complementary events, and mutually exclusive events. 
 
-📚 Lesson 3: The Probability Scale
+#### 📚 Lesson 3: The Probability Scale
+
 In this lesson, we will introduce the concept of the probability scale and learn how to assign probabilities to events using different methods. We will also discuss the interpretation of probabilities and their relationship to odds.
 
 ### Module 2: Probability Rules and Formulas
