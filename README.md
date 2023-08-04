@@ -42,4 +42,4 @@
 38. [Free Tools for IT Administrators](./courses/Free_Tools_for_IT_Administrators.md)
 39. [Productivity in IT Administration](./courses/Productivity_in_IT_Administration.md)
 40. [Introduction to Artificial Intelligenc](./courses/Introduction_to_Artificial_Intelligence.md)
-
+41. [Introduction to Probability](./courses/Introduction_to_Probability.md)
