@@ -1851,4 +1851,48 @@ Here are some reputable and valid sources for deeper learning of regex that you 
 
 These sources are trusted and widely used by developers and learners to deepen their understanding of regular expressions. They offer both theoretical explanations and practical examples to help users master regex effectively. Happy learning! 🌟
 
+## Examples for analysis
+
+1. Pattern `Name\s+(\S+)\s+Description\s+(.+)`
+
+    ```powershell
+    $data = @"
+    bool AND 
+    not 0 
+    type NETBIOS 
+    name N00222 
+    Description 
+    User A was added to local admins group
+
+    Administratorzy (wbudowane) (Order: 27)
+    hide
+
+    bool AND 
+    not 0 
+    type NETBIOS 
+    name N00333 
+    Description 
+    User B was added to local admins group
+
+    Administratorzy (wbudowane) (Order: 28)
+    hide
+    "@
+
+    $pattern = 'Name\s+(\S+)\s+Description\s+(.+)'
+    $matches = $content | Select-String -Pattern $pattern -AllMatches
+
+    if ($matches) {
+        foreach ($match in $matches.Matches) {
+            $name = $match.Groups[1].Value
+            $description = $match.Groups[2].Value
+            Write-Host "Name: $name"
+            Write-Host "Description: $description"
+            Write-Host "---"
+        }
+    } else {
+        Write-Host "Pattern not found in the data."
+    }
+    ```
+
+
 This course will provide you with a solid foundation in using regex within PowerShell. Enjoy your learning journey! 🚀
