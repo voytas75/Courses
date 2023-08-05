@@ -136,17 +136,17 @@ In this lesson, we will dive deeper into the terminology used in probability. We
 
 In Lesson 2, we'll cover some additional basic probability terminology that will further enhance your understanding of this field:
 
-1. **Mutually Exclusive Events:** Two events are mutually exclusive if they cannot occur simultaneously. If event A happens, then event B cannot happen, and vice versa. In this case, the probability of the union of mutually exclusive events is simply the sum of their individual probabilities: P(A ∪ B) = P(A) + P(B).
+1. **Mutually Exclusive Events:** Two events are mutually exclusive if they cannot occur simultaneously. If event A happens, then event B cannot happen, and vice versa. In this case, the probability of the union of mutually exclusive events is simply the sum of their individual probabilities: `P(A ∪ B) = P(A) + P(B)`.
 
-2. **Collectively Exhaustive Events:** A set of events is said to be collectively exhaustive if one of the events must occur. In other words, the union of all the events covers the entire sample space. For example, when rolling a standard six-sided die, the events {1, 2, 3, 4, 5, 6} are collectively exhaustive.
+2. **Collectively Exhaustive Events:** A set of events is said to be collectively exhaustive if one of the events must occur. In other words, the union of all the events covers the entire sample space. For example, when rolling a standard six-sided die, the events `{1, 2, 3, 4, 5, 6}` are collectively exhaustive.
 
-3. **Conditional Probability:** Conditional probability is the probability of an event occurring given that another event has already occurred. It is denoted as P(A|B), which reads as "the probability of A given B." The formula for conditional probability is given by Bayes' theorem: \(P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}\).
+3. **Conditional Probability:** Conditional probability is the probability of an event occurring given that another event has already occurred. It is denoted as P(A|B), which reads as "the probability of A given B." The formula for conditional probability is given by Bayes' theorem: `\(P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}\)`.
 
-4. **Independent Events (revisited):** As mentioned in Lesson 1, two events A and B are independent if the occurrence of one event does not affect the probability of the other event occurring. Mathematically, if events A and B are independent, then \(P(A \cap B) = P(A) \cdot P(B)\).
+4. **Independent Events (revisited):** As mentioned in Lesson 1, two events A and B are independent if the occurrence of one event does not affect the probability of the other event occurring. Mathematically, if events A and B are independent, then `\(P(A \cap B) = P(A) \cdot P(B)\)`.
 
-5. **Dependent Events (revisited):** Events A and B are dependent if the occurrence of one event affects the probability of the other event occurring. In this case, the conditional probability \(P(B|A)\) is not equal to \(P(B)\), and the multiplication rule becomes \(P(A \cap B) = P(A) \cdot P(B|A)\).
+5. **Dependent Events (revisited):** Events A and B are dependent if the occurrence of one event affects the probability of the other event occurring. In this case, the conditional probability `\(P(B|A)\)` is not equal to `\(P(B)\)`, and the multiplication rule becomes '\(P(A \cap B) = P(A) \cdot P(B|A)\)`.
 
-6. **Total Probability Theorem:** The Total Probability Theorem is a useful tool when dealing with conditional probabilities. It states that for any event A and a set of mutually exclusive and collectively exhaustive events {B1, B2, ..., Bn}, the probability of A can be calculated as the sum of the probabilities of A given each event Bi, weighted by the probabilities of Bi: 
+6. **Total Probability Theorem:** The Total Probability Theorem is a useful tool when dealing with conditional probabilities. It states that for any event A and a set of mutually exclusive and collectively exhaustive events `{B1, B2, ..., Bn}`, the probability of A can be calculated as the sum of the probabilities of A given each event Bi, weighted by the probabilities of Bi: 
    
     ```text
     \[P(A) = \sum_{i=1}^{n} P(A|B_i) \cdot P(B_i)\]
