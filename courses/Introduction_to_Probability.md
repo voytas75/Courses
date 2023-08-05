@@ -144,7 +144,7 @@ In Lesson 2, we'll cover some additional basic probability terminology that will
 
 4. **Independent Events (revisited):** As mentioned in Lesson 1, two events A and B are independent if the occurrence of one event does not affect the probability of the other event occurring. Mathematically, if events A and B are independent, then `\(P(A \cap B) = P(A) \cdot P(B)\)`.
 
-5. **Dependent Events (revisited):** Events A and B are dependent if the occurrence of one event affects the probability of the other event occurring. In this case, the conditional probability `\(P(B|A)\)` is not equal to `\(P(B)\)`, and the multiplication rule becomes '\(P(A \cap B) = P(A) \cdot P(B|A)\)`.
+5. **Dependent Events (revisited):** Events A and B are dependent if the occurrence of one event affects the probability of the other event occurring. In this case, the conditional probability `\(P(B|A)\)` is not equal to `\(P(B)\)`, and the multiplication rule becomes `\(P(A \cap B) = P(A) \cdot P(B|A)\)`.
 
 6. **Total Probability Theorem:** The Total Probability Theorem is a useful tool when dealing with conditional probabilities. It states that for any event A and a set of mutually exclusive and collectively exhaustive events `{B1, B2, ..., Bn}`, the probability of A can be calculated as the sum of the probabilities of A given each event Bi, weighted by the probabilities of Bi: 
    
