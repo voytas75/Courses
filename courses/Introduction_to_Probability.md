@@ -134,6 +134,30 @@ By the end of this lesson, you will have a solid understanding of the basic prin
 
 In this lesson, we will dive deeper into the terminology used in probability. We will cover topics such as probability of an event, complementary events, and mutually exclusive events. 
 
+In Lesson 2, we'll cover some additional basic probability terminology that will further enhance your understanding of this field:
+
+1. **Mutually Exclusive Events:** Two events are mutually exclusive if they cannot occur simultaneously. If event A happens, then event B cannot happen, and vice versa. In this case, the probability of the union of mutually exclusive events is simply the sum of their individual probabilities: P(A ∪ B) = P(A) + P(B).
+
+2. **Collectively Exhaustive Events:** A set of events is said to be collectively exhaustive if one of the events must occur. In other words, the union of all the events covers the entire sample space. For example, when rolling a standard six-sided die, the events {1, 2, 3, 4, 5, 6} are collectively exhaustive.
+
+3. **Conditional Probability:** Conditional probability is the probability of an event occurring given that another event has already occurred. It is denoted as P(A|B), which reads as "the probability of A given B." The formula for conditional probability is given by Bayes' theorem: \(P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}\).
+
+4. **Independent Events (revisited):** As mentioned in Lesson 1, two events A and B are independent if the occurrence of one event does not affect the probability of the other event occurring. Mathematically, if events A and B are independent, then \(P(A \cap B) = P(A) \cdot P(B)\).
+
+5. **Dependent Events (revisited):** Events A and B are dependent if the occurrence of one event affects the probability of the other event occurring. In this case, the conditional probability \(P(B|A)\) is not equal to \(P(B)\), and the multiplication rule becomes \(P(A \cap B) = P(A) \cdot P(B|A)\).
+
+6. **Total Probability Theorem:** The Total Probability Theorem is a useful tool when dealing with conditional probabilities. It states that for any event A and a set of mutually exclusive and collectively exhaustive events {B1, B2, ..., Bn}, the probability of A can be calculated as the sum of the probabilities of A given each event Bi, weighted by the probabilities of Bi: 
+   
+    ```text
+    \[P(A) = \sum_{i=1}^{n} P(A|B_i) \cdot P(B_i)\]
+    ```
+
+7. **Law of Large Numbers:** The Law of Large Numbers is a fundamental theorem in probability theory. It states that as the number of trials or experiments increases, the observed relative frequency of an event approaches the true probability of that event. In simple terms, the more times an experiment is repeated, the closer the empirical probability gets to the theoretical (actual) probability.
+
+8. **Expected Value (Mean):** In probability, the expected value (or mean) of a random variable is a measure of the central tendency of its probability distribution. It is calculated as the sum of the products of each possible value and its corresponding probability.
+
+These additional concepts will help you gain a deeper understanding of probability and its applications in various fields. As you progress, you can explore more advanced topics such as probability distributions, random variables, and statistical inference. Happy learning!
+
 #### 📚 Lesson 3: The Probability Scale
 
 In this lesson, we will introduce the concept of the probability scale and learn how to assign probabilities to events using different methods. We will also discuss the interpretation of probabilities and their relationship to odds.
