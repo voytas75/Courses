@@ -32,7 +32,7 @@ As you proceed with the course, you'll delve deeper into JavaScript's syntax, co
 
 As you embark on your journey to learn JavaScript, one of the first steps you'll take is setting up your development environment. A well-organized environment will make coding more efficient and enjoyable. In this article, we'll walk you through the process of setting up your development environment, complete with examples to help you get started.
 
-**1. Choose a Code Editor: Visual Studio Code**
+#### 1. Choose a Code Editor: Visual Studio Code
 
 A code editor is where you'll write your JavaScript code. One of the most popular and beginner-friendly choices is Visual Studio Code (VS Code). It's free, highly customizable, and offers a plethora of extensions that enhance your coding experience.
 
@@ -46,7 +46,7 @@ A code editor is where you'll write your JavaScript code. One of the most popula
 console.log("Hello, VS Code!"); // This line prints a message in the console
 ```
 
-**2. Install Node.js for Server-Side Development**
+#### 2. Install Node.js for Server-Side Development
 
 Node.js allows you to run JavaScript on the server side. It comes with a package manager called npm (Node Package Manager) that simplifies installing and managing libraries and frameworks.
 
@@ -68,7 +68,7 @@ console.log(message);
 3. Open your terminal and navigate to the folder containing `app.js`.
 4. Run `node app.js`. You'll see the message printed in the terminal.
 
-**3. Use a Web Browser for Testing**
+#### 3. Use a Web Browser for Testing
 
 Web browsers are essential for testing your JavaScript code, especially when you're working on front-end web development.
 
@@ -98,7 +98,7 @@ console.log("Hello from the browser console!");
 
 Open `index.html` in your browser, right-click, and choose "Inspect" to access the console. You'll see the message printed there.
 
-**4. Version Control with Git (Optional)**
+#### 4. Version Control with Git (Optional)
 
 Git helps you track changes to your code and collaborate with others. Platforms like GitHub, GitLab, and Bitbucket make sharing and managing your code repositories easier.
 
@@ -132,6 +132,7 @@ Git helps you track changes to your code and collaborate with others. Platforms 
 **Conclusion**
 
 Setting up your JavaScript development environment lays the foundation for successful coding. By installing the right tools and understanding their usage, you'll be well-prepared to dive into the world of JavaScript programming. As you progress, you can explore more advanced concepts, libraries, and frameworks that will elevate your skills and projects to new heights. Happy coding!
+
 ## Module 2: JavaScript Basics
 
 ### Lesson 3: Basic Syntax and Structure
@@ -140,7 +141,7 @@ Setting up your JavaScript development environment lays the foundation for succe
 
 JavaScript is a versatile and powerful programming language that powers the interactivity and dynamic behavior of web pages. As a beginner, it's crucial to grasp the fundamental syntax and structure of JavaScript. In this course article, we'll guide you through the basics with clear explanations and practical examples.
 
-**1. Comments and Console Output**
+#### 1. Comments and Console Output
 
 Comments are used to annotate your code and make it more understandable. JavaScript supports both single-line and multi-line comments.
 
@@ -163,7 +164,7 @@ You can also print messages to the browser console using the `console.log()` fun
 console.log("Hello, world!"); // Output: Hello, world!
 ```
 
-**2. Variables and Data Types**
+#### 2. Variables and Data Types
 
 Variables store data values in JavaScript. You can declare variables using the `var`, `let`, or `const` keywords.
 
@@ -193,7 +194,7 @@ let isCoding = true;
 let myArray = [1, 2, 3];
 ```
 
-**3. Operators**
+#### 3. Operators
 
 JavaScript includes various operators for performing operations on values.
 
@@ -214,7 +215,7 @@ let isGreater = a > b; // true
 let logicalResult = (a > 0) && (b < 10); // true
 ```
 
-**4. Conditional Statements**
+#### 4. Conditional Statements
 
 Conditional statements let you make decisions in your code.
 
@@ -230,7 +231,7 @@ if (age >= 18) {
 }
 ```
 
-**5. Loops**
+#### 5. Loops
 
 Loops are used to execute a block of code repeatedly.
 
@@ -257,7 +258,7 @@ Mastering the basic syntax and structure of JavaScript is essential for building
 
 Variables and data types are the building blocks of any programming language, including JavaScript. In this course article, we'll delve into the world of variables and different data types in JavaScript, providing you with clear explanations and practical examples to solidify your understanding.
 
-**1. Variables: Storing Information**
+#### 1. Variables: Storing Information
 
 Variables are containers that hold data values. They allow you to store and manipulate data throughout your program. In JavaScript, you can declare variables using the `var`, `let`, or `const` keywords.
 
@@ -269,7 +270,7 @@ const age = 25;      // A constant number variable
 var isStudent = true; // A boolean variable
 ```
 
-**2. Strings: Textual Data**
+#### 2. Strings: Textual Data
 
 Strings are sequences of characters and are used to represent textual data. They can be enclosed in single (`'`) or double (`"`) quotes.
 
@@ -280,7 +281,7 @@ let greeting = "Hello, world!";
 let companyName = 'Acme Inc';
 ```
 
-**3. Numbers: Numeric Data**
+#### 3. Numbers: Numeric Data
 
 Numbers are used to represent numeric values, including integers and decimals.
 
@@ -291,7 +292,7 @@ let quantity = 10;
 let price = 24.99;
 ```
 
-**4. Booleans: True or False**
+#### 4. Booleans: True or False
 
 Boolean values represent true or false conditions. They are often used in conditional statements and comparisons.
 
@@ -302,7 +303,7 @@ let isRaining = true;
 let hasPermission = false;
 ```
 
-**5. Undefined and Null: No Value**
+#### 5. Undefined and Null: No Value
 
 Variables that are declared but not initialized have the value `undefined`. The value `null` represents the intentional absence of any value.
 
@@ -313,7 +314,7 @@ let undefinedVariable;
 let noValue = null;
 ```
 
-**6. Objects: Complex Data Structures**
+#### 6. Objects: Complex Data Structures
 
 Objects are complex data types that can hold multiple values as properties. Each property consists of a key and a value.
 
@@ -327,7 +328,7 @@ let person = {
 };
 ```
 
-**7. Arrays: Ordered Lists**
+#### 7. Arrays: Ordered Lists
 
 Arrays are used to store lists of values. Each value in an array is assigned an index, starting from 0.
 
@@ -338,7 +339,7 @@ let colors = ["red", "green", "blue"];
 let numbers = [1, 2, 3, 4, 5];
 ```
 
-**8. Type Conversion**
+#### 8. Type Conversion
 
 JavaScript allows you to convert data from one type to another.
 
@@ -349,7 +350,7 @@ let numString = "42";
 let num = parseInt(numString); // Converts the string to an integer
 ```
 
-**9. typeof Operator**
+#### 9. typeof Operator
 
 The `typeof` operator helps you determine the data type of a variable.
 
@@ -371,7 +372,7 @@ Understanding variables and data types is fundamental to writing effective JavaS
 
 Operators and expressions are the backbone of JavaScript, enabling you to perform various operations and make your code dynamic. In this comprehensive course article, we'll break down different types of operators and explore how they work within expressions. With clear explanations and practical examples, you'll gain a solid understanding of this crucial aspect of JavaScript programming.
 
-**1. Arithmetic Operators: Crunching Numbers**
+#### 1. Arithmetic Operators: Crunching Numbers
 
 Arithmetic operators allow you to perform mathematical calculations on numeric values.
 
@@ -394,7 +395,7 @@ let quotient = x / y; // 3.333...
 let remainder = x % y; // 1
 ```
 
-**2. Comparison Operators: Making Comparisons**
+#### 2. Comparison Operators: Making Comparisons
 
 Comparison operators are used to compare values and return a Boolean result (`true` or `false`).
 
@@ -416,7 +417,7 @@ let isNotEqual = a != b; // true
 let isGreater = a > b; // false
 ```
 
-**3. Logical Operators: Making Logical Decisions**
+#### 3. Logical Operators: Making Logical Decisions
 
 Logical operators are used to combine or manipulate Boolean values.
 
@@ -435,7 +436,7 @@ let resultOR = isTrue || isFalse; // true
 let resultNOT = !isTrue; // false
 ```
 
-**4. Assignment Operators: Assigning Values**
+#### 4. Assignment Operators: Assigning Values
 
 Assignment operators are used to assign values to variables.
 
@@ -455,7 +456,7 @@ num += 5; // num is now 15
 num -= 3; // num is now 12
 ```
 
-**5. Ternary Operator: Shortened Conditionals**
+#### 5. Ternary Operator: Shortened Conditionals
 
 The ternary operator provides a shorthand way to write conditional statements.
 
@@ -472,7 +473,7 @@ let age = 18;
 let isAdult = age >= 18 ? "Yes" : "No"; // "Yes"
 ```
 
-**6. Expressions: Combining Values**
+#### 6. Expressions: Combining Values
 
 Expressions are combinations of variables, values, and operators that produce a result.
 
