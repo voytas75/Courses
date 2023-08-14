@@ -487,8 +487,137 @@ let area = Math.PI * (radius ** 2); // Calculating area of a circle
 
 Operators and expressions are essential tools in JavaScript, allowing you to perform calculations, make decisions, and manipulate data effectively. By mastering these fundamental concepts, you'll be better equipped to create dynamic and interactive programs. As you continue your journey into programming, you'll encounter more complex expressions and use them to build intricate functionalities that bring your projects to life. Keep exploring and experimenting to become a confident JavaScript developer!
 
-- Lesson 6: Control Flow and Conditionals
-- Lesson 7: Loops and Iteration
+### Lesson 6: Control Flow and Conditionals
+
+**JavaScript Basics: Mastering Control Flow and Conditionals**
+
+Control flow and conditionals empower you to dictate the behavior of your JavaScript code based on specific conditions. In this comprehensive course article, we'll explore various control flow structures and delve into conditional statements. With clear explanations and practical examples, you'll gain a strong grasp of how to guide your code's execution to meet your desired outcomes.
+
+#### 1. If Statement: Making Decisions
+
+The `if` statement is the most basic form of conditional control flow. It allows you to execute a block of code if a given condition is true.
+
+**Syntax:**
+
+```javascript
+if (condition) {
+    // Code to execute if the condition is true
+}
+```
+
+**Example:**
+
+```javascript
+let age = 20;
+
+if (age >= 18) {
+    console.log("You are an adult.");
+}
+```
+
+#### 2. If-Else Statement: Considering Alternatives
+
+The `if-else` statement extends the `if` statement by providing an alternative code block to execute if the condition is false.
+
+**Syntax:**
+
+```javascript
+if (condition) {
+    // Code to execute if the condition is true
+} else {
+    // Code to execute if the condition is false
+}
+```
+
+**Example:**
+
+```javascript
+let isRaining = true;
+
+if (isRaining) {
+    console.log("Remember to take an umbrella.");
+} else {
+    console.log("Enjoy the sunny weather!");
+}
+```
+
+#### 3. Else-If Statement: Handling Multiple Conditions####
+
+The `else if` statement allows you to evaluate multiple conditions in sequence and execute the corresponding code block of the first true condition.
+
+**Syntax:**
+
+```javascript
+if (condition1) {
+    // Code to execute if condition1 is true
+} else if (condition2) {
+    // Code to execute if condition2 is true
+} else {
+    // Code to execute if no condition is true
+}
+```
+
+**Example:**
+
+```javascript
+let score = 85;
+
+if (score >= 90) {
+    console.log("You got an A!");
+} else if (score >= 80) {
+    console.log("You got a B.");
+} else if (score >= 70) {
+    console.log("You got a C.");
+} else {
+    console.log("You need to improve.");
+}
+```
+
+#### 4. Switch Statement: Handling Multiple Cases
+
+The `switch` statement provides a way to compare a single value against multiple possible values and execute the corresponding code block.
+
+**Syntax:**
+
+```javascript
+switch (expression) {
+    case value1:
+        // Code to execute for value1
+        break;
+    case value2:
+        // Code to execute for value2
+        break;
+    // ... More cases
+    default:
+        // Code to execute if no case matches
+}
+```
+
+**Example:**
+
+```javascript
+let day = "Wednesday";
+
+switch (day) {
+    case "Monday":
+        console.log("Start of the week.");
+        break;
+    case "Wednesday":
+        console.log("Midweek.");
+        break;
+    case "Friday":
+        console.log("Weekend is near.");
+        break;
+    default:
+        console.log("Just another day.");
+}
+```
+
+**Conclusion**
+
+Control flow and conditionals are essential tools for creating dynamic and responsive JavaScript programs. By utilizing `if`, `if-else`, `else if`, and `switch` statements, you can guide your code's behavior based on specific conditions. This control over your code's execution allows you to build interactive web applications that respond intelligently to user input and system conditions. As you continue your programming journey, you'll combine these concepts with other JavaScript features to craft complex and engaging experiences for your users. Keep exploring and practicing to become a proficient JavaScript developer!
+
+### Lesson 7: Loops and Iteration
 
 ## Module 3: JavaScript Arrays
 
