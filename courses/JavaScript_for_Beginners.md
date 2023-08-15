@@ -1,4 +1,14 @@
-# JavaScript for Beginners
+<div id="row" style="position: relative; float: left; padding-bottom:15px;width:100%">
+    <div id="images" style="">
+        <div class="image" style="float: left;">
+            <img src="../images/JavaScript-logo100x100.png">
+        </div>
+    </div>
+    <div id="label" style="margin-left: 110px;position: absolute; bottom: 0;">
+        <h1>JavaScript for Beginners</h1>
+    </div>
+</div>
+<div style="clear:both;"></div>
 
 ## General course plan
 
