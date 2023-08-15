@@ -1,5 +1,75 @@
 # JavaScript for Beginners
 
+## General course plan
+
+### [Module 1: Introduction to JavaScript](#module-1-introduction-to-javascript-1)
+
+#### [Lesson 1: Introduction to JavaScript](#lesson-1-introduction-to-javascript-1)
+
+#### [Lesson 2: Setting up Your Development Environment](#lesson-2-setting-up-your-development-environment-1)
+
+### [Module 2: JavaScript Basics](#module-2-javascript-basics-1)
+
+#### [Lesson 3: Basic Syntax and Structure](#lesson-3-basic-syntax-and-structure-1)
+
+#### [Lesson 4: Variables and Data Types](#lesson-4-variables-and-data-types-1)
+
+#### [Lesson 5: Operators and Expressions](#lesson-5-operators-and-expressions-1)
+
+#### [Lesson 6: Control Flow and Conditionals](#lesson-6-control-flow-and-conditionals-1)
+
+#### [Lesson 7: Loops and Iteration](#lesson-7-loops-and-iteration-1)
+
+### [Module 3: JavaScript Arrays](#module-3-javascript-arrays-1)
+
+#### [Lesson 8: Introduction to Arrays](#lesson-8-introduction-to-arrays-1)
+
+#### [Lesson 9: Array Manipulation and Iteration](#lesson-9-array-manipulation-and-iteration-1)
+
+### [Module 4: JavaScript Functions](#module-4-javascript-functions-1)
+
+#### [Lesson 10: Introduction to Functions](#lesson-10-introduction-to-functions-1)
+
+#### [Lesson 11: Parameters and Return Values](#lesson-11-parameters-and-return-values-1)
+
+#### [Lesson 12: Scope and Variable Visibility](#lesson-12-scope-and-variable-visibility-1)
+
+### [Module 5: JavaScript Objects and OOP](#module-5-javascript-objects-and-oop-1)
+
+#### [Lesson 13: Introduction to Objects](#lesson-13-introduction-to-objects-1)
+
+#### [Lesson 14: Object Methods and Prototypes](#lesson-14-object-methods-and-prototypes-1)
+
+#### [Lesson 15: Inheritance and the Prototype Chain](#lesson-15-inheritance-and-the-prototype-chain-1)
+
+### [Module 6: JavaScript and the DOM](#module-6-javascript-and-the-dom-1)
+
+#### [Lesson 16: Introduction to the DOM](#lesson-16-introduction-to-the-dom-1)
+
+#### [Lesson 17: Manipulating HTML Elements](#lesson-17-manipulating-html-elements-1)
+
+#### [Lesson 18: Event Handling and Interaction](#lesson-18-event-handling-and-interaction-1)
+
+#### [Lesson 19: Dynamic CSS Manipulation](#lesson-19-dynamic-css-manipulation-1)
+
+### [Module 7: Error Handling and Debugging](#module-7-error-handling-and-debugging-1)
+
+#### [Lesson 20: Common JavaScript Errors](#lesson-20-common-javascript-errors-1)
+
+#### [Lesson 21: Error Handling with try-catch](#lesson-21-error-handling-with-try-catch-1)
+
+#### [Lesson 22: Debugging Techniques and Tools](#lesson-22-debugging-techniques-and-tools-1)
+
+### [Module 8: JavaScript Best Practices](#module-8-javascript-best-practices-1)
+
+#### [Lesson 23: Writing Clean and Maintainable Code](#lesson-23-writing-clean-and-maintainable-code-1)
+
+#### [Lesson 24: Code Organization and Modularization](#lesson-24-code-organization-and-modularization-1)
+
+### [Essential JavaScript Learning Resources for Beginners](#essential-javascript-learning-resources-for-beginners-1)
+
+## Detailed Course Plan
+
 ## Module 1: Introduction to JavaScript
 
 ### Lesson 1: Introduction to JavaScript
