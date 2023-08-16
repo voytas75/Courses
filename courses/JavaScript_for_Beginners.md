@@ -1,7 +1,7 @@
 <div id="row" style="position: relative; float: left; padding-bottom:15px;width:100%">
     <div id="images" style="">
         <div class="image" style="float: left;">
-            <img src="https://github.com/voytas75/Courses/blob/master/images/JavaScript-logo100x100.png?raw=true">
+            <img src="https://github.com/voytas75/PSFeedHandler/blob/master/PSFeedHandler/images/PSFeedHandler100x100.png?raw=true">
         </div>
     </div>
     <div id="label" style="margin-left: 110px;position: absolute; bottom: 0;">
