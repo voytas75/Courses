@@ -1,7 +1,7 @@
 <div id="row" style="position: relative; float: left; padding-bottom:15px;width:100%">
     <div id="images" style="">
         <div class="image" style="float: left;">
-            <img src="../images/JavaScript-logo100x100.png">
+            <img src="https://github.com/voytas75/Courses/blob/master/images/JavaScript-logo100x100.png?raw=true">
         </div>
     </div>
     <div id="label" style="margin-left: 110px;position: absolute; bottom: 0;">
@@ -169,7 +169,8 @@ A code editor is where you'll write your JavaScript code. One of the most popula
 **Example:**
 
 ```javascript
-console.log("Hello, VS Code!"); // This line prints a message in the console
+// This line prints a message in the console
+console.log("Hello, VS Code!"); 
 ```
 
 #### 2. Install Node.js for Server-Side Development
@@ -1645,8 +1646,10 @@ You can modify the content of HTML elements using the `innerHTML` property or th
 
 ```javascript
 let paragraph = document.getElementById("myParagraph");
-paragraph.innerHTML = "New <strong>Content</strong>"; // This will render as HTML
-paragraph.textContent = "New Content"; // This treats the content as plain text
+// This will render as HTML
+paragraph.innerHTML = "New <strong>Content</strong>"; 
+// This treats the content as plain text
+paragraph.textContent = "New Content"; 
 ```
 
 #### Changing Attributes
@@ -1714,7 +1717,8 @@ You can move elements within the DOM using the `appendChild()` and `insertBefore
 let targetElement = document.getElementById("target");
 let sourceElement = document.getElementById("source");
 
-targetElement.appendChild(sourceElement); // Moves sourceElement to the end of targetElement
+// Moves sourceElement to the end of targetElement
+targetElement.appendChild(sourceElement); 
 ```
 
 #### Conclusion
@@ -1901,13 +1905,15 @@ Reference errors happen when you try to access a variable or function that doesn
 **Example:**
 
 ```javascript
-console.log(nonExistentVariable); // ReferenceError: nonExistentVariable is not defined
+// ReferenceError: nonExistentVariable is not defined
+console.log(nonExistentVariable); 
 
 function myFunction() {
     console.log(localVariable);
 }
 
-myFunction(); // ReferenceError: localVariable is not defined
+// ReferenceError: localVariable is not defined
+myFunction(); 
 ```
 
 #### Type Errors
