@@ -47,8 +47,8 @@ In this final lesson, you will learn best practices for using the "ChoiceDescrip
 
 ### Important Websites
 
-1. [Microsoft PowerShell Documentation](https://docs.microsoft.com/powershell/)
-2. [PowerShell Gallery](https://www.powershellgallery.com/)
+1. [ChoiceDescription Class Documentation](https://learn.microsoft.com/en-us/dotnet/api/system.management.automation.host.choicedescription?view=powershellsdk-1.1.0)
+2. [Microsoft PowerShell Documentation](https://docs.microsoft.com/powershell/)
 3. [Stack Overflow - PowerShell](https://stackoverflow.com/questions/tagged/powershell)
 4. [PowerShell.org](https://powershell.org/)
 5. [GitHub - PowerShell](https://github.com/PowerShell)
