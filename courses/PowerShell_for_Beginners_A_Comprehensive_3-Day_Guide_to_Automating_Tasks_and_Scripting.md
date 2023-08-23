@@ -34,6 +34,8 @@ By the end of this comprehensive 3-day course, you will have a solid foundation 
 
 3. [Scripting Best Practices: Dive into essential tips, tricks, and best practices for writing efficient and maintainable PowerShell scripts](#scripting-best-practices-dive-into-essential-tips-tricks-and-best-practices-for-writing-efficient-and-maintainable-powershell-scripts)
 
+## Course
+
 ### Day 1
 
 #### Introduction to PowerShell: Understand the basics, environment setup, and executing commands
