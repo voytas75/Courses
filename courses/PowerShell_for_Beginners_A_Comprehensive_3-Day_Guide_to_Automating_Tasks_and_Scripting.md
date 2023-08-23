@@ -117,9 +117,9 @@ Get-Help Get-Process
 
 For more information, please refer to the following resources:
 
-* PowerShell documentation: https://docs.microsoft.com/en-us/powershell/
-* PowerShell tutorial: https://www.tutorialspoint.com/powershell/
-* PowerShell cheat sheet: https://ss64.com/ps/
+* PowerShell documentation: <https://docs.microsoft.com/en-us/powershell/>
+* PowerShell tutorial: <https://www.tutorialspoint.com/powershell/>
+* PowerShell cheat sheet: <https://ss64.com/ps/>
 
 #### Working with Variables and Data Types: Learn how to create variables, assign values, and manipulate different data types
 
