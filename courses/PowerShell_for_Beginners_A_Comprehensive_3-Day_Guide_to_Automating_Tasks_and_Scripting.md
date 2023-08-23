@@ -12,27 +12,27 @@ By the end of this comprehensive 3-day course, you will have a solid foundation 
 
 [Day 1](#day-1)
 
-[Introduction to PowerShell: Understand the basics, environment setup, and executing commands](#introduction-to-powershell-understand-the-basics-environment-setup-and-executing-commands)
+1. [Introduction to PowerShell: Understand the basics, environment setup, and executing commands](#introduction-to-powershell-understand-the-basics-environment-setup-and-executing-commands)
 
-[Working with Variables and Data Types: Learn how to create variables, assign values, and manipulate different data types](#working-with-variables-and-data-types-learn-how-to-create-variables-assign-values-and-manipulate-different-data-types)
+2. [Working with Variables and Data Types: Learn how to create variables, assign values, and manipulate different data types](#working-with-variables-and-data-types-learn-how-to-create-variables-assign-values-and-manipulate-different-data-types)
 
-[Conditional Statements and Loops: Explore the usage of if-else statements, switch statements, and different looping constructs](#conditional-statements-and-loops-explore-the-usage-of-if-else-statements-switch-statements-and-different-looping-constructs)
+3. [Conditional Statements and Loops: Explore the usage of if-else statements, switch statements, and different looping constructs](#conditional-statements-and-loops-explore-the-usage-of-if-else-statements-switch-statements-and-different-looping-constructs)
 
 [Day 2](#day-2)
 
-[PowerShell Functions: Discover the power of functions and how to create reusable code blocks](#powershell-functions-discover-the-power-of-functions-and-how-to-create-reusable-code-blocks)
+1. [PowerShell Functions: Discover the power of functions and how to create reusable code blocks](#powershell-functions-discover-the-power-of-functions-and-how-to-create-reusable-code-blocks)
 
-[Working with Files and Folders: Learn how to navigate the file system, manipulate files, and automate file-related tasks](#working-with-files-and-folders-learn-how-to-navigate-the-file-system-manipulate-files-and-automate-file-related-tasks)
+2. [Working with Files and Folders: Learn how to navigate the file system, manipulate files, and automate file-related tasks](#working-with-files-and-folders-learn-how-to-navigate-the-file-system-manipulate-files-and-automate-file-related-tasks)
 
-[Introduction to PowerShell Modules: Understand the concept of modules and how they enhance PowerShell functionality](#introduction-to-powershell-modules-understand-the-concept-of-modules-and-how-they-enhance-powershell-functionality)
+3. [Introduction to PowerShell Modules: Understand the concept of modules and how they enhance PowerShell functionality](#introduction-to-powershell-modules-understand-the-concept-of-modules-and-how-they-enhance-powershell-functionality)
 
 [Day 3](#day-3)
 
-[Error Handling and Debugging: Learn techniques to handle errors and debug PowerShell scripts effectively](#error-handling-and-debugging-learn-techniques-to-handle-errors-and-debug-powershell-scripts-effectively)
+1. [Error Handling and Debugging: Learn techniques to handle errors and debug PowerShell scripts effectively](#error-handling-and-debugging-learn-techniques-to-handle-errors-and-debug-powershell-scripts-effectively)
 
-[PowerShell Remoting: Explore remote administration capabilities, enabling you to manage systems from a distance](#powershell-remoting-explore-remote-administration-capabilities-enabling-you-to-manage-systems-from-a-distance)
+2. [PowerShell Remoting: Explore remote administration capabilities, enabling you to manage systems from a distance](#powershell-remoting-explore-remote-administration-capabilities-enabling-you-to-manage-systems-from-a-distance)
 
-[Scripting Best Practices: Dive into essential tips, tricks, and best practices for writing efficient and maintainable PowerShell scripts](#scripting-best-practices-dive-into-essential-tips-tricks-and-best-practices-for-writing-efficient-and-maintainable-powershell-scripts)
+3. [Scripting Best Practices: Dive into essential tips, tricks, and best practices for writing efficient and maintainable PowerShell scripts](#scripting-best-practices-dive-into-essential-tips-tricks-and-best-practices-for-writing-efficient-and-maintainable-powershell-scripts)
 
 ### Day 1
 
