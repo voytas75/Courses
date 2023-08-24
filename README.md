@@ -4,14 +4,28 @@
 
 ## Ready to learn
 
-1. [Juniper Notebook](https://voytas75.github.io/JupyterNotebookLearn/) 🚀
-2. [Introduction to Regex in PowerShell](./courses/Introduction_to_Regex_in_PowerShell.md) 🚀
-3. [JavaScript for Beginners](courses/JavaScript_for_Beginners.md) 🚀
-4. [Security for Beginners](courses/Security.md) 🚀
-5. [PowerShell .NET Class "Environment"](./courses/PowerShell_NET_Class_Environment.md) 🚀
-6. [PowerShell for Beginners](/courses/PowerShell_for_Beginners_A_Comprehensive_3-Day_Guide_to_Automating_Tasks_and_Scripting.md) 🚀 - 3-days course
-7. [React.js](courses/React.js.md) 🚀
-8. [KQL for Azure Sentinel Beginners](courses/KQL_for_Azure_Sentinel_Beginners_Mastering_Querying_and_Analytics_in_Azure_Sentinel.md) 🚀 - 3-days course
+### Azure
+
+1. [KQL for Azure Sentinel Beginners](courses/KQL_for_Azure_Sentinel_Beginners_Mastering_Querying_and_Analytics_in_Azure_Sentinel.md) 🚀 - 3-days course
+
+### Jupyter notebook
+
+1. [Jupyter Notebook](https://voytas75.github.io/JupyterNotebookLearn/) 🚀
+
+### Java Script
+
+1. [JavaScript for Beginners](courses/JavaScript_for_Beginners.md) 🚀
+2. [React.js](courses/React.js.md) 🚀
+
+### Powershell
+
+1. [PowerShell for Beginners](/courses/PowerShell_for_Beginners_A_Comprehensive_3-Day_Guide_to_Automating_Tasks_and_Scripting.md) 🚀 - 3-days course
+2. [PowerShell .NET Class "Environment"](./courses/PowerShell_NET_Class_Environment.md) 🚀
+3. [PowerShell: Introduction to Regex](./courses/Introduction_to_Regex_in_PowerShell.md) 🚀
+
+### Security
+
+1. [Security for Beginners](courses/Security.md) 🚀
 
 ## In development
 
