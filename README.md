@@ -8,10 +8,10 @@
 2. [Introduction to Regex in PowerShell](./courses/Introduction_to_Regex_in_PowerShell.md) 🚀
 3. [JavaScript for Beginners](courses/JavaScript_for_Beginners.md) 🚀
 4. [Security for Beginners](courses/Security.md) 🚀
-5. [React.js](courses/React.js.md) 🚀
-6. [KQL for Azure Sentinel Beginners](courses/KQL_for_Azure_Sentinel_Beginners_Mastering_Querying_and_Analytics_in_Azure_Sentinel.md) 🚀 - 3-days course
-7. [PowerShell .NET Class "Environment"](./courses/PowerShell_NET_Class_Environment.md) 🚀
-8. [PowerShell for Beginners](/courses/PowerShell_for_Beginners_A_Comprehensive_3-Day_Guide_to_Automating_Tasks_and_Scripting.md) 🚀 - 3-days course 
+5. [PowerShell .NET Class "Environment"](./courses/PowerShell_NET_Class_Environment.md) 🚀
+6. [PowerShell for Beginners](/courses/PowerShell_for_Beginners_A_Comprehensive_3-Day_Guide_to_Automating_Tasks_and_Scripting.md) 🚀 - 3-days course
+7. React.js](courses/React.js.md) 🚀
+8. [KQL for Azure Sentinel Beginners](courses/KQL_for_Azure_Sentinel_Beginners_Mastering_Querying_and_Analytics_in_Azure_Sentinel.md) 🚀 - 3-days course
 
 ## In development
 
