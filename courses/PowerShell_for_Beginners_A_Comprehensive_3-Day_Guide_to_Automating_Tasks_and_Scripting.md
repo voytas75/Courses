@@ -767,3 +767,11 @@ Exercise 2:
 2. Apply the single responsibility principle by creating a separate function to display the results.
 
 Congratulations! You've completed Lesson on scripting best practices. You now have a solid understanding of techniques to write efficient, maintainable, and reliable PowerShell scripts. Incorporating these practices into your workflow will elevate your scripting skills and contribute to producing high-quality code. In the final lesson, we'll wrap up the course, review what you've learned, and discuss next steps on your PowerShell learning journey. Keep up the amazing progress on your learning journey!
+
+We're thrilled to congratulate you on successfully completing the "PowerShell for Beginners" course! 🎉👏 We hope you've enjoyed your journey and gained valuable insights into the world of PowerShell. Over the past [number of days] days, you've covered a wide range of topics that have laid a strong foundation for your PowerShell skills.
+
+Your commitment to learning and growing in the world of PowerShell is commendable. We hope that the knowledge you've gained will empower you in your professional endeavors, whether it's automating tasks, managing systems, or streamlining processes.
+
+Remember that your journey doesn't end here. PowerShell is a vast and dynamic field with endless possibilities. As you continue to explore and practice, don't hesitate to reach out if you have questions or want to delve deeper into specific topics. Our community of learners and experts is here to support you.
+
+Once again, congratulations on completing the "PowerShell for Beginners" course! We wish you the best in your PowerShell endeavors and look forward to seeing your continued growth.
