@@ -2,7 +2,6 @@
 
 ![PowerShell](https://github.com/voytas75/Courses/blob/master/images/powershell2.png?raw=true)
 
-
 ## A Comprehensive 3-Day Guide to Automating Tasks and Scripting
 
 **Duration**: The course will span three days, allowing you to grasp the fundamentals of PowerShell in a focused and efficient manner.
