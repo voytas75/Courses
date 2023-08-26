@@ -8,35 +8,68 @@
 
 ## Overall Course Plan
 
-### Lesson 1: Introduction to PowerShell and .NET
+[Lesson 1: Introduction to PowerShell and .NET](#lesson-1-introduction-to-powershell-and-net)
 
-### Lesson 2: Getting Started with the "Environment" Class
+[Lesson 2: Getting Started with the "Environment" Class](#lesson-2-getting-started-with-the-environment-class)
 
-### Lesson 3: Retrieving System Information
+[Lesson 3: Retrieving System Information](#lesson-3-retrieving-system-information)
 
-### Lesson 4: Modifying System Environment Variables
+[Lesson 4: Modifying System Environment Variables](#lesson-4-modifying-system-environment-variables)
 
-### Lesson 5: Managing System Processes
+[Lesson 5: Managing System Processes](#lesson-5-managing-system-processes)
 
-### Lesson 6: Working with File System Paths
+[Lesson 6: Working with File System Paths](#lesson-6-working-with-file-system-paths)
 
-### Lesson 7: Network Operations with "Environment" Class
+[Lesson 7: Network Operations with "Environment" Class](#lesson-7-network-operations-with-environment-class)
 
-### Lesson 8: Security and Permissions
+[Lesson 8: Security and Permissions](#lesson-8-security-and-permissions)
 
-### Lesson 9: Advanced Automation Techniques
+[Lesson 9: Advanced Automation Techniques](#lesson-9-advanced-automation-techniques)
 
-### Lesson 10: Real-World Projects and Best Practices
+[Lesson 10: Real-World Projects and Best Practices](#lesson-10-real-world-projects-and-best-practices)
 
 Suggestion: It's recommended that learners follow the course in sequential order to build a strong foundation and grasp advanced concepts effectively.
 
 ## Detailed Course Plan
 
-### Lesson 1: Introduction to PowerShell and .NET 💻
+### Lesson 1: Introduction to PowerShell and .NET
 
 #### Overview of PowerShell and its features
 
-Understand the history and purpose of PowerShell, and learn about its command-line interface (CLI) and scripting capabilities. Explore the benefits of using PowerShell for system administration and automation
+PowerShell is a cross-platform task automation solution from Microsoft that allows IT professionals to configure systems and automate administrative tasks from the command line on Windows, macOS, or Linux. It is a powerful scripting language that can be used to perform a wide variety of tasks, including:
+
+* Managing user accounts and groups
+* Troubleshooting system problems
+* Deploying software
+* Backing up and restoring data
+* Automating repetitive tasks
+
+PowerShell is an object-oriented language, which means that it works with objects. Objects are anything that can be named and manipulated, such as files, folders, processes, and services. PowerShell provides a rich set of cmdlets (commands) for working with objects.
+
+PowerShell is also extensible. You can create your own functions, classes, and modules to extend its capabilities. There are also many third-party modules available that provide additional functionality.
+
+Here are some of the key features of PowerShell:
+
+* Object-oriented scripting language
+* Rich set of cmdlets for working with objects
+* Extensible through functions, classes, and modules
+* Built-in support for common data formats
+* Cross-platform (Windows, macOS, and Linux)
+* Integrated debugger
+* Script debugging
+* PowerShell ISE (Integrated Scripting Environment)
+
+PowerShell is a powerful tool that can be used to automate tasks and improve efficiency. It is a valuable tool for IT professionals, developers, and DevOps engineers.
+
+Here are some of the advantages of using PowerShell:
+
+* It is a powerful scripting language that can be used to perform a wide variety of tasks.
+* It is extensible, so you can create your own functions, classes, and modules to extend its capabilities.
+* It is cross-platform, so you can use it on Windows, macOS, or Linux.
+* It has a built-in debugger, so you can debug your scripts and troubleshoot problems.
+* It has an Integrated Scripting Environment (ISE), which makes it easier to write and debug scripts.
+
+If you are looking for a powerful scripting language that can be used to automate tasks and improve efficiency, then PowerShell is a good choice.
 
 ##### Understanding PowerShell: History and Purpose
 
@@ -44,17 +77,29 @@ PowerShell, developed by Microsoft, emerged as a powerful and versatile command-
 
 PowerShell was designed with the following goals in mind:
 
-- **Consistency:** PowerShell aims to provide a consistent interface for interacting with diverse systems, applications, and services. This consistency simplifies automation tasks that involve managing different resources.
+* **Consistency:** PowerShell aims to provide a consistent interface for interacting with diverse systems, applications, and services. This consistency simplifies automation tasks that involve managing different resources.
 
-- **Simplicity:** PowerShell adopts a user-friendly syntax that draws inspiration from popular programming languages. This makes it more accessible for both newcomers and experienced developers to write scripts and automate tasks.
+* **Simplicity:** PowerShell adopts a user-friendly syntax that draws inspiration from popular programming languages. This makes it more accessible for both newcomers and experienced developers to write scripts and automate tasks.
 
-- **Productivity:** With its comprehensive set of commands and capabilities, PowerShell enhances productivity by reducing the time and effort required to perform administrative tasks, system configurations, and data manipulation.
+* **Productivity:** With its comprehensive set of commands and capabilities, PowerShell enhances productivity by reducing the time and effort required to perform administrative tasks, system configurations, and data manipulation.
 
 ##### Command-Line Interface (CLI) and Scripting Capabilities
 
 PowerShell offers both an interactive command-line interface (CLI) and robust scripting capabilities. The interactive CLI allows you to execute commands and get immediate feedback, making it an excellent tool for ad hoc tasks and quick system management. On the other hand, PowerShell's scripting capabilities enable you to create complex, reusable scripts that automate repetitive processes.
 
-Commands in PowerShell are known as "cmdlets" (pronounced "command-lets"), and they follow a consistent verb-noun naming convention. For example, `Get-Process`, `Set-Item`, and `Remove-Item` are all cmdlets that perform specific actions on processes, items (files or folders), and so on.
+Cmdlets are the basic building blocks of PowerShell. They are lightweight commands that are used to perform specific tasks. Cmdlets are named using a verb-noun pair, such as `Get-Process` or `Set-Item`. The verb indicates the action that the cmdlet performs, and the noun indicates the object on which the action is performed.
+
+PowerShell also has a rich set of features that make it a powerful scripting language. These features include:
+
+* Object-oriented programming: PowerShell is an object-oriented scripting language, which means that it works with objects. Objects are anything that can be named and manipulated, such as files, folders, processes, and services.
+* Pipelines: Pipelines are a way to chain together cmdlets to perform complex tasks.
+* Aliases: Aliases are short names that can be used to replace long cmdlet names.
+* Functions: Functions are reusable blocks of code that can be used to perform specific tasks.
+* Variables: Variables are used to store data in PowerShell.
+* Conditional statements: Conditional statements are used to control the flow of execution in PowerShell scripts.
+* Loops: Loops are used to repeat a block of code a specified number of times or until a condition is met.
+
+PowerShell is a powerful tool that can be used to automate tasks, improve efficiency, and troubleshoot problems. If you are interested in learning more about PowerShell, there are many resources available online.
 
 ##### Benefits of Using PowerShell for System Administration and Automation
 
@@ -63,6 +108,8 @@ Commands in PowerShell are known as "cmdlets" (pronounced "command-lets"), and t
 3. **Integration with .NET Framework:** PowerShell seamlessly integrates with the .NET Framework, enabling you to leverage the rich capabilities of .NET classes and libraries within your scripts. This integration expands the possibilities for building advanced automation solutions.
 4. **Remote Management:** PowerShell offers remote management capabilities, allowing you to execute commands on remote computers. This feature is especially valuable for managing systems in large-scale environments.
 5. **Customization:** PowerShell is highly customizable, allowing you to create your own cmdlets and functions. This empowers you to tailor the environment to your specific needs and share your tools with others.
+
+Overall, PowerShell is a powerful and versatile tool that can be used to automate tasks, improve efficiency, and troubleshoot problems. If you are a system administrator, developer, or IT professional, I encourage you to learn more about PowerShell.
 
 ##### Conclusion
 
@@ -130,9 +177,9 @@ To begin your journey with PowerShell scripting and .NET integration, you'll nee
 After installing the required tools, there are a few configurations you can make to tailor your development environment to your preferences.
 
 1. **VS Code Settings for PowerShell:** To make your PowerShell scripting experience in VS Code more pleasant, consider customizing your settings. You can access your settings by navigating to `File > Preferences > Settings` or using the shortcut `Ctrl+,`. Here are a few settings you might find useful:
-   - `"powershell.scriptAnalysis.settingsPath"`: Specify a path to your script analyzer settings JSON file.
-   - `"powershell.codeFormatting.openBraceOnSameLine"`: Control whether opening braces are on the same line or a new line.
-   - `"powershell.codeFormatting.newLineAfterCloseBrace"`: Decide whether to insert a new line after a closing brace.
+   * `"powershell.scriptAnalysis.settingsPath"`: Specify a path to your script analyzer settings JSON file.
+   * `"powershell.codeFormatting.openBraceOnSameLine"`: Control whether opening braces are on the same line or a new line.
+   * `"powershell.codeFormatting.newLineAfterCloseBrace"`: Decide whether to insert a new line after a closing brace.
 2. **Environment Variables:** As you delve deeper into PowerShell scripting, you might need to work with environment variables. You can manage these variables directly within Windows settings. Search for "Environment Variables" in the Start menu to access the necessary settings.
 
 ##### Verifying the Setup
@@ -152,7 +199,7 @@ Congratulations! You've successfully set up your development environment to emba
 
 With your development environment ready, you're now equipped to start writing and testing PowerShell scripts that leverage the power of the .NET Environment class.
 
-### Lesson 2: Getting Started with the "Environment" Class 📜
+### Lesson 2: Getting Started with the "Environment" Class
 
 #### Basic syntax and usage of the "Environment" class: Learn the basic syntax to instantiate and utilize the "Environment" class in PowerShell scripts. Understand the different members, properties, and methods of the class
 
@@ -163,6 +210,10 @@ In PowerShell, you can access the "Environment" class from the .NET Framework an
     ```powershell
     Add-Type -AssemblyName System
     ```
+
+    The `Add-Type` cmdlet is used to load a .NET assembly into the PowerShell runtime. The `-AssemblyName` parameter specifies the name of the assembly to load. In your case, the assembly name is `System`.
+
+    The `System` assembly is the core assembly of the .NET Framework. It contains classes for working with objects, data, and other resources. By loading the `System` assembly, you can access these classes in your PowerShell scripts.
 
 2. Access properties and methods of the "Environment" class:
 
@@ -176,20 +227,20 @@ In PowerShell, you can access the "Environment" class from the .NET Framework an
 
 Here's a breakdown of the basic syntax and usage:
 
-1. **Loading the .NET assembly**: In PowerShell, before you can access .NET classes, you need to load the assembly containing the class you want to use. In this case, the "System" assembly is loaded, which contains the "Environment" class. The "Add-Type" cmdlet is used to achieve this.
+1. **Loading the .NET assembly**: In PowerShell, before you can access .NET classes, you need to load the assembly containing the class you want to use. In this case, the "System" assembly is loaded, which contains the "Environment" class. The `Add-Type` cmdlet is used to achieve this.
 2. **Accessing properties**: To access a property of the "Environment" class, you use the syntax `[System.Environment]::<PropertyName>`. For example, `[System.Environment]::MachineName` retrieves the name of the computer.
 3. **Calling methods**: To call a method of the "Environment" class, you use the syntax `[System.Environment]::<MethodName>(<parameters>)`. For example, `[System.Environment]::GetEnvironmentVariable("TEMP")` retrieves the value of the "TEMP" environment variable.
    Here are some common members (properties and methods) of the "Environment" class:
-   - **Properties**:
-     - `CommandLine`: Gets the command-line for the current process.
-     - `CurrentDirectory`: Gets or sets the current working directory of the current process.
-     - `MachineName`: Gets the NetBIOS name of this local computer.
-     - `OSVersion`: Gets a `System.OperatingSystem` object that contains the current platform identifier and version number.
-     - `ProcessorCount`: Gets the number of processors on the current machine.
-     - `UserName`: Gets the user name of the current user.
-   - **Methods**:
-     - `GetEnvironmentVariable(string)`: Retrieves the value of the specified environment variable.
-     - `SetEnvironmentVariable(string, string)`: Creates, modifies, or deletes the value of an environment variable.
+   * **Properties**:
+     * `CommandLine`: Gets the command-line for the current process.
+     * `CurrentDirectory`: Gets or sets the current working directory of the current process.
+     * `MachineName`: Gets the NetBIOS name of this local computer.
+     * `OSVersion`: Gets a `System.OperatingSystem` object that contains the current platform identifier and version number.
+     * `ProcessorCount`: Gets the number of processors on the current machine.
+     * `UserName`: Gets the user name of the current user.
+   * **Methods**:
+     * `GetEnvironmentVariable(string)`: Retrieves the value of the specified environment variable.
+     * `SetEnvironmentVariable(string, string)`: Creates, modifies, or deletes the value of an environment variable.
 
 Remember to use proper error handling and validation when working with environment variables and system information, as some properties and methods may require elevated privileges or can return null values in certain cases.
 
@@ -228,7 +279,7 @@ Explanation:
 
 When you run this PowerShell script, it will provide you with the OS version, machine name, and platform details of your system. These details can be helpful in various scenarios, such as system administration, scripting, or troubleshooting tasks.
 
-### Lesson 3: Retrieving System Information 🖥️
+### Lesson 3: Retrieving System Information
 
 #### Accessing and displaying system information using "Environment": Dive deeper into retrieving a wide range of system-related data, including environment variables, command-line arguments, and system directories
 
@@ -355,11 +406,11 @@ Fantastic job! In this part of the lesson, you've learned how to effectively uti
 
 As you progress through the course, you'll continue to build upon your skills in using PowerShell and the "Environment" class to streamline system administration, automation, and configuration tasks.
 
-### Lesson 4: Modifying System Environment Variables 🔧
+### Lesson 4: Modifying System Environment Variables
 
 #### Understanding environment variables and their significance: Grasp the concept of environment variables and their role in a system's configuration. Explore how environment variables impact the behavior of applications and scripts
 
-Welcome to the fifth part of our first lesson on PowerShell and the .NET Environment class! In this part, we'll delve into the concept of environment variables, their significance, and how they play a crucial role in a system's configuration. We'll also explore how environment variables impact the behavior of applications and scripts.
+In this part, we'll delve into the concept of environment variables, their significance, and how they play a crucial role in a system's configuration. We'll also explore how environment variables impact the behavior of applications and scripts.
 
 ##### What are Environment Variables?
 
@@ -369,37 +420,37 @@ Environment variables are dynamic named values that hold information about the o
 
 Environment variables are a fundamental part of the system's configuration and operation. They serve several key purposes:
 
-###### 1. Configuration Management
+1. Configuration Management
 
-Environment variables allow administrators and developers to configure system-wide settings without needing to modify application code. This separation between configuration and code promotes flexibility and ease of maintenance.
+    Environment variables allow administrators and developers to configure system-wide settings without needing to modify application code. This separation between configuration and code promotes flexibility and ease of maintenance.
 
-###### 2. Customization
+2. Customization
 
-Users and applications can define their own environment variables to customize behavior. This enables a personalized experience for users and adaptability for applications.
+    Users and applications can define their own environment variables to customize behavior. This enables a personalized experience for users and adaptability for applications.
 
-###### 3. Security
+3. Security
 
-Environment variables can store sensitive information like passwords or API keys. These values can be accessed by authorized processes and applications without exposing them directly in scripts or code.
+    Environment variables can store sensitive information like passwords or API keys. These values can be accessed by authorized processes and applications without exposing them directly in scripts or code.
 
-###### 4. Portability
+4. Portability
 
-Applications can rely on environment variables to access system-specific paths or resources, making it easier to port applications across different systems without significant code changes.
+    Applications can rely on environment variables to access system-specific paths or resources, making it easier to port applications across different systems without significant code changes.
 
-###### 5. Script Automation
+5. Script Automation
 
-Scripts can use environment variables to adapt to different environments. For example, a script might use an environment variable to determine the location of a required file, regardless of the user's system.
+    Scripts can use environment variables to adapt to different environments. For example, a script might use an environment variable to determine the location of a required file, regardless of the user's system.
 
 ##### Impact on Applications and Scripts
 
 Environment variables have a direct impact on the behavior of applications and scripts:
 
-###### 1. Application Behavior
+1. Application Behavior
 
-Applications often use environment variables to determine settings such as language preferences, temporary file locations, and paths to required libraries. These variables can influence an application's user interface, functionality, and overall behavior.
+    Applications often use environment variables to determine settings such as language preferences, temporary file locations, and paths to required libraries. These variables can influence an application's user interface, functionality, and overall behavior.
 
-###### 2. Script Flexibility
+2. Script Flexibility
 
-Scripts, especially those written in languages like PowerShell, can take advantage of environment variables to make them more adaptable. By referencing environment variables, scripts can be used across different systems with minimal modifications.
+    Scripts, especially those written in languages like PowerShell, can take advantage of environment variables to make them more adaptable. By referencing environment variables, scripts can be used across different systems with minimal modifications.
 
 ##### Conclusion
 
@@ -409,7 +460,7 @@ As we move forward in the course, you'll continue to explore how PowerShell and 
 
 #### Adding, modifying, and removing environment variables programmatically: Use the "Environment" class to add new environment variables, modify existing ones, and remove variables as needed
 
-Welcome to the sixth part of our first lesson on PowerShell and the .NET Environment class! In this part, we'll explore how to utilize the "Environment" class to programmatically add new environment variables, modify existing ones, and remove variables as needed. This knowledge will empower you to fine-tune your system's behavior by customizing its configuration through PowerShell.
+In this part, we'll explore how to utilize the "Environment" class to programmatically add new environment variables, modify existing ones, and remove variables as needed. This knowledge will empower you to fine-tune your system's behavior by customizing its configuration through PowerShell.
 
 ##### Adding Environment Variables
 
@@ -462,11 +513,11 @@ Congratulations! In this part of the lesson, you've gained the skills to program
 
 As we continue through the course, you'll delve into more advanced techniques and real-world scenarios where PowerShell and the "Environment" class can play a pivotal role in system administration, automation, and configuration tasks.
 
-### Lesson 5: Managing System Processes ⚙️
+### Lesson 5: Managing System Processes
 
 #### Interacting with running processes using "Environment": Learn how to retrieve information about currently running processes on the system, including their names, IDs, and resource usage
 
-Welcome to the seventh part of our first lesson on PowerShell and the .NET Environment class! In this part, we'll explore how you can use the "Environment" class to interact with currently running processes on the system. You'll learn how to retrieve valuable information about processes, including their names, IDs, and resource usage.
+In this part, we'll explore how you can use the "Environment" class to interact with currently running processes on the system. You'll learn how to retrieve valuable information about processes, including their names, IDs, and resource usage.
 
 ##### Understanding Running Processes
 
@@ -516,7 +567,7 @@ As you continue through the course, you'll explore more advanced techniques and 
 
 #### Starting and stopping processes from PowerShell: Use the "Environment" class to initiate new processes and terminate existing ones programmatically
 
-Welcome to the eighth part of our first lesson on PowerShell and the .NET Environment class! In this part, we'll delve into how you can use the "Environment" class to programmatically initiate new processes and terminate existing ones from PowerShell. This knowledge will empower you to manage processes efficiently and automate tasks involving process execution.
+In this part, we'll delve into how you can use the "Environment" class to programmatically initiate new processes and terminate existing ones from PowerShell. This knowledge will empower you to manage processes efficiently and automate tasks involving process execution.
 
 ##### Starting New Processes
 
@@ -556,11 +607,11 @@ Great job! In this part of the lesson, you've learned how to leverage the "Envir
 
 As you progress through the course, you'll continue to explore advanced techniques, real-world scenarios, and best practices where PowerShell and the "Environment" class can play a pivotal role in system administration, automation, and configuration tasks.
 
-### Lesson 6: Working with File System Paths 📂
+### Lesson 6: Working with File System Paths
 
 #### Handling file paths and directories with the "Environment" class: Explore how the "Environment" class facilitates working with file paths, including combining paths, resolving absolute paths, and checking file existence
 
-Welcome to the ninth part of our first lesson on PowerShell and the .NET Environment class! In this part, we'll explore how you can leverage the "Environment" class to effectively handle file paths and directories. You'll learn about combining paths, resolving absolute paths, and checking for file existence.
+In this part, we'll explore how you can leverage the "Environment" class to effectively handle file paths and directories. You'll learn about combining paths, resolving absolute paths, and checking for file existence.
 
 ##### Working with File Paths
 
@@ -617,7 +668,7 @@ As you continue through the course, you'll delve into more advanced techniques, 
 
 #### Converting between relative and absolute paths: Understand how to convert relative paths to absolute paths and vice versa for smooth file operations in PowerShell
 
-Welcome to the tenth part of our first lesson on PowerShell and the .NET Environment class! In this part, we'll delve into how you can efficiently convert between relative and absolute paths using the "Environment" class. This knowledge will help you perform smooth file operations in PowerShell, regardless of the path type you're working with.
+In this part, we'll delve into how you can efficiently convert between relative and absolute paths using the "Environment" class. This knowledge will help you perform smooth file operations in PowerShell, regardless of the path type you're working with.
 
 ##### Converting Relative Paths to Absolute Paths
 
@@ -660,11 +711,11 @@ Great job! In this part of the lesson, you've learned how to effectively convert
 
 As you progress through the course, you'll continue to explore more advanced techniques, real-world scenarios, and best practices where PowerShell and the "Environment" class can be employed to streamline system administration, automation, and configuration tasks.
 
-### Lesson 7: Network Operations with "Environment" Class 🌐
+### Lesson 7: Network Operations with "Environment" Class
 
 #### Exploring network-related functionalities of the "Environment" class: Use the "Environment" class to access network-related information, such as computer names, network domain, and network connection details
 
-Welcome to the eleventh part of our first lesson on PowerShell and the .NET Environment class! In this part, we'll dive into how you can use the "Environment" class to access various network-related information. You'll learn how to retrieve computer names, network domain details, and network connection information using PowerShell.
+In this part, we'll dive into how you can use the "Environment" class to access various network-related information. You'll learn how to retrieve computer names, network domain details, and network connection information using PowerShell.
 
 ##### Retrieving Network Information
 
@@ -716,7 +767,7 @@ As you continue through the course, you'll explore more advanced techniques, rea
 
 #### Retrieving network information and status: Learn how to retrieve IP addresses, DNS information, and network adapter configurations using the "Environment" class
 
-Welcome to the twelfth part of our first lesson on PowerShell and the .NET Environment class! In this part, we'll dive into how you can utilize the "Environment" class to retrieve various network-related information and status details. You'll learn how to retrieve IP addresses, DNS information, and network adapter configurations using PowerShell.
+In this part, we'll dive into how you can utilize the "Environment" class to retrieve various network-related information and status details. You'll learn how to retrieve IP addresses, DNS information, and network adapter configurations using PowerShell.
 
 ##### Retrieving Network Information
 
@@ -773,11 +824,11 @@ Bravo! In this part of the lesson, you've learned how to leverage the "Environme
 
 As you continue through the course, you'll explore more advanced techniques, real-world scenarios, and best practices where PowerShell and the "Environment" class can be employed to streamline system administration, automation, and configuration tasks.
 
-### Lesson 8: Security and Permissions 🔒
+### Lesson 8: Security and Permissions
 
 #### Managing security-related aspects with "Environment": Understand how the "Environment" class can help you retrieve security-related information, such as user privileges, group membership, and security identifiers (SIDs)
 
-Welcome to the thirteenth part of our first lesson on PowerShell and the .NET Environment class! In this part, we'll explore how you can use the "Environment" class to manage security-related aspects of the system. You'll learn how to retrieve security-related information, such as user privileges, group membership, and security identifiers (SIDs) using PowerShell.
+In this part, we'll explore how you can use the "Environment" class to manage security-related aspects of the system. You'll learn how to retrieve security-related information, such as user privileges, group membership, and security identifiers (SIDs) using PowerShell.
 
 ##### Retrieving Security-Related Information
 
@@ -821,7 +872,7 @@ As you continue through the course, you'll explore more advanced techniques, rea
 
 #### Understanding user permissions and access control: Explore the concept of access control in Windows systems and how PowerShell can interact with access control lists (ACLs)
 
-Welcome to the fourteenth part of our first lesson on PowerShell and the .NET Environment class! In this part, we'll dive into the concept of access control in Windows systems and explore how PowerShell can interact with access control lists (ACLs). You'll gain an understanding of how permissions are managed and how PowerShell can be used to manipulate access rights to files and directories.
+In this part, we'll dive into the concept of access control in Windows systems and explore how PowerShell can interact with access control lists (ACLs). You'll gain an understanding of how permissions are managed and how PowerShell can be used to manipulate access rights to files and directories.
 
 ##### Access Control and Permissions
 
@@ -881,11 +932,11 @@ Great work! In this part of the lesson, you've gained an understanding of user p
 
 As you continue through the course, you'll explore more advanced techniques, real-world scenarios, and best practices where PowerShell and the .NET Environment class can be employed to streamline system administration, automation, and configuration tasks.
 
-### Lesson 9: Advanced Automation Techniques 🚀
+### Lesson 9: Advanced Automation Techniques
 
 #### Scripting and automating tasks using "Environment" class features: Combine the capabilities of the "Environment" class with PowerShell scripting to automate complex system administration tasks
 
-Sure! Let's combine the capabilities of the "Environment" class with PowerShell scripting to automate a complex system administration task. In this example, we'll create a script that checks the available free disk space on the system and notifies the administrator if it falls below a certain threshold.
+Let's combine the capabilities of the "Environment" class with PowerShell scripting to automate a complex system administration task. In this example, we'll create a script that checks the available free disk space on the system and notifies the administrator if it falls below a certain threshold.
 
 ```powershell
 # Load the .NET assembly containing the "Environment" class
@@ -931,42 +982,42 @@ When you run this script, it will check the available free disk space on the sys
 
 #### Error handling and exception management: Learn how to implement error handling and exception management in your PowerShell scripts to ensure smooth execution even in unforeseen situations
 
-Welcome to the section on error handling and exception management in our PowerShell .NET Class "Environment" course! In this part, we'll delve into the crucial skill of implementing error handling and exception management in your PowerShell scripts. By mastering these techniques, you'll be equipped to ensure smooth script execution, even when unforeseen situations and errors arise.
+In this part, we'll delve into the crucial skill of implementing error handling and exception management in your PowerShell scripts. By mastering these techniques, you'll be equipped to ensure smooth script execution, even when unforeseen situations and errors arise.
 
 ##### **Lesson Overview:**
 
-- **Understanding Error Handling:** Learn why error handling is essential for script reliability and how it contributes to maintaining smooth execution.
+* **Understanding Error Handling:** Learn why error handling is essential for script reliability and how it contributes to maintaining smooth execution.
 
 ##### **Error Handling in PowerShell:**
 
-- **Introduction to Try-Catch Blocks:** Discover the core concept of using `try` and `catch` blocks to handle exceptions in PowerShell scripts.
-- **Basic Error Handling:** Explore how to enclose code that might raise exceptions within a `try` block and gracefully handle them using the `catch` block.
-- **Catching Specific Exceptions:** Learn how to catch specific types of exceptions and provide tailored error handling for each case.
+* **Introduction to Try-Catch Blocks:** Discover the core concept of using `try` and `catch` blocks to handle exceptions in PowerShell scripts.
+* **Basic Error Handling:** Explore how to enclose code that might raise exceptions within a `try` block and gracefully handle them using the `catch` block.
+* **Catching Specific Exceptions:** Learn how to catch specific types of exceptions and provide tailored error handling for each case.
 
 ##### **Real-World Scenarios:**
 
-- **Handling Divide-By-Zero:** Dive into a practical example where you'll use error handling techniques to gracefully manage a divide-by-zero error in your script.
-- **Dealing with File I/O Errors:** Apply your error handling skills to scenarios involving file input/output operations, ensuring that your scripts can handle file-related issues seamlessly.
+* **Handling Divide-By-Zero:** Dive into a practical example where you'll use error handling techniques to gracefully manage a divide-by-zero error in your script.
+* **Dealing with File I/O Errors:** Apply your error handling skills to scenarios involving file input/output operations, ensuring that your scripts can handle file-related issues seamlessly.
 
 ##### **Best Practices:**
 
-- **Structured Exception Handling:** Understand the importance of structured exception handling and learn how to create well-organized and efficient error handling structures in your scripts.
-- **Logging and Reporting:** Explore techniques for logging and reporting errors, allowing you to gain insights into script behavior and troubleshoot issues effectively.
+* **Structured Exception Handling:** Understand the importance of structured exception handling and learn how to create well-organized and efficient error handling structures in your scripts.
+* **Logging and Reporting:** Explore techniques for logging and reporting errors, allowing you to gain insights into script behavior and troubleshoot issues effectively.
 
 ##### **Common Pitfalls and Tips:**
 
-- **Overusing Catch-All Blocks:** Discover the drawbacks of overusing generic `catch` blocks and learn when to apply specific exception handling for better code control.
-- **Handling Nested Errors:** Explore strategies for managing errors in nested code blocks and maintaining clarity in your error handling structures.
+* **Overusing Catch-All Blocks:** Discover the drawbacks of overusing generic `catch` blocks and learn when to apply specific exception handling for better code control.
+* **Handling Nested Errors:** Explore strategies for managing errors in nested code blocks and maintaining clarity in your error handling structures.
 
 ##### **Putting It All Together:**
 
-- **Creating Resilient Scripts:** Combine your newfound error handling skills with other concepts from the course to create robust and resilient scripts that deliver consistent results.
+* **Creating Resilient Scripts:** Combine your newfound error handling skills with other concepts from the course to create robust and resilient scripts that deliver consistent results.
 
 ##### **Conclusion:**
 
 Congratulations on completing the "Error Handling and Exception Management" part of our PowerShell .NET Class "Environment" course! By mastering error handling techniques, you've gained a critical skill for ensuring the reliability and smooth execution of your PowerShell scripts, even in the face of unforeseen challenges. As you continue your journey through the course, you'll apply these skills to real-world projects and scenarios, enhancing your proficiency and expanding your scripting capabilities.
 
-### Lesson 10: Real-World Projects and Best Practices 🏆
+### Lesson 10: Real-World Projects and Best Practices
 
 #### Implementing real-world projects with PowerShell and "Environment": Apply the knowledge gained throughout the course to create practical scripts for tasks such as system configuration, log analysis, and network monitoring
 
@@ -974,102 +1025,102 @@ Welcome to the section on implementing real-world projects with PowerShell and t
 
 ##### **Lesson Overview:**
 
-- **Applying Your Skills:** Discover how to apply the skills you've learned in the course to real-world projects that solve practical problems.
+* **Applying Your Skills:** Discover how to apply the skills you've learned in the course to real-world projects that solve practical problems.
 
 ##### **Creating Practical Scripts:**
 
-- **Script 1: System Configuration Automation:** In this project, you'll create a script that automates the setup and configuration of a new Windows system. Learn how to utilize the "Environment" class to streamline tasks like creating user accounts, setting environment variables, and installing required software.
+* **Script 1: System Configuration Automation:** In this project, you'll create a script that automates the setup and configuration of a new Windows system. Learn how to utilize the "Environment" class to streamline tasks like creating user accounts, setting environment variables, and installing required software.
 
-- **Script 2: Log Analysis and Reporting:** Dive into the world of log analysis by developing a script that parses and analyzes log files for specific patterns and trends. Use the "Environment" class to access file paths, read log data, and generate insightful reports.
+* **Script 2: Log Analysis and Reporting:** Dive into the world of log analysis by developing a script that parses and analyzes log files for specific patterns and trends. Use the "Environment" class to access file paths, read log data, and generate insightful reports.
 
-- **Script 3: Network Monitoring and Alerting:** Build a script that monitors network connectivity and alerts you when specific hosts become unreachable. Leverage the "Environment" class to retrieve network-related information, perform ping tests, and send email notifications.
+* **Script 3: Network Monitoring and Alerting:** Build a script that monitors network connectivity and alerts you when specific hosts become unreachable. Leverage the "Environment" class to retrieve network-related information, perform ping tests, and send email notifications.
 
 ##### **Best Practices for Project Implementation:**
 
-- **Project Planning:** Learn how to plan and structure your projects effectively before diving into scripting, ensuring a smooth development process.
+* **Project Planning:** Learn how to plan and structure your projects effectively before diving into scripting, ensuring a smooth development process.
 
-- **Modular Script Design:** Explore the benefits of modular script design and how breaking down your project into manageable modules enhances code readability and maintainability.
+* **Modular Script Design:** Explore the benefits of modular script design and how breaking down your project into manageable modules enhances code readability and maintainability.
 
-- **Error Handling in Real-World Projects:** Apply your error handling knowledge to real-world projects, ensuring that your scripts gracefully handle unexpected situations.
+* **Error Handling in Real-World Projects:** Apply your error handling knowledge to real-world projects, ensuring that your scripts gracefully handle unexpected situations.
 
 ##### **Showcasing Your Projects:**
 
-- **Creating User-Friendly Interfaces:** Learn how to enhance your scripts by creating user-friendly interfaces using PowerShell forms or command-line arguments.
+* **Creating User-Friendly Interfaces:** Learn how to enhance your scripts by creating user-friendly interfaces using PowerShell forms or command-line arguments.
 
-- **Sharing and Distribution:** Discover options for sharing your projects with others, whether it's colleagues, friends, or the wider PowerShell community.
+* **Sharing and Distribution:** Discover options for sharing your projects with others, whether it's colleagues, friends, or the wider PowerShell community.
 
-##### **Conclusion:**
+##### Conclusion
 
 Congratulations on reaching the "Implementing Real-World Projects with PowerShell and 'Environment'" lesson of our course! In this final part, you'll put your skills to the test by creating practical scripts that address real-world challenges. By applying the concepts of the "Environment" class, error handling, and best practices, you'll demonstrate your mastery of PowerShell scripting. As you complete these projects, you'll gain the confidence to tackle a wide range of tasks and projects in your professional and personal endeavors. Remember, the knowledge you've gained is a stepping stone to even greater achievements in the world of PowerShell. Best of luck, and keep scripting with confidence!
 
 #### Best practices for efficient and robust scripting: Discover industry best practices for writing maintainable, efficient, and secure PowerShell scripts. Learn how to optimize your code and adhere to coding standards
 
-Welcome to the section on best practices for efficient and robust scripting in our PowerShell .NET Class "Environment" course! In this part, you'll discover industry-standard guidelines and techniques for writing maintainable, efficient, and secure PowerShell scripts. By adhering to these practices, you'll optimize your code, enhance readability, and ensure your scripts are well-structured and reliable.
+In this part, you'll discover industry-standard guidelines and techniques for writing maintainable, efficient, and secure PowerShell scripts. By adhering to these practices, you'll optimize your code, enhance readability, and ensure your scripts are well-structured and reliable.
 
-##### **Lesson Overview:**
+##### Lesson Overview
 
-- **The Importance of Best Practices:** Understand why following best practices is crucial for producing high-quality, professional-grade scripts.
+* **The Importance of Best Practices:** Understand why following best practices is crucial for producing high-quality, professional-grade scripts.
 
-##### **Writing Efficient and Maintainable Code:**
+##### Writing Efficient and Maintainable Code
 
-- **Modular Script Design:** Learn how to break down your scripts into smaller, reusable modules for improved maintainability and code organization.
-- **Optimizing Performance:** Explore techniques for writing code that executes efficiently and minimizes resource usage.
-- **Naming Conventions:** Understand the significance of consistent naming conventions for variables, functions, and other script elements.
+* **Modular Script Design:** Learn how to break down your scripts into smaller, reusable modules for improved maintainability and code organization.
+* **Optimizing Performance:** Explore techniques for writing code that executes efficiently and minimizes resource usage.
+* **Naming Conventions:** Understand the significance of consistent naming conventions for variables, functions, and other script elements.
 
 ##### **Security and Error Handling:**
 
-- **Securing Sensitive Data:** Discover methods for handling sensitive information, such as credentials, securely within your scripts.
-- **Structured Error Handling:** Learn how to implement structured error handling to gracefully manage exceptions and failures.
+* **Securing Sensitive Data:** Discover methods for handling sensitive information, such as credentials, securely within your scripts.
+* **Structured Error Handling:** Learn how to implement structured error handling to gracefully manage exceptions and failures.
 
 ##### **Code Readability and Documentation:**
 
-- **Clear and Concise Code:** Explore strategies for writing code that is easy to understand, reducing the learning curve for collaborators and future maintainers.
-- **Adding Comments and Documentation:** Understand the importance of providing clear comments and documentation to explain the purpose and functionality of your script.
+* **Clear and Concise Code:** Explore strategies for writing code that is easy to understand, reducing the learning curve for collaborators and future maintainers.
+* **Adding Comments and Documentation:** Understand the importance of providing clear comments and documentation to explain the purpose and functionality of your script.
 
 ##### **Adhering to Coding Standards:**
 
-- **PSR Standards for PowerShell:** Familiarize yourself with the PowerShell Scripting Rules (PSR) standards for maintaining consistent and standardized code.
+* **PSR Standards for PowerShell:** Familiarize yourself with the PowerShell Scripting Rules (PSR) standards for maintaining consistent and standardized code.
 
 ##### **Version Control and Collaboration:**
 
-- **Using Version Control Systems:** Discover the benefits of using version control systems like Git to track changes, collaborate with others, and manage script versions.
+* **Using Version Control Systems:** Discover the benefits of using version control systems like Git to track changes, collaborate with others, and manage script versions.
 
 ##### **Common Pitfalls and Tips:**
 
-- **Avoiding Magic Numbers and Strings:** Learn why using magic numbers and strings is discouraged and how to use named constants instead.
-- **Overloading a Single Script:** Understand the drawbacks of creating monolithic scripts and explore ways to organize your code more effectively.
+* **Avoiding Magic Numbers and Strings:** Learn why using magic numbers and strings is discouraged and how to use named constants instead.
+* **Overloading a Single Script:** Understand the drawbacks of creating monolithic scripts and explore ways to organize your code more effectively.
 
-##### **Conclusion:**
+##### Conclusion
 
 Congratulations on completing the "Best Practices for Efficient and Robust Scripting" part of our PowerShell .NET Class "Environment" course! By embracing industry best practices, you've acquired the skills to write code that is not only efficient and secure but also maintainable and readable. As you continue your journey in PowerShell scripting, remember that adhering to these practices will greatly enhance your ability to develop professional-quality scripts that meet industry standards.
 
 #### Important Websites
 
-- **Official Microsoft Documentation - Environment Class**
+1. **Official Microsoft Documentation - Environment Class**
 
     Description: Access the official documentation to explore in-depth information about the "Environment" class from Microsoft's perspective. It's a reliable source for understanding the class's properties, methods, and examples.
 
     URL: <https://docs.microsoft.com/en-us/dotnet/api/system.environment>
 
-- **PowerShell Gallery**
+2. **PowerShell Gallery**
 
     Description: A repository of PowerShell modules and scripts, including ones related to the "Environment" class. Discover community-contributed solutions and tools to enhance your PowerShell experience.
 
     URL: <https://www.powershellgallery.com/>
 
-- **PowerShell Reddit Community**
+3. **PowerShell Reddit Community**
 
     Description: Engage with the PowerShell community on Reddit. Get tips, ask questions, and share your knowledge with fellow enthusiasts and experts.
 
     URL: <https://www.reddit.com/r/PowerShell/>
 
-- **PowerShell Magazine**
+4. **PowerShell Magazine**
 
     Description: Stay up-to-date with the latest news, tutorials, and articles on PowerShell. Gain insights from experienced PowerShell users and developers.
 
     URL: <https://www.powershellmagazine.com/>
 
-- **PowerShell GitHub Repository**
+5. **PowerShell GitHub Repository**
 
     Description: Access the PowerShell open-source project on GitHub. Explore the source code, report issues, and contribute to the development of PowerShell.
 
@@ -1083,25 +1134,25 @@ Congratulations on completing the PowerShell .NET Class "Environment" course! Ov
 
 Throughout this course, you've achieved the following milestones:
 
-- **Lesson 1:** You gained an understanding of PowerShell's history, purpose, and its command-line interface. You also explored the benefits of using PowerShell for system administration and automation.
+**Lesson 1:** You gained an understanding of PowerShell's history, purpose, and its command-line interface. You also explored the benefits of using PowerShell for system administration and automation.
 
-- **Lesson 2:** You delved into the "Environment" class, setting up your development environment to create, test, and run PowerShell scripts efficiently.
+**Lesson 2:** You delved into the "Environment" class, setting up your development environment to create, test, and run PowerShell scripts efficiently.
 
-- **Lesson 3:** You learned to retrieve a wide range of system-related data, such as system information, environment variables, command-line arguments, and system directories.
+**Lesson 3:** You learned to retrieve a wide range of system-related data, such as system information, environment variables, command-line arguments, and system directories.
 
-- **Lesson 4:** You explored techniques for modifying system environment variables programmatically to tailor the behavior of applications and scripts.
+**Lesson 4:** You explored techniques for modifying system environment variables programmatically to tailor the behavior of applications and scripts.
 
-- **Lesson 5:** You discovered how to interact with running processes, retrieve their information, and manage them using the "Environment" class.
+**Lesson 5:** You discovered how to interact with running processes, retrieve their information, and manage them using the "Environment" class.
 
-- **Lesson 6:** You mastered working with file system paths, including combining, resolving, and checking file existence using the capabilities of the "Environment" class.
+**Lesson 6:** You mastered working with file system paths, including combining, resolving, and checking file existence using the capabilities of the "Environment" class.
 
-- **Lesson 7:** You explored network-related functionalities of the "Environment" class, accessing network information, computer names, network domains, and connection details.
+**Lesson 7:** You explored network-related functionalities of the "Environment" class, accessing network information, computer names, network domains, and connection details.
 
-- **Lesson 8:** You gained insights into security and permissions, retrieving user privileges, group membership, and security identifiers (SIDs), while also managing access control lists (ACLs) with error handling and exception management.
+**Lesson 8:** You gained insights into security and permissions, retrieving user privileges, group membership, and security identifiers (SIDs), while also managing access control lists (ACLs) with error handling and exception management.
 
-- **Lesson 9:** You delved into advanced automation techniques, such as scripting best practices, creating user-friendly interfaces, and interacting with external processes.
+**Lesson 9:** You delved into advanced automation techniques, such as scripting best practices, creating user-friendly interfaces, and interacting with external processes.
 
-- **Lesson 10:** You applied your knowledge to real-world projects, demonstrating your ability to solve practical problems using PowerShell. You also adopted industry best practices for efficient, secure, and maintainable scripting.
+**Lesson 10:** You applied your knowledge to real-world projects, demonstrating your ability to solve practical problems using PowerShell. You also adopted industry best practices for efficient, secure, and maintainable scripting.
 
 ### Your Journey Continues
 
