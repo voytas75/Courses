@@ -28,7 +28,9 @@
 
 [Lesson 10: Real-World Projects and Best Practices](#lesson-10-real-world-projects-and-best-practices)
 
-Suggestion: It's recommended that learners follow the course in sequential order to build a strong foundation and grasp advanced concepts effectively.
+[Important websites](#important-websites)
+
+It's recommended that learners follow the course in sequential order to build a strong foundation and grasp advanced concepts effectively.
 
 ## Detailed Course Plan
 
@@ -1094,7 +1096,7 @@ In this part, you'll discover industry-standard guidelines and techniques for wr
 
 Congratulations on completing the "Best Practices for Efficient and Robust Scripting" part of our PowerShell .NET Class "Environment" course! By embracing industry best practices, you've acquired the skills to write code that is not only efficient and secure but also maintainable and readable. As you continue your journey in PowerShell scripting, remember that adhering to these practices will greatly enhance your ability to develop professional-quality scripts that meet industry standards.
 
-#### Important Websites
+### Important Websites
 
 1. **Official Microsoft Documentation - Environment Class**
 
