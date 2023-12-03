@@ -27,6 +27,10 @@
 
 1. [Security for Beginners](courses/Security.md) 🚀
 
+### IT Administrator
+
+1. [Productivity in IT Administration](./courses/Productivity_in_IT_Administration.md) 🚀 - 6-weeks
+
 ## In development
 
 1. [Python Programming for Beginners](courses/Python_Programming_for_Beginners.md)
@@ -61,6 +65,5 @@
 30. [Beginner PHP](courses/Beginner_PHP.md)
 31. [Advanced KQL for Azure Sentinel](courses/Advanced_KQL_for_Azure_Sentinel_Mastering_Querying_and_Analytics_in_Azure_Sentinel.md) - 5-days course
 32. [Free Tools for IT Administrators](./courses/Free_Tools_for_IT_Administrators.md)
-33. [Productivity in IT Administration](./courses/Productivity_in_IT_Administration.md)
-34. [Introduction to Artificial Intelligenc](./courses/Introduction_to_Artificial_Intelligence.md)
-35. [Introduction to Probability](./courses/Introduction_to_Probability.md)
+33. [Introduction to Artificial Intelligenc](./courses/Introduction_to_Artificial_Intelligence.md)
+34. [Introduction to Probability](./courses/Introduction_to_Probability.md)
