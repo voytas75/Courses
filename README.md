@@ -31,7 +31,9 @@
 
 1. [Productivity in IT Administration](./courses/Productivity_in_IT_Administration.md) 🚀 - 6-weeks
 
-## In development
+---
+
+#### In development
 
 1. [Python Programming for Beginners](courses/Python_Programming_for_Beginners.md)
 2. [Python Pandas for Beginners](/courses/Python_Pandas_for_Beginners.md)
