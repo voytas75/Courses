@@ -2,6 +2,8 @@
 
 ![Courses](https://github.com/voytas75/Courses/blob/master/images/brain_development.png?raw=true)
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A6KYBUS)
+
 ## Ready to learn
 
 ### Azure
